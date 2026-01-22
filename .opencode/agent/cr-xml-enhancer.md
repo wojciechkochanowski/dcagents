@@ -108,7 +108,7 @@ When invoked by cr-html command:
 ### MANDATORY First Step: Read Specification
 ```bash
 # ALWAYS start by reading the spec file
-Read tool: /Users/bartek/work/datacapt/cr/spec.md
+Read tool: C:/praca/datacapt/cr/spec.md
 ```
 
 ### Processing Workflow:

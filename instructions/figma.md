@@ -45,8 +45,8 @@ Common errors:
 ### Step 4: Implementation
 
 - 🚨 **MANDATORY: Search `design-token-mapping.json` for EVERY value before writing LESS code**
-- **Follow all instructions** from `~/work/datacapt/dcagents/instructions/react-components.md` and `~/work/datacapt/dcagents/instructions/less-styles.md`
-- **Use correct variables** from `~/work/datacapt/dcagents/instructions/design-system.md` ONLY as fallback when not in mapping.json
+- **Follow all instructions** from `C:/praca/datacapt/dcagents/instructions/react-components.md` and `C:/praca/datacapt/dcagents/instructions/less-styles.md`
+- **Use correct variables** from `C:/praca/datacapt/dcagents/instructions/design-system.md` ONLY as fallback when not in mapping.json
 - **Use existing components** from Ant Design and common/components
 - **Implement extracted fragment only** - not entire screen
 
@@ -172,7 +172,7 @@ Figma `get_code` returns Tailwind classes. **Don't map classes directly** - extr
 3. **Find matching design system variables**
 
    - First check: mapping entry from step 1
-   - Fallback: `~/work/datacapt/dcagents/instructions/design-system.md` direct lookup
+   - Fallback: `C:/praca/datacapt/dcagents/instructions/design-system.md` direct lookup
    - Prefer semantic over primitive: `@fg-primary` vs `@gray-1000`
    - All variables must exist in `generated-tokens.ts`
 
@@ -295,8 +295,8 @@ Available mixins (check `common/styles/design-system/typography/body.less` for a
 
 **Complete variable lists:**
 
-- `~/work/datacapt/dcagents/instructions/design-system.md` - Full reference with all variables
-- `~/work/datacapt/frontend/apps/storybook/src/generated-tokens.ts` - Authoritative source
+- `C:/praca/datacapt/dcagents/instructions/design-system.md` - Full reference with all variables
+- `C:/praca/datacapt/frontend/apps/storybook/src/generated-tokens.ts` - Authoritative source
 
 **Always validate:**
 

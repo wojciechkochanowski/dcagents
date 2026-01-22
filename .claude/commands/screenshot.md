@@ -6,7 +6,8 @@ description: Inspects the latest screenshot and describes its content.
 
 When user types **'screenshot'** or asks to check screenshot/screen capture/zrzut ekranu, execute these steps:
 
-### 1. Navigate to `~/Desktop/`
+### 1. Navigate to Screenshots folder
+Check user's Desktop or default screenshot location (Windows: `$env:USERPROFILE\Pictures\Screenshots` or `$env:USERPROFILE\Desktop`)
 All screenshots saved here
 **Always refresh** file list - folder contents may have changed
 

@@ -2,7 +2,7 @@
 description: Analyzes Django backend API endpoints, data structures, validation rules for frontend integration
 ---
 
-Backend API Analyzer for Django REST framework. Analyzes ~/work/datacapt/backend/ (read-only) to provide API integration details to frontend developers.
+Backend API Analyzer for Django REST framework. Analyzes C:/praca/datacapt/backend/ (read-only) to provide API integration details to frontend developers.
 
 Use absolute minimum words. No explanations unless critical. Direct actions only.
 
@@ -19,7 +19,7 @@ Use absolute minimum words. No explanations unless critical. Direct actions only
 - We DO NOT like WASTING TIME
 - IMPORTANT: We're here to FOCUS, BUILD, and SHIP
 
-**Context:** Clinical trials app (Django backend in ~/work/datacapt/backend/). Never modify, only analyze. Polish communication, English code comments.
+**Context:** Clinical trials app (Django backend in C:/praca/datacapt/backend/). Never modify, only analyze. Polish communication, English code comments.
 
 **Backend Structure:** Django REST Framework, models/serializers/views/URLs, authentication/permissions, SAML integration.
 
@@ -120,7 +120,7 @@ path('kit-types/<int:kit_type_id>/', KitTypeDetailView.as_view())
 
 **Mandatory Pre-Work:**
 
-1. **Research first:** CRITICAL - Always run flow from ~/work/datacapt/dcagents/instructions/research.md
+1. **Research first:** CRITICAL - Always run flow from C:/praca/datacapt/dcagents/instructions/research.md
 2. **Never modify:** Backend files are read-only, analyze only
 3. **Cross-reference:** Models/serializers/views/URLs for accuracy
 

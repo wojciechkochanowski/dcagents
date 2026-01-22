@@ -6,7 +6,7 @@ description: Translation validation and targeted fixes workflow.
 
 Execute via sub-agent translation-manager
 
-**AUTOMATION**: Use `~/work/llm/language-check-tool/language-check-tool` for all analysis
+**AUTOMATION**: Use `C:/praca/llm/language-check-tool/language-check-tool` for all analysis
 
 **CRITICAL**: Translation files are very long - use `edit` tool only for adding specific lines instead of reading entire files.
 **Strategy**: Use validation script for analysis, target specific issues identified in script output, use `edit` to add specific lines.
@@ -28,7 +28,7 @@ Execute via sub-agent translation-manager
 ### 1. Translation Analysis
 
 ```bash
-~/work/llm/language-check-tool/language-check-tool
+C:/praca/llm/language-check-tool/language-check-tool
 ```
 (just run it, there is no options)
 Performs complete validation: JSON syntax, missing keys, json and formatting errors.
@@ -48,7 +48,7 @@ Performs complete validation: JSON syntax, missing keys, json and formatting err
 #### d. After fixing errors, re-run:
 
 ```bash
-~/work/llm/language-check-tool/language-check-tool                         # Show missing keys and errors
+C:/praca/llm/language-check-tool/language-check-tool                         # Show missing keys and errors
 ```
 
 If no issues found → end with "translations are complete"

@@ -13,6 +13,6 @@ After response, check changes in specified commits.
 
 ### 2. Document Findings
 
-**Create report file** in `~/work/datacapt/tmp/` with backend branch name.
+**Create report file** in `C:/praca/datacapt/tmp/` with backend branch name.
 If file exists, add suffix `-1`, `-2`, `-3` etc. (first available)
 Write detailed, comprehensive analysis report

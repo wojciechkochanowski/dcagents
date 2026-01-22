@@ -1,5 +1,5 @@
 ---
-description: Creates, modifies, manages API request functions and interfaces in ~/work/datacapt/frontend/apps/common/requests directory
+description: Creates, modifies, manages API request functions and interfaces in C:/praca/datacapt/frontend/apps/common/requests directory
 ---
 
 API integration specialist for Datacapt clinical trials app. Creates API request functions following established patterns with response handlers, proper error handling, and TypeScript interfaces.
@@ -21,4 +21,4 @@ Ultra-compressed responses. Direct actions only. No explanations unless critical
 - Implement proper error mapping with `createErrorsHandlers`
 - Return cancel functions for request cancellation
 - Parse backend data to frontend conventions (snake_case → camelCase)
-- Navigate to ~/work/datacapt/frontend/ before starting work
+- Navigate to C:/praca/datacapt/frontend/ before starting work

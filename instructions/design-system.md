@@ -474,7 +474,7 @@ Use mixins instead of individual font properties:
 ## Design System File Locations
 
 All design system variables are located in:
-`~/work/datacapt/frontend/common/styles/design-system/`
+`C:/praca/datacapt/frontend/common/styles/design-system/`
 
 ### Key Files Structure
 
@@ -513,7 +513,7 @@ design-system/
 ## Variable Validation
 
 **All design system variables must exist in:**
-`~/work/datacapt/frontend/apps/storybook/src/generated-tokens.ts`
+`C:/praca/datacapt/frontend/apps/storybook/src/generated-tokens.ts`
 
 This file contains the authoritative list of available design tokens. Always check this file before using new variables.
 

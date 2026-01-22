@@ -20,7 +20,7 @@ Ask user to provide one of:
 
 ## 3. Research Phase
 
-**Always read first:** `@/Users/bartek/work/datacapt/ai-validation-docs/README.md`
+**Always read first:** `@C:/praca/datacapt/ai-validation-docs/README.md`
 
 Based on README guidance:
 
@@ -91,7 +91,7 @@ For each issue identified:
 
 After completing validation analysis:
 
-1. **Create markdown file** in `/Users/bartek/work/datacapt/tmp/` directory
+1. **Create markdown file** in `C:/praca/datacapt/tmp/` directory
 2. **Filename format:** `validation-{topic}-{date}.md` (e.g., `validation-allocation-2025-10-02.md`)
 3. **Content:** Full validation report with all "Text to highlight" and "Comment" sections
 4. **Inform user:** Provide the filename and path to the saved report
