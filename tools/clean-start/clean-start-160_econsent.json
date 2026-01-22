@@ -1,0 +1,477 @@
+[
+  {
+    "model": "econsent.econsent",
+    "pk": 3001,
+    "fields": {
+      "name": "Main Consent v1.0 EN",
+      "status": "PUBLISHED",
+      "language": "en",
+      "version": "1.0",
+      "version_date": "2025-01-15",
+      "study": 2001,
+      "centers": [
+        2101,
+        2102
+      ],
+      "date_added": "2025-01-10T08:00:00Z"
+    }
+  },
+  {
+    "model": "econsent.econsent",
+    "pk": 3002,
+    "fields": {
+      "name": "Main Consent v1.0 DE",
+      "status": "PUBLISHED",
+      "language": "de",
+      "version": "1.0",
+      "version_date": "2025-01-15",
+      "study": 2001,
+      "centers": [
+        2102
+      ],
+      "date_added": "2025-01-10T08:00:00Z"
+    }
+  },
+  {
+    "model": "econsent.econsent",
+    "pk": 3003,
+    "fields": {
+      "name": "Main Consent v2.0 EN",
+      "status": "DRAFT",
+      "language": "en",
+      "version": "2.0",
+      "version_date": "2025-03-01",
+      "study": 2001,
+      "centers": [
+        2101,
+        2102
+      ],
+      "date_added": "2025-01-10T08:00:00Z"
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 3101,
+    "fields": {
+      "ecrf": null,
+      "epro_form": null,
+      "econsent": 3001,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Introduction",
+      "order": 1,
+      "variable_prefix": "ECON_INTRO",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 3102,
+    "fields": {
+      "ecrf": null,
+      "epro_form": null,
+      "econsent": 3001,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Risks & Benefits",
+      "order": 2,
+      "variable_prefix": "ECON_RISK",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 3103,
+    "fields": {
+      "ecrf": null,
+      "epro_form": null,
+      "econsent": 3001,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Signature",
+      "order": 3,
+      "variable_prefix": "ECON_SIGN",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 3104,
+    "fields": {
+      "ecrf": null,
+      "epro_form": null,
+      "econsent": 3003,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Draft Changes",
+      "order": 1,
+      "variable_prefix": "ECON_V2",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 3111,
+    "fields": {
+      "section": 3101,
+      "domain": "",
+      "name": "Overview",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 3112,
+    "fields": {
+      "section": 3102,
+      "domain": "",
+      "name": "Potential Risks",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 3113,
+    "fields": {
+      "section": 3102,
+      "domain": "",
+      "name": "Potential Benefits",
+      "order": 2,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 3114,
+    "fields": {
+      "section": 3103,
+      "domain": "",
+      "name": "Acknowledgement",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 3115,
+    "fields": {
+      "section": 3104,
+      "domain": "",
+      "name": "Summary of updates",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 3201,
+    "fields": {
+      "block_type": "STATIC_CONTENT",
+      "order": 1,
+      "subsection": 3111,
+      "study": 2001,
+      "config": {
+        "type": "PARAGRAPH",
+        "content": "Welcome to the Clean Start study. Please review the information below."
+      },
+      "repeated_measure": null,
+      "show_in_survey": null,
+      "show_in_profile": null
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 3202,
+    "fields": {
+      "block_type": "STATIC_CONTENT",
+      "order": 1,
+      "subsection": 3112,
+      "study": 2001,
+      "config": {
+        "type": "PARAGRAPH",
+        "content": "Possible risks include dizziness, nausea, and mild discomfort."
+      },
+      "repeated_measure": null,
+      "show_in_survey": null,
+      "show_in_profile": null
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 3203,
+    "fields": {
+      "block_type": "STATIC_CONTENT",
+      "order": 1,
+      "subsection": 3113,
+      "study": 2001,
+      "config": {
+        "type": "PARAGRAPH",
+        "content": "Benefits include closer monitoring and access to new treatment."
+      },
+      "repeated_measure": null,
+      "show_in_survey": null,
+      "show_in_profile": null
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 3204,
+    "fields": {
+      "block_type": "STATIC_CONTENT",
+      "order": 1,
+      "subsection": 3114,
+      "study": 2001,
+      "config": {
+        "type": "PARAGRAPH",
+        "content": "By signing you confirm you have read and understood the consent document."
+      },
+      "repeated_measure": null,
+      "show_in_survey": null,
+      "show_in_profile": null
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 3205,
+    "fields": {
+      "block_type": "BUTTON_CONTENT",
+      "order": 2,
+      "subsection": 3114,
+      "study": 2001,
+      "config": {
+        "type": "PRIMARY",
+        "name": "Download PDF",
+        "action": "DOWNLOAD_PDF"
+      },
+      "repeated_measure": null,
+      "show_in_survey": null,
+      "show_in_profile": null
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 3206,
+    "fields": {
+      "block_type": "STATIC_CONTENT",
+      "order": 1,
+      "subsection": 3115,
+      "study": 2001,
+      "config": {
+        "type": "PARAGRAPH",
+        "content": "Draft version adds extended safety monitoring description."
+      },
+      "repeated_measure": null,
+      "show_in_survey": null,
+      "show_in_profile": null
+    }
+  },
+  {
+    "model": "econsent.econsentrecord",
+    "pk": 3301,
+    "fields": {
+      "econsent": 3001,
+      "subject_in_study": 2411,
+      "investigator": 2003,
+      "status": "CONSENTED",
+      "send_date": "2025-02-05T08:00:00Z",
+      "token": "636f6e73656e742d323431310000000000000000000000000000000000000000",
+      "invitation_sent": true,
+      "qr_code": "QRCONSENT001SIGNEDTOKEN0000000001",
+      "uploaded_consent_file": null,
+      "export_html": "<html>Consent snapshot</html>",
+      "export_body_html": "<p>Body</p>",
+      "date_first_pdf_created": "2025-02-05T10:15:00Z",
+      "date_rejected": null,
+      "rejected_by_snapshot": "",
+      "rejection_reason": "",
+      "date_signed": "2025-02-05T09:30:00Z",
+      "signed_by_snapshot": "John Doe <subject1@patients.test>",
+      "date_countersigned": "2025-02-05T10:00:00Z",
+      "countersigned_by_snapshot": "Dr. Alice Investigator",
+      "countersigned_by": 2003,
+      "signature_image": null,
+      "countersignature_image": null,
+      "esignature_request_id": "",
+      "esignature_countersigner_id": ""
+    }
+  },
+  {
+    "model": "econsent.econsentrecord",
+    "pk": 3302,
+    "fields": {
+      "econsent": 3001,
+      "subject_in_study": 2412,
+      "investigator": 2003,
+      "status": "REJECTED",
+      "send_date": "2025-02-05T08:00:00Z",
+      "token": "636f6e73656e742d323431320000000000000000000000000000000000000000",
+      "invitation_sent": true,
+      "qr_code": "QRCONSENT002REJECTED00000000002",
+      "uploaded_consent_file": null,
+      "export_html": "<html>Consent snapshot</html>",
+      "export_body_html": "<p>Body</p>",
+      "date_first_pdf_created": "2025-02-05T10:15:00Z",
+      "date_rejected": "2025-02-06T09:10:00Z",
+      "rejected_by_snapshot": "Anna Nowak <subject2@patients.test>",
+      "rejection_reason": "Prefer paper consent",
+      "date_signed": null,
+      "signed_by_snapshot": "",
+      "date_countersigned": null,
+      "countersigned_by_snapshot": "",
+      "countersigned_by": null,
+      "signature_image": null,
+      "countersignature_image": null,
+      "esignature_request_id": "",
+      "esignature_countersigner_id": ""
+    }
+  },
+  {
+    "model": "econsent.econsentrecord",
+    "pk": 3303,
+    "fields": {
+      "econsent": 3002,
+      "subject_in_study": 2413,
+      "investigator": 2004,
+      "status": "NEEDS_COUNTER_SIGNATURE",
+      "send_date": "2025-02-05T08:00:00Z",
+      "token": "636f6e73656e742d323431330000000000000000000000000000000000000000",
+      "invitation_sent": true,
+      "qr_code": "QRCONSENT003COUNTER00000000003",
+      "uploaded_consent_file": null,
+      "export_html": "<html>Consent snapshot</html>",
+      "export_body_html": "<p>Body</p>",
+      "date_first_pdf_created": "2025-02-05T10:15:00Z",
+      "date_rejected": null,
+      "rejected_by_snapshot": "",
+      "rejection_reason": "",
+      "date_signed": "2025-02-07T09:00:00Z",
+      "signed_by_snapshot": "Maria Schmidt <subject3@patients.test>",
+      "date_countersigned": null,
+      "countersigned_by_snapshot": "",
+      "countersigned_by": null,
+      "signature_image": null,
+      "countersignature_image": null,
+      "esignature_request_id": "",
+      "esignature_countersigner_id": ""
+    }
+  },
+  {
+    "model": "econsent.econsentrecord",
+    "pk": 3304,
+    "fields": {
+      "econsent": 3003,
+      "subject_in_study": 2414,
+      "investigator": 2004,
+      "status": "NEEDS_SIGNATURE",
+      "send_date": "2025-02-05T08:00:00Z",
+      "token": "636f6e73656e742d323431340000000000000000000000000000000000000000",
+      "invitation_sent": false,
+      "qr_code": null,
+      "uploaded_consent_file": null,
+      "export_html": null,
+      "export_body_html": null,
+      "date_first_pdf_created": null,
+      "date_rejected": null,
+      "rejected_by_snapshot": "",
+      "rejection_reason": "",
+      "date_signed": null,
+      "signed_by_snapshot": "",
+      "date_countersigned": null,
+      "countersigned_by_snapshot": "",
+      "countersigned_by": null,
+      "signature_image": null,
+      "countersignature_image": null,
+      "esignature_request_id": "",
+      "esignature_countersigner_id": ""
+    }
+  },
+  {
+    "model": "audit_trails.studyaudittrail",
+    "pk": 3401,
+    "fields": {
+      "user": 2003,
+      "study": 2001,
+      "study_center": 2101,
+      "event_type": "ECONSENT_SURVEY",
+      "action_type": "SIGNED",
+      "is_issued_by_platform": false,
+      "is_added_by_api": false,
+      "timestamp": "2025-02-05T10:00:00Z",
+      "inclusion": null,
+      "question": null,
+      "single_measure_id": null,
+      "subject_id_field_internal": "CYP-001",
+      "additional_data": {
+        "econsent_record_id": 3301,
+        "status": "CONSENTED"
+      }
+    }
+  },
+  {
+    "model": "audit_trails.studyaudittrail",
+    "pk": 3402,
+    "fields": {
+      "user": 2003,
+      "study": 2001,
+      "study_center": 2101,
+      "event_type": "ECONSENT_SURVEY",
+      "action_type": "REJECTED",
+      "is_issued_by_platform": false,
+      "is_added_by_api": false,
+      "timestamp": "2025-02-06T09:15:00Z",
+      "inclusion": null,
+      "question": null,
+      "single_measure_id": null,
+      "subject_id_field_internal": "CYP-002",
+      "additional_data": {
+        "econsent_record_id": 3302,
+        "reason": "Prefer paper consent"
+      }
+    }
+  },
+  {
+    "model": "audit_trails.studyaudittrail",
+    "pk": 3403,
+    "fields": {
+      "user": 2004,
+      "study": 2001,
+      "study_center": 2102,
+      "event_type": "ECONSENT_SURVEY",
+      "action_type": "SENT",
+      "is_issued_by_platform": false,
+      "is_added_by_api": false,
+      "timestamp": "2025-02-07T08:00:00Z",
+      "inclusion": null,
+      "question": null,
+      "single_measure_id": null,
+      "subject_id_field_internal": "CYP-003",
+      "additional_data": {
+        "econsent_record_id": 3303,
+        "status": "NEEDS_COUNTER_SIGNATURE"
+      }
+    }
+  }
+]

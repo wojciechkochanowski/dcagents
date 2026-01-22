@@ -1,0 +1,2549 @@
+[
+  {
+    "category": "border",
+    "sourceDescriptor": "Figma border brand",
+    "figmaValue": "#3a63f3 (alias of @blue-600)",
+    "token": "@border-brand",
+    "lessSnippet": "border-color: @border-brand;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "border",
+    "sourceDescriptor": "Figma border disabled",
+    "figmaValue": "#f0f1f4 (alias of @gray-100)",
+    "token": "@border-disabled",
+    "lessSnippet": "border-color: @border-disabled;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "border",
+    "sourceDescriptor": "Figma border disabled bold",
+    "figmaValue": "#d1d2e0 (alias of @gray-300)",
+    "token": "@border-disabled_bold",
+    "lessSnippet": "border-color: @border-disabled_bold;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "border",
+    "sourceDescriptor": "Figma border error",
+    "figmaValue": "#ff6a5b (alias of @red-600)",
+    "token": "@border-error",
+    "lessSnippet": "border-color: @border-error;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "border",
+    "sourceDescriptor": "Figma border primary",
+    "figmaValue": "#d1d2e0 (alias of @gray-300)",
+    "token": "@border-primary",
+    "lessSnippet": "border-color: @border-primary;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "border",
+    "sourceDescriptor": "Figma border secondary",
+    "figmaValue": "#e7e7f0 (alias of @gray-200)",
+    "token": "@border-secondary",
+    "lessSnippet": "border-color: @border-secondary;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "border",
+    "sourceDescriptor": "Figma border tertiary",
+    "figmaValue": "#f0f1f4 (alias of @gray-100)",
+    "token": "@border-tertiary",
+    "lessSnippet": "border-color: @border-tertiary;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "border",
+    "sourceDescriptor": "Tailwind semantic border primary (Figma Dev Mode)",
+    "figmaValue": "#d1d2e0 (alias of @gray-300)",
+    "token": "@border-primary",
+    "lessSnippet": "border-color: @border-primary;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "border-[var(--border\\/border-primary,#d1d2e0)]"
+  },
+  {
+    "category": "border",
+    "sourceDescriptor": "Tailwind semantic border secondary (Figma Dev Mode)",
+    "figmaValue": "#e7e7f0 (alias of @gray-200)",
+    "token": "@border-secondary",
+    "lessSnippet": "border-color: @border-secondary;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "border-[var(--border\\/border-secondary,#e7e7f0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background active",
+    "figmaValue": "#e9edff (alias of @blue-100)",
+    "token": "@bg-active",
+    "lessSnippet": "background-color: @bg-active;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--blue/100,#e9edff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background alert primary",
+    "figmaValue": "#fff5e3 (alias of @yellow-100)",
+    "token": "@bg-alert-primary",
+    "lessSnippet": "background-color: @bg-alert-primary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--yellow/100,#fff5e3)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background alert solid",
+    "figmaValue": "#ffca54 (alias of @yellow-600)",
+    "token": "@bg-alert-solid",
+    "lessSnippet": "background-color: @bg-alert-solid;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--yellow/600,#ffca54)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background brand primary",
+    "figmaValue": "#e9edff (alias of @blue-100)",
+    "token": "@bg-brand-primary",
+    "lessSnippet": "background-color: @bg-brand-primary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--blue/100,#e9edff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background brand solid",
+    "figmaValue": "#3a63f3 (alias of @blue-600)",
+    "token": "@bg-brand-solid",
+    "lessSnippet": "background-color: @bg-brand-solid;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--blue/600,#3a63f3)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background brand solid hover",
+    "figmaValue": "#284fe0 (alias of @blue-700)",
+    "token": "@bg-brand-solid_hover",
+    "lessSnippet": "background-color: @bg-brand-solid_hover;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--blue/700,#284fe0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic background brand solid (Figma Dev Mode)",
+    "figmaValue": "#3a63f3 (alias of @blue-600)",
+    "token": "@bg-brand-solid",
+    "lessSnippet": "background-color: @bg-brand-solid;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "bg-[var(--background\\/bg-brand-solid,#3a63f3)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background disabled",
+    "figmaValue": "#d1d2e0 (alias of @gray-300)",
+    "token": "@bg-disabled",
+    "lessSnippet": "background-color: @bg-disabled;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray/300,#d1d2e0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background disabled subtle",
+    "figmaValue": "#f0f1f4 (alias of @gray-100)",
+    "token": "@bg-disabled_subtle",
+    "lessSnippet": "background-color: @bg-disabled_subtle;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray/100,#f0f1f4)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic background disabled subtle (Figma Dev Mode)",
+    "figmaValue": "#f0f1f4 (alias of @gray-100)",
+    "token": "@bg-disabled_subtle",
+    "lessSnippet": "background-color: @bg-disabled_subtle;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "bg-[var(--background\\/bg-disabled_subtle,#f0f1f4)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background error primary",
+    "figmaValue": "#ffedea (alias of @red-100)",
+    "token": "@bg-error-primary",
+    "lessSnippet": "background-color: @bg-error-primary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--red/100,#ffedea)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background error solid",
+    "figmaValue": "#ff6a5b (alias of @red-600)",
+    "token": "@bg-error-solid",
+    "lessSnippet": "background-color: @bg-error-solid;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--red/600,#ff6a5b)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background error solid hover",
+    "figmaValue": "#e6554a (alias of @red-700)",
+    "token": "@bg-error-solid_hover",
+    "lessSnippet": "background-color: @bg-error-solid_hover;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--red/700,#e6554a)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic background error primary (Figma Dev Mode)",
+    "figmaValue": "#ffedea (alias of @red-100)",
+    "token": "@bg-error-primary",
+    "lessSnippet": "background-color: @bg-error-primary;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "bg-[var(--background\\/bg-error-primary,#ffedea)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic background error solid (Figma Dev Mode)",
+    "figmaValue": "#ff6a5b (alias of @red-600)",
+    "token": "@bg-error-solid",
+    "lessSnippet": "background-color: @bg-error-solid;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "bg-[var(--background\\/bg-error-solid,#ff6a5b)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background info primary",
+    "figmaValue": "#e3f5ff (alias of @lightblue-100)",
+    "token": "@bg-info-primary",
+    "lessSnippet": "background-color: @bg-info-primary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--lightblue/100,#e3f5ff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background info solid",
+    "figmaValue": "#63caff (alias of @lightblue-600)",
+    "token": "@bg-info-solid",
+    "lessSnippet": "background-color: @bg-info-solid;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--lightblue/600,#63caff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background overlay",
+    "figmaValue": "rgba(6, 10, 50, 0.64) (alias of @gray-alpha-700)",
+    "token": "@bg-overlay",
+    "lessSnippet": "background-color: @bg-overlay;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray-alpha/700,rgba(6, 10, 50, 0.64))]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background primary",
+    "figmaValue": "#ffffff (alias of @white)",
+    "token": "@bg-primary",
+    "lessSnippet": "background-color: @bg-primary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--white,#ffffff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background primary solid",
+    "figmaValue": "#060a32 (alias of @gray-1000)",
+    "token": "@bg-primary-solid",
+    "lessSnippet": "background-color: @bg-primary-solid;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray/1000,#060a32)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic background primary (Figma Dev Mode)",
+    "figmaValue": "#ffffff (alias of @white)",
+    "token": "@bg-primary",
+    "lessSnippet": "background-color: @bg-primary;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "bg-[var(--background\\/bg-primary,#ffffff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background quaternary",
+    "figmaValue": "#e7e7f0 (alias of @gray-200)",
+    "token": "@bg-quaternary",
+    "lessSnippet": "background-color: @bg-quaternary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray/200,#e7e7f0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background secondary",
+    "figmaValue": "#f7f8f9 (alias of @gray-50)",
+    "token": "@bg-secondary",
+    "lessSnippet": "background-color: @bg-secondary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray/50,#f7f8f9)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background secondary alt",
+    "figmaValue": "#f7f9fd (alias of @blue-50)",
+    "token": "@bg-secondary_alt",
+    "lessSnippet": "background-color: @bg-secondary_alt;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--blue/50,#f7f9fd)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background secondary hover",
+    "figmaValue": "#f0f1f4 (alias of @gray-100)",
+    "token": "@bg-secondary_hover",
+    "lessSnippet": "background-color: @bg-secondary_hover;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray/100,#f0f1f4)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background secondary solid",
+    "figmaValue": "#191d51 (alias of @blue-1000)",
+    "token": "@bg-secondary-solid",
+    "lessSnippet": "background-color: @bg-secondary-solid;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--blue/1000,#191d51)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background success primary",
+    "figmaValue": "#e7fbf4 (alias of @green-100)",
+    "token": "@bg-success-primary",
+    "lessSnippet": "background-color: @bg-success-primary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--green/100,#e7fbf4)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background success solid",
+    "figmaValue": "#1bcfa9 (alias of @green-600)",
+    "token": "@bg-success-solid",
+    "lessSnippet": "background-color: @bg-success-solid;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--green/600,#1bcfa9)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic background success primary (Figma Dev Mode)",
+    "figmaValue": "#e7fbf4 (alias of @green-100)",
+    "token": "@bg-success-primary",
+    "lessSnippet": "background-color: @bg-success-primary;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "bg-[var(--background\\/bg-success-primary,#e7fbf4)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic background success solid (Figma Dev Mode)",
+    "figmaValue": "#1bcfa9 (alias of @green-600)",
+    "token": "@bg-success-solid",
+    "lessSnippet": "background-color: @bg-success-solid;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "bg-[var(--background\\/bg-success-solid,#1bcfa9)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background tertiary",
+    "figmaValue": "#f0f1f4 (alias of @gray-100)",
+    "token": "@bg-tertiary",
+    "lessSnippet": "background-color: @bg-tertiary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray/100,#f0f1f4)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background tertiary hover",
+    "figmaValue": "#e7e7f0 (alias of @gray-200)",
+    "token": "@bg-tertiary_hover",
+    "lessSnippet": "background-color: @bg-tertiary_hover;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--gray/200,#e7e7f0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background warning primary",
+    "figmaValue": "#fff1e3 (alias of @orange-100)",
+    "token": "@bg-warning-primary",
+    "lessSnippet": "background-color: @bg-warning-primary;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--orange/100,#fff1e3)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color background warning solid",
+    "figmaValue": "#ff8d54 (alias of @orange-600)",
+    "token": "@bg-warning-solid",
+    "lessSnippet": "background-color: @bg-warning-solid;",
+    "notes": "",
+    "tailwindSource": "bg-[var(--orange/600,#ff8d54)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color black",
+    "figmaValue": "#000000",
+    "token": "@black",
+    "lessSnippet": "color: @black;",
+    "notes": "",
+    "tailwindSource": "text-[color:#000000]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0050",
+    "figmaValue": "#f7f9fd",
+    "token": "@blue-50",
+    "lessSnippet": "color: @blue-50;",
+    "notes": "",
+    "tailwindSource": "text-[color:#f7f9fd]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0100",
+    "figmaValue": "#e9edff",
+    "token": "@blue-100",
+    "lessSnippet": "color: @blue-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#e9edff]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0200",
+    "figmaValue": "#c7d2fd",
+    "token": "@blue-200",
+    "lessSnippet": "color: @blue-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#c7d2fd]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0300",
+    "figmaValue": "#a2b6fa",
+    "token": "@blue-300",
+    "lessSnippet": "color: @blue-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#a2b6fa]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0400",
+    "figmaValue": "#7d99f7",
+    "token": "@blue-400",
+    "lessSnippet": "color: @blue-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#7d99f7]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0500",
+    "figmaValue": "#567cf5",
+    "token": "@blue-500",
+    "lessSnippet": "color: @blue-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#567cf5]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0600",
+    "figmaValue": "#3a63f3",
+    "token": "@blue-600",
+    "lessSnippet": "color: @blue-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#3a63f3]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0700",
+    "figmaValue": "#284fe0",
+    "token": "@blue-700",
+    "lessSnippet": "color: @blue-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#284fe0]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0800",
+    "figmaValue": "#1c3cb6",
+    "token": "@blue-800",
+    "lessSnippet": "color: @blue-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#1c3cb6]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 0900",
+    "figmaValue": "#14298c",
+    "token": "@blue-900",
+    "lessSnippet": "color: @blue-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#14298c]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color blue 1000",
+    "figmaValue": "#191d51",
+    "token": "@blue-1000",
+    "lessSnippet": "color: @blue-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#191d51]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground alert primary",
+    "figmaValue": "#ffca54 (alias of @yellow-600)",
+    "token": "@fg-alert-primary",
+    "lessSnippet": "color: @fg-alert-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--yellow/600,#ffca54)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground brand primary",
+    "figmaValue": "#3a63f3 (alias of @blue-600)",
+    "token": "@fg-brand-primary",
+    "lessSnippet": "color: @fg-brand-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--blue/600,#3a63f3)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground disabled",
+    "figmaValue": "#d1d2e0 (alias of @gray-300)",
+    "token": "@fg-disabled",
+    "lessSnippet": "color: @fg-disabled;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/300,#d1d2e0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground disabled subtle",
+    "figmaValue": "#e7e7f0 (alias of @gray-200)",
+    "token": "@fg-disabled_subtle",
+    "lessSnippet": "color: @fg-disabled_subtle;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/200,#e7e7f0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground error primary",
+    "figmaValue": "#ff6a5b (alias of @red-600)",
+    "token": "@fg-error-primary",
+    "lessSnippet": "color: @fg-error-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--red/600,#ff6a5b)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground info primary",
+    "figmaValue": "#63caff (alias of @lightblue-600)",
+    "token": "@fg-info-primary",
+    "lessSnippet": "color: @fg-info-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--lightblue/600,#63caff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground primary",
+    "figmaValue": "#060a32 (alias of @gray-1000)",
+    "token": "@fg-primary",
+    "lessSnippet": "color: @fg-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/1000,#060a32)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground quaternary",
+    "figmaValue": "#b1b3cc (alias of @gray-400)",
+    "token": "@fg-quaternary",
+    "lessSnippet": "color: @fg-quaternary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/400,#b1b3cc)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground quaternary hover",
+    "figmaValue": "#9697ac (alias of @gray-500)",
+    "token": "@fg-quaternary_hover",
+    "lessSnippet": "color: @fg-quaternary_hover;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/500,#9697ac)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground secondary",
+    "figmaValue": "#727385 (alias of @gray-600)",
+    "token": "@fg-secondary",
+    "lessSnippet": "color: @fg-secondary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/600,#727385)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground secondary hover",
+    "figmaValue": "#585d70 (alias of @gray-700)",
+    "token": "@fg-secondary_hover",
+    "lessSnippet": "color: @fg-secondary_hover;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/700,#585d70)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground success primary",
+    "figmaValue": "#1bcfa9 (alias of @green-600)",
+    "token": "@fg-success-primary",
+    "lessSnippet": "color: @fg-success-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--green/600,#1bcfa9)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground tertiary",
+    "figmaValue": "#9697ac (alias of @gray-500)",
+    "token": "@fg-tertiary",
+    "lessSnippet": "color: @fg-tertiary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/500,#9697ac)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground tertiary hover",
+    "figmaValue": "#727385 (alias of @gray-600)",
+    "token": "@fg-tertiary_hover",
+    "lessSnippet": "color: @fg-tertiary_hover;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/600,#727385)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground warning primary",
+    "figmaValue": "#ff8d54 (alias of @orange-600)",
+    "token": "@fg-warning-primary",
+    "lessSnippet": "color: @fg-warning-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--orange/600,#ff8d54)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color foreground white",
+    "figmaValue": "#ffffff (alias of @white)",
+    "token": "@fg-white",
+    "lessSnippet": "color: @fg-white;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--white,#ffffff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0050",
+    "figmaValue": "#f7f8f9",
+    "token": "@gray-50",
+    "lessSnippet": "color: @gray-50;",
+    "notes": "",
+    "tailwindSource": "text-[color:#f7f8f9]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0100",
+    "figmaValue": "#f0f1f4",
+    "token": "@gray-100",
+    "lessSnippet": "color: @gray-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#f0f1f4]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0200",
+    "figmaValue": "#e7e7f0",
+    "token": "@gray-200",
+    "lessSnippet": "color: @gray-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#e7e7f0]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0300",
+    "figmaValue": "#d1d2e0",
+    "token": "@gray-300",
+    "lessSnippet": "color: @gray-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#d1d2e0]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0400",
+    "figmaValue": "#b1b3cc",
+    "token": "@gray-400",
+    "lessSnippet": "color: @gray-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#b1b3cc]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0500",
+    "figmaValue": "#9697ac",
+    "token": "@gray-500",
+    "lessSnippet": "color: @gray-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#9697ac]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0600",
+    "figmaValue": "#727385",
+    "token": "@gray-600",
+    "lessSnippet": "color: @gray-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#727385]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0700",
+    "figmaValue": "#585d70",
+    "token": "@gray-700",
+    "lessSnippet": "color: @gray-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#585d70]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0800",
+    "figmaValue": "#3b3e55",
+    "token": "@gray-800",
+    "lessSnippet": "color: @gray-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#3b3e55]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 0900",
+    "figmaValue": "#323343",
+    "token": "@gray-900",
+    "lessSnippet": "color: @gray-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#323343]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray 1000",
+    "figmaValue": "#060a32",
+    "token": "@gray-1000",
+    "lessSnippet": "color: @gray-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#060a32]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0050",
+    "figmaValue": "rgba(6, 10, 50, 0.04)",
+    "token": "@gray-alpha-50",
+    "lessSnippet": "background-color: @gray-alpha-50;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.04)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0100",
+    "figmaValue": "rgba(6, 10, 50, 0.08)",
+    "token": "@gray-alpha-100",
+    "lessSnippet": "background-color: @gray-alpha-100;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.08)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0200",
+    "figmaValue": "rgba(6, 10, 50, 0.12)",
+    "token": "@gray-alpha-200",
+    "lessSnippet": "background-color: @gray-alpha-200;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.12)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0300",
+    "figmaValue": "rgba(6, 10, 50, 0.16)",
+    "token": "@gray-alpha-300",
+    "lessSnippet": "background-color: @gray-alpha-300;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.16)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0400",
+    "figmaValue": "rgba(6, 10, 50, 0.24)",
+    "token": "@gray-alpha-400",
+    "lessSnippet": "background-color: @gray-alpha-400;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.24)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0500",
+    "figmaValue": "rgba(6, 10, 50, 0.32)",
+    "token": "@gray-alpha-500",
+    "lessSnippet": "background-color: @gray-alpha-500;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.32)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0600",
+    "figmaValue": "rgba(6, 10, 50, 0.48)",
+    "token": "@gray-alpha-600",
+    "lessSnippet": "background-color: @gray-alpha-600;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.48)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0700",
+    "figmaValue": "rgba(6, 10, 50, 0.64)",
+    "token": "@gray-alpha-700",
+    "lessSnippet": "background-color: @gray-alpha-700;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.64)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0800",
+    "figmaValue": "rgba(6, 10, 50, 0.72)",
+    "token": "@gray-alpha-800",
+    "lessSnippet": "background-color: @gray-alpha-800;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.72)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 0900",
+    "figmaValue": "rgba(6, 10, 50, 0.8)",
+    "token": "@gray-alpha-900",
+    "lessSnippet": "background-color: @gray-alpha-900;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.8)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color gray alpha 1000",
+    "figmaValue": "rgba(6, 10, 50, 0.98)",
+    "token": "@gray-alpha-1000",
+    "lessSnippet": "background-color: @gray-alpha-1000;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(6, 10, 50, 0.98)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0100",
+    "figmaValue": "#e7fbf4",
+    "token": "@green-100",
+    "lessSnippet": "color: @green-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#e7fbf4]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0200",
+    "figmaValue": "#c2f6e6",
+    "token": "@green-200",
+    "lessSnippet": "color: @green-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#c2f6e6]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0300",
+    "figmaValue": "#9bf0d7",
+    "token": "@green-300",
+    "lessSnippet": "color: @green-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#9bf0d7]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0400",
+    "figmaValue": "#74e9c8",
+    "token": "@green-400",
+    "lessSnippet": "color: @green-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#74e9c8]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0500",
+    "figmaValue": "#4addbc",
+    "token": "@green-500",
+    "lessSnippet": "color: @green-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#4addbc]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0600",
+    "figmaValue": "#1bcfa9",
+    "token": "@green-600",
+    "lessSnippet": "color: @green-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#1bcfa9]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0700",
+    "figmaValue": "#16a88a",
+    "token": "@green-700",
+    "lessSnippet": "color: @green-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#16a88a]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0800",
+    "figmaValue": "#11826e",
+    "token": "@green-800",
+    "lessSnippet": "color: @green-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#11826e]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 0900",
+    "figmaValue": "#0d6355",
+    "token": "@green-900",
+    "lessSnippet": "color: @green-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#0d6355]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color green 1000",
+    "figmaValue": "#08463f",
+    "token": "@green-1000",
+    "lessSnippet": "color: @green-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#08463f]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0100",
+    "figmaValue": "#e2f6de",
+    "token": "@herbal-green-100",
+    "lessSnippet": "color: @herbal-green-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#e2f6de]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0200",
+    "figmaValue": "#d0efcc",
+    "token": "@herbal-green-200",
+    "lessSnippet": "color: @herbal-green-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#d0efcc]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0300",
+    "figmaValue": "#b0e4ad",
+    "token": "@herbal-green-300",
+    "lessSnippet": "color: @herbal-green-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#b0e4ad]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0400",
+    "figmaValue": "#8fd88e",
+    "token": "@herbal-green-400",
+    "lessSnippet": "color: @herbal-green-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#8fd88e]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0500",
+    "figmaValue": "#6ccc6d",
+    "token": "@herbal-green-500",
+    "lessSnippet": "color: @herbal-green-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#6ccc6d]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0600",
+    "figmaValue": "#45b84c",
+    "token": "@herbal-green-600",
+    "lessSnippet": "color: @herbal-green-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#45b84c]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0700",
+    "figmaValue": "#20a639",
+    "token": "@herbal-green-700",
+    "lessSnippet": "color: @herbal-green-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#20a639]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0800",
+    "figmaValue": "#1a812e",
+    "token": "@herbal-green-800",
+    "lessSnippet": "color: @herbal-green-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#1a812e]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 0900",
+    "figmaValue": "#146225",
+    "token": "@herbal-green-900",
+    "lessSnippet": "color: @herbal-green-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#146225]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color herbal green 1000",
+    "figmaValue": "#0f481b",
+    "token": "@herbal-green-1000",
+    "lessSnippet": "color: @herbal-green-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#0f481b]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0100",
+    "figmaValue": "#e3f5ff",
+    "token": "@lightblue-100",
+    "lessSnippet": "color: @lightblue-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#e3f5ff]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0200",
+    "figmaValue": "#c3e9ff",
+    "token": "@lightblue-200",
+    "lessSnippet": "color: @lightblue-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#c3e9ff]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0300",
+    "figmaValue": "#a3dcff",
+    "token": "@lightblue-300",
+    "lessSnippet": "color: @lightblue-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#a3dcff]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0400",
+    "figmaValue": "#83d0ff",
+    "token": "@lightblue-400",
+    "lessSnippet": "color: @lightblue-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#83d0ff]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0500",
+    "figmaValue": "#73c8ff",
+    "token": "@lightblue-500",
+    "lessSnippet": "color: @lightblue-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#73c8ff]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0600",
+    "figmaValue": "#63caff",
+    "token": "@lightblue-600",
+    "lessSnippet": "color: @lightblue-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#63caff]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0700",
+    "figmaValue": "#4fa5db",
+    "token": "@lightblue-700",
+    "lessSnippet": "color: @lightblue-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#4fa5db]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0800",
+    "figmaValue": "#3c81b7",
+    "token": "@lightblue-800",
+    "lessSnippet": "color: @lightblue-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#3c81b7]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 0900",
+    "figmaValue": "#2c6393",
+    "token": "@lightblue-900",
+    "lessSnippet": "color: @lightblue-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#2c6393]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color lightblue 1000",
+    "figmaValue": "#1e4770",
+    "token": "@lightblue-1000",
+    "lessSnippet": "color: @lightblue-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#1e4770]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0100",
+    "figmaValue": "#fff1e3",
+    "token": "@orange-100",
+    "lessSnippet": "color: @orange-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#fff1e3]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0200",
+    "figmaValue": "#ffd9bf",
+    "token": "@orange-200",
+    "lessSnippet": "color: @orange-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffd9bf]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0300",
+    "figmaValue": "#ffc09b",
+    "token": "@orange-300",
+    "lessSnippet": "color: @orange-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffc09b]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0400",
+    "figmaValue": "#ffa678",
+    "token": "@orange-400",
+    "lessSnippet": "color: @orange-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffa678]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0500",
+    "figmaValue": "#ff9466",
+    "token": "@orange-500",
+    "lessSnippet": "color: @orange-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ff9466]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0600",
+    "figmaValue": "#ff8d54",
+    "token": "@orange-600",
+    "lessSnippet": "color: @orange-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ff8d54]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0700",
+    "figmaValue": "#db7344",
+    "token": "@orange-700",
+    "lessSnippet": "color: @orange-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#db7344]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0800",
+    "figmaValue": "#b75c36",
+    "token": "@orange-800",
+    "lessSnippet": "color: @orange-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#b75c36]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 0900",
+    "figmaValue": "#934728",
+    "token": "@orange-900",
+    "lessSnippet": "color: @orange-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#934728]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color orange 1000",
+    "figmaValue": "#70341a",
+    "token": "@orange-1000",
+    "lessSnippet": "color: @orange-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#70341a]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0100",
+    "figmaValue": "#ffe6f4",
+    "token": "@pink-100",
+    "lessSnippet": "color: @pink-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffe6f4]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0200",
+    "figmaValue": "#ffcbe8",
+    "token": "@pink-200",
+    "lessSnippet": "color: @pink-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffcbe8]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0300",
+    "figmaValue": "#ffcbe8",
+    "token": "@pink-300",
+    "lessSnippet": "color: @pink-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffcbe8]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0400",
+    "figmaValue": "#ff8fc9",
+    "token": "@pink-400",
+    "lessSnippet": "color: @pink-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ff8fc9]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0500",
+    "figmaValue": "#ff77be",
+    "token": "@pink-500",
+    "lessSnippet": "color: @pink-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ff77be]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0600",
+    "figmaValue": "#fe63b4",
+    "token": "@pink-600",
+    "lessSnippet": "color: @pink-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#fe63b4]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0700",
+    "figmaValue": "#e657a2",
+    "token": "@pink-700",
+    "lessSnippet": "color: @pink-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#e657a2]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0800",
+    "figmaValue": "#cb4d8e",
+    "token": "@pink-800",
+    "lessSnippet": "color: @pink-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#cb4d8e]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 0900",
+    "figmaValue": "#a33f74",
+    "token": "@pink-900",
+    "lessSnippet": "color: @pink-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#a33f74]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color pink 1000",
+    "figmaValue": "#7b3058",
+    "token": "@pink-1000",
+    "lessSnippet": "color: @pink-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#7b3058]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0100",
+    "figmaValue": "#f2eefe",
+    "token": "@purple-100",
+    "lessSnippet": "color: @purple-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#f2eefe]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0200",
+    "figmaValue": "#dfd7fc",
+    "token": "@purple-200",
+    "lessSnippet": "color: @purple-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#dfd7fc]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0300",
+    "figmaValue": "#c9bcfa",
+    "token": "@purple-300",
+    "lessSnippet": "color: @purple-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#c9bcfa]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0400",
+    "figmaValue": "#b29ff3",
+    "token": "@purple-400",
+    "lessSnippet": "color: @purple-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#b29ff3]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0500",
+    "figmaValue": "#947fe7",
+    "token": "@purple-500",
+    "lessSnippet": "color: @purple-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#947fe7]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0600",
+    "figmaValue": "#7760db",
+    "token": "@purple-600",
+    "lessSnippet": "color: @purple-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#7760db]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0700",
+    "figmaValue": "#5f49c0",
+    "token": "@purple-700",
+    "lessSnippet": "color: @purple-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#5f49c0]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0800",
+    "figmaValue": "#4936a3",
+    "token": "@purple-800",
+    "lessSnippet": "color: @purple-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#4936a3]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 0900",
+    "figmaValue": "#332686",
+    "token": "@purple-900",
+    "lessSnippet": "color: @purple-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#332686]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color purple 1000",
+    "figmaValue": "#20176a",
+    "token": "@purple-1000",
+    "lessSnippet": "color: @purple-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#20176a]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0100",
+    "figmaValue": "#ffedea",
+    "token": "@red-100",
+    "lessSnippet": "color: @red-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffedea]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0200",
+    "figmaValue": "#ffd4cc",
+    "token": "@red-200",
+    "lessSnippet": "color: @red-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffd4cc]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0300",
+    "figmaValue": "#ffb8ac",
+    "token": "@red-300",
+    "lessSnippet": "color: @red-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffb8ac]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0400",
+    "figmaValue": "#ff9c8d",
+    "token": "@red-400",
+    "lessSnippet": "color: @red-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ff9c8d]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0500",
+    "figmaValue": "#ff8073",
+    "token": "@red-500",
+    "lessSnippet": "color: @red-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ff8073]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0600",
+    "figmaValue": "#ff6a5b",
+    "token": "@red-600",
+    "lessSnippet": "color: @red-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ff6a5b]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0700",
+    "figmaValue": "#e6554a",
+    "token": "@red-700",
+    "lessSnippet": "color: @red-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#e6554a]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0800",
+    "figmaValue": "#cc413c",
+    "token": "@red-800",
+    "lessSnippet": "color: @red-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#cc413c]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 0900",
+    "figmaValue": "#b22f30",
+    "token": "@red-900",
+    "lessSnippet": "color: @red-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#b22f30]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color red 1000",
+    "figmaValue": "#8f2023",
+    "token": "@red-1000",
+    "lessSnippet": "color: @red-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#8f2023]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text brand primary",
+    "figmaValue": "#1c3cb6 (alias of @blue-800)",
+    "token": "@text-brand-primary",
+    "lessSnippet": "color: @text-brand-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--blue/800,#1c3cb6)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text brand secondary",
+    "figmaValue": "#3a63f3 (alias of @blue-600)",
+    "token": "@text-brand-secondary",
+    "lessSnippet": "color: @text-brand-secondary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--blue/600,#3a63f3)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text brand tertiary",
+    "figmaValue": "#567cf5 (alias of @blue-500)",
+    "token": "@text-brand-tertiary",
+    "lessSnippet": "color: @text-brand-tertiary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--blue/500,#567cf5)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text disabled",
+    "figmaValue": "#9697ac (alias of @gray-500)",
+    "token": "@text-disabled",
+    "lessSnippet": "color: @text-disabled;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/500,#9697ac)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text error primary",
+    "figmaValue": "#ff6a5b (alias of @red-600)",
+    "token": "@text-error-primary",
+    "lessSnippet": "color: @text-error-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--red/600,#ff6a5b)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text placeholder",
+    "figmaValue": "#9697ac (alias of @gray-500)",
+    "token": "@text-placeholder",
+    "lessSnippet": "color: @text-placeholder;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/500,#9697ac)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic text brand secondary default (Figma Dev Mode)",
+    "figmaValue": "#3a63f3 (alias of @blue-600)",
+    "token": "@text-brand",
+    "lessSnippet": "color: @text-brand;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "text-[color:var(--text\\/text-brand-secondary-\\(default\\),#3a63f3)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text primary",
+    "figmaValue": "#060a32 (alias of @gray-1000)",
+    "token": "@text-primary",
+    "lessSnippet": "color: @text-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/1000,#060a32)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic text primary (Figma Dev Mode)",
+    "figmaValue": "#060a32 (alias of @gray-1000)",
+    "token": "@text-primary",
+    "lessSnippet": "color: @text-primary;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "text-[color:var(--text\\/text-primary,#060a32)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text primary on brand",
+    "figmaValue": "#ffffff (alias of @white)",
+    "token": "@text-primary_on-brand",
+    "lessSnippet": "color: @text-primary_on-brand;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--white,#ffffff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic text primary on brand (Figma Dev Mode)",
+    "figmaValue": "#ffffff (alias of @white)",
+    "token": "@text-primary_on-brand",
+    "lessSnippet": "color: @text-primary_on-brand;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "text-[color:var(--text\\/text-primary_on-brand,#ffffff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text secondary",
+    "figmaValue": "#727385 (alias of @gray-600)",
+    "token": "@text-secondary",
+    "lessSnippet": "color: @text-secondary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/600,#727385)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Tailwind semantic text secondary (Figma Dev Mode)",
+    "figmaValue": "#727385 (alias of @gray-600)",
+    "token": "@text-secondary",
+    "lessSnippet": "color: @text-secondary;",
+    "notes": "Figma Dev Mode semantic variable syntax",
+    "tailwindSource": "text-[color:var(--text\\/text-secondary,#727385)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text secondary on brand",
+    "figmaValue": "#e7e7f0 (alias of @gray-200)",
+    "token": "@text-secondary_on-brand",
+    "lessSnippet": "color: @text-secondary_on-brand;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/200,#e7e7f0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text success primary",
+    "figmaValue": "#1bcfa9 (alias of @green-600)",
+    "token": "@text-success-primary",
+    "lessSnippet": "color: @text-success-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--green/600,#1bcfa9)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text tertiary",
+    "figmaValue": "#9697ac (alias of @gray-500)",
+    "token": "@text-tertiary",
+    "lessSnippet": "color: @text-tertiary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/500,#9697ac)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text tertiary on brand",
+    "figmaValue": "#d1d2e0 (alias of @gray-300)",
+    "token": "@text-tertiary_on-brand",
+    "lessSnippet": "color: @text-tertiary_on-brand;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--gray/300,#d1d2e0)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text warning primary",
+    "figmaValue": "#ff8d54 (alias of @orange-600)",
+    "token": "@text-warning-primary",
+    "lessSnippet": "color: @text-warning-primary;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--orange/600,#ff8d54)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color text white",
+    "figmaValue": "#ffffff (alias of @white)",
+    "token": "@text-white",
+    "lessSnippet": "color: @text-white;",
+    "notes": "",
+    "tailwindSource": "text-[color:var(--white,#ffffff)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white",
+    "figmaValue": "#ffffff",
+    "token": "@white",
+    "lessSnippet": "color: @white;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffffff]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0050",
+    "figmaValue": "rgba(255, 255, 255, 0.04)",
+    "token": "@white-alpha-50",
+    "lessSnippet": "background-color: @white-alpha-50;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.04)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0100",
+    "figmaValue": "rgba(255, 255, 255, 0.08)",
+    "token": "@white-alpha-100",
+    "lessSnippet": "background-color: @white-alpha-100;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.08)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0200",
+    "figmaValue": "rgba(255, 255, 255, 0.12)",
+    "token": "@white-alpha-200",
+    "lessSnippet": "background-color: @white-alpha-200;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.12)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0300",
+    "figmaValue": "rgba(255, 255, 255, 0.16)",
+    "token": "@white-alpha-300",
+    "lessSnippet": "background-color: @white-alpha-300;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.16)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0400",
+    "figmaValue": "rgba(255, 255, 255, 0.24)",
+    "token": "@white-alpha-400",
+    "lessSnippet": "background-color: @white-alpha-400;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.24)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0500",
+    "figmaValue": "rgba(255, 255, 255, 0.32)",
+    "token": "@white-alpha-500",
+    "lessSnippet": "background-color: @white-alpha-500;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.32)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0600",
+    "figmaValue": "rgba(255, 255, 255, 0.48)",
+    "token": "@white-alpha-600",
+    "lessSnippet": "background-color: @white-alpha-600;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.48)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0700",
+    "figmaValue": "rgba(255, 255, 255, 0.64)",
+    "token": "@white-alpha-700",
+    "lessSnippet": "background-color: @white-alpha-700;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.64)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0800",
+    "figmaValue": "rgba(255, 255, 255, 0.72)",
+    "token": "@white-alpha-800",
+    "lessSnippet": "background-color: @white-alpha-800;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.72)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 0900",
+    "figmaValue": "rgba(255, 255, 255, 0.8)",
+    "token": "@white-alpha-900",
+    "lessSnippet": "background-color: @white-alpha-900;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.8)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color white alpha 1000",
+    "figmaValue": "rgba(255, 255, 255, 0.98)",
+    "token": "@white-alpha-1000",
+    "lessSnippet": "background-color: @white-alpha-1000;",
+    "notes": "",
+    "tailwindSource": "bg-[rgba(255, 255, 255, 0.98)]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0100",
+    "figmaValue": "#fff5e3",
+    "token": "@yellow-100",
+    "lessSnippet": "color: @yellow-100;",
+    "notes": "",
+    "tailwindSource": "text-[color:#fff5e3]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0200",
+    "figmaValue": "#ffebbf",
+    "token": "@yellow-200",
+    "lessSnippet": "color: @yellow-200;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffebbf]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0300",
+    "figmaValue": "#ffe19b",
+    "token": "@yellow-300",
+    "lessSnippet": "color: @yellow-300;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffe19b]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0400",
+    "figmaValue": "#ffd577",
+    "token": "@yellow-400",
+    "lessSnippet": "color: @yellow-400;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffd577]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0500",
+    "figmaValue": "#ffcb65",
+    "token": "@yellow-500",
+    "lessSnippet": "color: @yellow-500;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffcb65]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0600",
+    "figmaValue": "#ffca54",
+    "token": "@yellow-600",
+    "lessSnippet": "color: @yellow-600;",
+    "notes": "",
+    "tailwindSource": "text-[color:#ffca54]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0700",
+    "figmaValue": "#dba043",
+    "token": "@yellow-700",
+    "lessSnippet": "color: @yellow-700;",
+    "notes": "",
+    "tailwindSource": "text-[color:#dba043]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0800",
+    "figmaValue": "#b78234",
+    "token": "@yellow-800",
+    "lessSnippet": "color: @yellow-800;",
+    "notes": "",
+    "tailwindSource": "text-[color:#b78234]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 0900",
+    "figmaValue": "#936726",
+    "token": "@yellow-900",
+    "lessSnippet": "color: @yellow-900;",
+    "notes": "",
+    "tailwindSource": "text-[color:#936726]"
+  },
+  {
+    "category": "color",
+    "sourceDescriptor": "Figma color yellow 1000",
+    "figmaValue": "#704c1a",
+    "token": "@yellow-1000",
+    "lessSnippet": "color: @yellow-1000;",
+    "notes": "",
+    "tailwindSource": "text-[color:#704c1a]"
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius 002px / Tailwind rounded-sm",
+    "figmaValue": "2px (0.125rem)",
+    "token": "@border-radius-3xs",
+    "lessSnippet": "border-radius: @border-radius-3xs;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius 004px / Tailwind rounded",
+    "figmaValue": "4px (0.25rem)",
+    "token": "@border-radius-2xs",
+    "lessSnippet": "border-radius: @border-radius-2xs;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius 008px / Tailwind rounded-lg",
+    "figmaValue": "8px (0.5rem)",
+    "token": "@border-radius-xs",
+    "lessSnippet": "border-radius: @border-radius-xs;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius 012px / Tailwind rounded-xl",
+    "figmaValue": "12px (0.75rem)",
+    "token": "@border-radius-sm",
+    "lessSnippet": "border-radius: @border-radius-sm;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius 016px / Tailwind rounded-2xl",
+    "figmaValue": "16px (1rem)",
+    "token": "@border-radius-md",
+    "lessSnippet": "border-radius: @border-radius-md;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius 020px / Tailwind none",
+    "figmaValue": "20px (1.25rem)",
+    "token": "@border-radius-lg",
+    "lessSnippet": "border-radius: @border-radius-lg;",
+    "notes": "No exact Tailwind radius; map manually.",
+    "tailwindSource": ""
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius 024px / Tailwind rounded-3xl",
+    "figmaValue": "24px (1.5rem)",
+    "token": "@border-radius-xl",
+    "lessSnippet": "border-radius: @border-radius-xl;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius 028px / Tailwind none",
+    "figmaValue": "28px (1.75rem)",
+    "token": "@border-radius-2xl",
+    "lessSnippet": "border-radius: @border-radius-2xl;",
+    "notes": "No exact Tailwind radius; map manually.",
+    "tailwindSource": ""
+  },
+  {
+    "category": "radius",
+    "sourceDescriptor": "Figma radius full / Tailwind rounded-full",
+    "figmaValue": "999rem",
+    "token": "@border-radius-full",
+    "lessSnippet": "border-radius: @border-radius-full;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "shadow",
+    "sourceDescriptor": "Figma shadow lg",
+    "figmaValue": "0px 12px 16px -4px rgba(6, 10, 50, 0.12), 0px 4px 6px -2px rgba(6, 10, 50, 0.04)",
+    "token": "@shadow-lg",
+    "lessSnippet": "box-shadow: @shadow-lg;",
+    "notes": "",
+    "tailwindSource": "shadow-[0px_12px_16px_-4px_rgba(6,10,50,0.12),0px_4px_6px_-2px_rgba(6,10,50,0.04)]"
+  },
+  {
+    "category": "shadow",
+    "sourceDescriptor": "Figma shadow md",
+    "figmaValue": "0px 4px 6px -1px rgba(6, 10, 50, 0.1), 0px 2px 4px -2px rgba(6, 10, 50, 0.06)",
+    "token": "@shadow-md",
+    "lessSnippet": "box-shadow: @shadow-md;",
+    "notes": "",
+    "tailwindSource": "shadow-[0px_4px_6px_-1px_rgba(6,10,50,0.1),0px_2px_4px_-2px_rgba(6,10,50,0.06)]"
+  },
+  {
+    "category": "shadow",
+    "sourceDescriptor": "Figma shadow sm",
+    "figmaValue": "0px 1px 3px 0px rgba(6, 10, 50, 0.1), 0px 1px 2px -1px rgba(6, 10, 50, 0.1)",
+    "token": "@shadow-sm",
+    "lessSnippet": "box-shadow: @shadow-sm;",
+    "notes": "",
+    "tailwindSource": "shadow-[0px_1px_3px_0px_rgba(6,10,50,0.1),0px_1px_2px_-1px_rgba(6,10,50,0.1)]"
+  },
+  {
+    "category": "shadow",
+    "sourceDescriptor": "Figma shadow xl",
+    "figmaValue": "0px 24px 48px -8px rgba(6, 10, 50, 0.2), 0px 4px 4px -2px rgba(6, 10, 50, 0.04)",
+    "token": "@shadow-xl",
+    "lessSnippet": "box-shadow: @shadow-xl;",
+    "notes": "",
+    "tailwindSource": "shadow-[0px_24px_48px_-8px_rgba(6,10,50,0.2),0px_4px_4px_-2px_rgba(6,10,50,0.04)]"
+  },
+  {
+    "category": "shadow",
+    "sourceDescriptor": "Figma shadow xs",
+    "figmaValue": "0px 1px 2px 0px rgba(6, 10, 50, 0.05)",
+    "token": "@shadow-xs",
+    "lessSnippet": "box-shadow: @shadow-xs;",
+    "notes": "",
+    "tailwindSource": "shadow-[0px_1px_2px_0px_rgba(6,10,50,0.05)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 002px / Tailwind 0.5",
+    "figmaValue": "2px (0.125rem)",
+    "token": "@4xs",
+    "lessSnippet": "padding: @4xs;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-4xs,2px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 004px / Tailwind 1",
+    "figmaValue": "4px (0.25rem)",
+    "token": "@3xs",
+    "lessSnippet": "padding: @3xs;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-3xs,4px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 006px / Tailwind 1.5",
+    "figmaValue": "6px (0.375rem)",
+    "token": "@2xs",
+    "lessSnippet": "padding: @2xs;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-2xs,6px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 008px / Tailwind 2",
+    "figmaValue": "8px (0.5rem)",
+    "token": "@xs",
+    "lessSnippet": "padding: @xs;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-xs,8px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 012px / Tailwind 3",
+    "figmaValue": "12px (0.75rem)",
+    "token": "@sm",
+    "lessSnippet": "padding: @sm;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-sm,12px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 016px / Tailwind 4",
+    "figmaValue": "16px (1rem)",
+    "token": "@md",
+    "lessSnippet": "padding: @md;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-md,16px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 020px / Tailwind 5",
+    "figmaValue": "20px (1.25rem)",
+    "token": "@lg",
+    "lessSnippet": "padding: @lg;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-lg,20px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 024px / Tailwind 6",
+    "figmaValue": "24px (1.5rem)",
+    "token": "@xl",
+    "lessSnippet": "padding: @xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-xl,24px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 032px / Tailwind 8",
+    "figmaValue": "32px (2rem)",
+    "token": "@2xl",
+    "lessSnippet": "padding: @2xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-2xl,32px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 040px / Tailwind 10",
+    "figmaValue": "40px (2.5rem)",
+    "token": "@3xl",
+    "lessSnippet": "padding: @3xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-3xl,40px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 048px / Tailwind 12",
+    "figmaValue": "48px (3rem)",
+    "token": "@4xl",
+    "lessSnippet": "padding: @4xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-4xl,48px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 056px / Tailwind 14",
+    "figmaValue": "56px (3.5rem)",
+    "token": "@5xl",
+    "lessSnippet": "padding: @5xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-5xl,56px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 064px / Tailwind 16",
+    "figmaValue": "64px (4rem)",
+    "token": "@6xl",
+    "lessSnippet": "padding: @6xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-6xl,64px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 072px / Tailwind none",
+    "figmaValue": "72px (4.5rem)",
+    "token": "@7xl",
+    "lessSnippet": "padding: @7xl;",
+    "notes": "No Tailwind spacing token; use design token only.",
+    "tailwindSource": "gap-[72px]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 080px / Tailwind 20",
+    "figmaValue": "80px (5rem)",
+    "token": "@8xl",
+    "lessSnippet": "padding: @8xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-8xl,80px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 096px / Tailwind 24",
+    "figmaValue": "96px (6rem)",
+    "token": "@9xl",
+    "lessSnippet": "padding: @9xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-9xl,96px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 128px / Tailwind 32",
+    "figmaValue": "128px (8rem)",
+    "token": "@10xl",
+    "lessSnippet": "padding: @10xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-10xl,128px)]"
+  },
+  {
+    "category": "spacing",
+    "sourceDescriptor": "Figma spacing 160px / Tailwind 40",
+    "figmaValue": "160px (10rem)",
+    "token": "@11xl",
+    "lessSnippet": "padding: @11xl;",
+    "notes": "",
+    "tailwindSource": "gap-[var(--spacing-11xl,160px)]"
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type base font family",
+    "figmaValue": "'TTCommons', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+    "token": "@base-font-family",
+    "lessSnippet": "font-family: @base-font-family;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body md font size",
+    "figmaValue": "16px (1rem)",
+    "token": "@body-md-font-size",
+    "lessSnippet": "font-size: @body-md-font-size;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body md font weight",
+    "figmaValue": "500",
+    "token": "@body-md-font-weight",
+    "lessSnippet": "font-weight: @body-md-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body md font weight emphasis",
+    "figmaValue": "600",
+    "token": "@body-md-font-weight-emphasis",
+    "lessSnippet": "font-weight: @body-md-font-weight-emphasis;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body md line height",
+    "figmaValue": "24px (1.5rem)",
+    "token": "@body-md-line-height",
+    "lessSnippet": "line-height: @body-md-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body sm font size",
+    "figmaValue": "14px (0.875rem)",
+    "token": "@body-sm-font-size",
+    "lessSnippet": "font-size: @body-sm-font-size;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body sm font weight",
+    "figmaValue": "500",
+    "token": "@body-sm-font-weight",
+    "lessSnippet": "font-weight: @body-sm-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body sm font weight emphasis",
+    "figmaValue": "600",
+    "token": "@body-sm-font-weight-emphasis",
+    "lessSnippet": "font-weight: @body-sm-font-weight-emphasis;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body sm line height",
+    "figmaValue": "22px (1.375rem)",
+    "token": "@body-sm-line-height",
+    "lessSnippet": "line-height: @body-sm-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body xs font size",
+    "figmaValue": "12px (0.75rem)",
+    "token": "@body-xs-font-size",
+    "lessSnippet": "font-size: @body-xs-font-size;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body xs font weight",
+    "figmaValue": "500",
+    "token": "@body-xs-font-weight",
+    "lessSnippet": "font-weight: @body-xs-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body xs font weight emphasis",
+    "figmaValue": "600",
+    "token": "@body-xs-font-weight-emphasis",
+    "lessSnippet": "font-weight: @body-xs-font-weight-emphasis;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type body xs line height",
+    "figmaValue": "20px (1.25rem)",
+    "token": "@body-xs-line-height",
+    "lessSnippet": "line-height: @body-xs-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading lg font size",
+    "figmaValue": "32px (2rem)",
+    "token": "@heading-lg-font-size",
+    "lessSnippet": "font-size: @heading-lg-font-size;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading lg font weight",
+    "figmaValue": "600",
+    "token": "@heading-lg-font-weight",
+    "lessSnippet": "font-weight: @heading-lg-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading lg line height",
+    "figmaValue": "40px (2.5rem)",
+    "token": "@heading-lg-line-height",
+    "lessSnippet": "line-height: @heading-lg-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading md font size",
+    "figmaValue": "24px (1.5rem)",
+    "token": "@heading-md-font-size",
+    "lessSnippet": "font-size: @heading-md-font-size;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading md font weight",
+    "figmaValue": "600",
+    "token": "@heading-md-font-weight",
+    "lessSnippet": "font-weight: @heading-md-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading md line height",
+    "figmaValue": "32px (2rem)",
+    "token": "@heading-md-line-height",
+    "lessSnippet": "line-height: @heading-md-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading sm font size",
+    "figmaValue": "20px (1.25rem)",
+    "token": "@heading-sm-font-size",
+    "lessSnippet": "font-size: @heading-sm-font-size;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading sm font weight",
+    "figmaValue": "600",
+    "token": "@heading-sm-font-weight",
+    "lessSnippet": "font-weight: @heading-sm-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading sm line height",
+    "figmaValue": "28px (1.75rem)",
+    "token": "@heading-sm-line-height",
+    "lessSnippet": "line-height: @heading-sm-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading xs font size",
+    "figmaValue": "16px (1rem)",
+    "token": "@heading-xs-font-size",
+    "lessSnippet": "font-size: @heading-xs-font-size;",
+    "notes": "Source value missing unit; treated as rem.",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading xs font weight",
+    "figmaValue": "600",
+    "token": "@heading-xs-font-weight",
+    "lessSnippet": "font-weight: @heading-xs-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type heading xs line height",
+    "figmaValue": "24px (1.5rem)",
+    "token": "@heading-xs-line-height",
+    "lessSnippet": "line-height: @heading-xs-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type label sm font size",
+    "figmaValue": "10px (0.625rem)",
+    "token": "@label-sm-font-size",
+    "lessSnippet": "font-size: @label-sm-font-size;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type label sm font weight",
+    "figmaValue": "500",
+    "token": "@label-sm-font-weight",
+    "lessSnippet": "font-weight: @label-sm-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type label sm font weight emphasis",
+    "figmaValue": "600",
+    "token": "@label-sm-font-weight-emphasis",
+    "lessSnippet": "font-weight: @label-sm-font-weight-emphasis;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type label sm line height",
+    "figmaValue": "14px (0.875rem)",
+    "token": "@label-sm-line-height",
+    "lessSnippet": "line-height: @label-sm-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type label xs font size",
+    "figmaValue": "8px (0.5rem)",
+    "token": "@label-xs-font-size",
+    "lessSnippet": "font-size: @label-xs-font-size;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type label xs font weight",
+    "figmaValue": "500",
+    "token": "@label-xs-font-weight",
+    "lessSnippet": "font-weight: @label-xs-font-weight;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type label xs font weight emphasis",
+    "figmaValue": "600",
+    "token": "@label-xs-font-weight-emphasis",
+    "lessSnippet": "font-weight: @label-xs-font-weight-emphasis;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type label xs line height",
+    "figmaValue": "12px (0.75rem)",
+    "token": "@label-xs-line-height",
+    "lessSnippet": "line-height: @label-xs-line-height;",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style body md emphasis",
+    "figmaValue": "font-size 16px / line-height 24px / weight 600",
+    "token": ".body-md-emphasis",
+    "lessSnippet": ".body-md-emphasis();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style body md regular",
+    "figmaValue": "font-size 16px / line-height 24px / weight 500",
+    "token": ".body-md",
+    "lessSnippet": ".body-md();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style body sm emphasis",
+    "figmaValue": "font-size 14px / line-height 22px / weight 600",
+    "token": ".body-sm-emphasis",
+    "lessSnippet": ".body-sm-emphasis();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style body sm regular",
+    "figmaValue": "font-size 14px / line-height 22px / weight 500",
+    "token": ".body-sm",
+    "lessSnippet": ".body-sm();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style body xs emphasis",
+    "figmaValue": "font-size 12px / line-height 20px / weight 600",
+    "token": ".body-xs-emphasis",
+    "lessSnippet": ".body-xs-emphasis();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style body xs regular",
+    "figmaValue": "font-size 12px / line-height 20px / weight 500",
+    "token": ".body-xs",
+    "lessSnippet": ".body-xs();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style heading lg",
+    "figmaValue": "font-size 32px / line-height 40px / weight 600",
+    "token": ".heading-lg",
+    "lessSnippet": ".heading-lg();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style heading md",
+    "figmaValue": "font-size 24px / line-height 32px / weight 600",
+    "token": ".heading-md",
+    "lessSnippet": ".heading-md();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style heading sm",
+    "figmaValue": "font-size 20px / line-height 28px / weight 600",
+    "token": ".heading-sm",
+    "lessSnippet": ".heading-sm();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style heading xs",
+    "figmaValue": "font-size 16px / line-height 24px / weight 600",
+    "token": ".heading-xs",
+    "lessSnippet": ".heading-xs();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style label sm emphasis",
+    "figmaValue": "font-size 10px / line-height 14px / weight 600",
+    "token": ".label-sm-emphasis",
+    "lessSnippet": ".label-sm-emphasis();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style label sm regular",
+    "figmaValue": "font-size 10px / line-height 14px / weight 500",
+    "token": ".label-sm",
+    "lessSnippet": ".label-sm();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style label xs emphasis",
+    "figmaValue": "font-size 8px / line-height 12px / weight 600",
+    "token": ".label-xs-emphasis",
+    "lessSnippet": ".label-xs-emphasis();",
+    "notes": "",
+    "tailwindSource": ""
+  },
+  {
+    "category": "typography",
+    "sourceDescriptor": "Figma type style label xs regular",
+    "figmaValue": "font-size 8px / line-height 12px / weight 500",
+    "token": ".label-xs",
+    "lessSnippet": ".label-xs();",
+    "notes": "",
+    "tailwindSource": ""
+  }
+]

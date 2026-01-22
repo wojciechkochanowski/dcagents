@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "defaultLanguage": "en",
+    "supportedLanguages": [
+      "en",
+      "pl",
+      "de"
+    ],
+    "description": "Translation keys referenced across clean-start fixtures"
+  },
+  "keys": [
+    {
+      "id": "calendar.events.baseline.title",
+      "default": "Baseline Visit",
+      "modules": [
+        "calendar"
+      ],
+      "used_in": [
+        "tmp/clean-start-170_calendar.json"
+      ]
+    },
+    {
+      "id": "calendar.events.followup.title",
+      "default": "Follow-up",
+      "modules": [
+        "calendar"
+      ],
+      "used_in": [
+        "tmp/clean-start-170_calendar.json"
+      ]
+    },
+    {
+      "id": "ecrf.sections.demographics",
+      "default": "Demographics",
+      "modules": [
+        "ecrf"
+      ],
+      "used_in": [
+        "tmp/clean-start-100_ecrf_design.json"
+      ]
+    },
+    {
+      "id": "epro.qol.fatigue.label",
+      "default": "Overall fatigue",
+      "modules": [
+        "epro"
+      ],
+      "used_in": [
+        "tmp/clean-start-150_epro.json"
+      ]
+    },
+    {
+      "id": "epro.medication.question",
+      "default": "Did you take your medication?",
+      "modules": [
+        "epro"
+      ],
+      "used_in": [
+        "tmp/clean-start-150_epro.json"
+      ]
+    },
+    {
+      "id": "econsent.signature.acknowledgement",
+      "default": "By signing you confirm you have read and understood the consent document.",
+      "modules": [
+        "econsent"
+      ],
+      "used_in": [
+        "tmp/clean-start-160_econsent.json"
+      ]
+    },
+    {
+      "id": "payments.status.error.missing_swift",
+      "default": "Missing SWIFT code",
+      "modules": [
+        "payments"
+      ],
+      "used_in": [
+        "tmp/clean-start-180_payments.json"
+      ]
+    },
+    {
+      "id": "randomization.alert.emergency_unblind",
+      "default": "Emergency unblinding performed",
+      "modules": [
+        "randomization"
+      ],
+      "used_in": [
+        "tmp/clean-start-120_randomisation.json"
+      ]
+    },
+    {
+      "id": "recruitment.status.qualified",
+      "default": "Qualified for screening",
+      "modules": [
+        "recruitment"
+      ],
+      "used_in": [
+        "tmp/clean-start-230_recruitment.json"
+      ]
+    },
+    {
+      "id": "notifications.toast.epro_sent",
+      "default": "ePRO questionnaire sent",
+      "modules": [
+        "notifications"
+      ],
+      "used_in": [
+        "tmp/clean-start-200_notifications.json"
+      ]
+    }
+  ]
+}

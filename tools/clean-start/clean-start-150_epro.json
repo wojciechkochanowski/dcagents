@@ -1,0 +1,2148 @@
+[
+  {
+    "model": "epro.epro",
+    "pk": 2501,
+    "fields": {
+      "uuid": "a8d6e848-6950-5a1a-bfa9-1afedc13e768",
+      "order": 1,
+      "epro_name": "Quality of Life Weekly",
+      "survey_name": "Weekly Quality of Life",
+      "study": 2001,
+      "date_added": "2025-02-01T09:00:00Z",
+      "status": "PUBLISHED",
+      "date_published": "2025-02-05T10:00:00Z",
+      "target_date": null,
+      "reminders": {
+        "mode": "AFTER_SENDING",
+        "schedule": [
+          2
+        ],
+        "type": "EMAIL"
+      },
+      "reminder_subject": "Reminder: complete weekly survey",
+      "reminder_message": "Please complete your weekly quality of life survey.",
+      "sms_reminder_active": true,
+      "sms_reminder_message": "Przypomnienie: wypełnij ankietę QoL",
+      "occurrences_planned": 6,
+      "occurrences_distance": "PT168H",
+      "occurrences_message_subject": "Weekly survey invitation",
+      "occurrences_message_body": "Hello {subjectid}, please complete {surveyname}.",
+      "qr_on": true,
+      "qr_email_required": true,
+      "qr_landing_title": "Quality of Life",
+      "qr_landing_description": "Please complete the weekly questionnaire.",
+      "copyright": "© Clean Start Demo",
+      "copyright_enabled": true
+    }
+  },
+  {
+    "model": "epro.eproform",
+    "pk": 2601,
+    "fields": {
+      "epro": 2501,
+      "date_added": "2025-02-01T09:05:00Z"
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 2701,
+    "fields": {
+      "ecrf": null,
+      "epro_form": 2601,
+      "econsent": null,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Symptoms",
+      "order": 1,
+      "variable_prefix": "EPRO_SEC1",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 2702,
+    "fields": {
+      "ecrf": null,
+      "epro_form": 2601,
+      "econsent": null,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Daily Activities",
+      "order": 2,
+      "variable_prefix": "EPRO_SEC2",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2711,
+    "fields": {
+      "section": 2701,
+      "domain": "",
+      "name": "Symptoms Overview",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2712,
+    "fields": {
+      "section": 2701,
+      "domain": "",
+      "name": "Pain Details",
+      "order": 2,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2721,
+    "fields": {
+      "section": 2702,
+      "domain": "",
+      "name": "Mobility",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2722,
+    "fields": {
+      "section": 2702,
+      "domain": "",
+      "name": "Mood",
+      "order": 2,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28001,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2711,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "min": 0,
+        "max": 10
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28001,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2711,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "min": 0,
+        "max": 10
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028001",
+      "title": "Overall fatigue",
+      "description": "",
+      "description_image": null,
+      "type": "RATING",
+      "variable": "EPRO_Q1_FATIGUE",
+      "variable_full": "EPRO_SEC1_EPRO_Q1_FATIGUE",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28002,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2711,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "min": 0,
+        "max": 10,
+        "step": 1
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28002,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2711,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "min": 0,
+        "max": 10,
+        "step": 1
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028002",
+      "title": "Pain level",
+      "description": "",
+      "description_image": null,
+      "type": "SLIDER",
+      "variable": "EPRO_Q2_PAIN",
+      "variable_full": "EPRO_SEC1_EPRO_Q2_PAIN",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28003,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2711,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Describe location"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28003,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2711,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Describe location"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028003",
+      "title": "Pain location",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "EPRO_Q3_PAIN_LOCATION",
+      "variable_full": "EPRO_SEC1_EPRO_Q3_PAIN_LOCATION",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": 28501,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28004,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2712,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Throbbing",
+            "value": "throbbing",
+            "number_label": 1
+          },
+          {
+            "label": "Burning",
+            "value": "burning",
+            "number_label": 2
+          },
+          {
+            "label": "Shooting",
+            "value": "shooting",
+            "number_label": 3
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "number_label": 4
+          }
+        ],
+        "allowOther": true
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28004,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2712,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Throbbing",
+            "value": "throbbing",
+            "number_label": 1
+          },
+          {
+            "label": "Burning",
+            "value": "burning",
+            "number_label": 2
+          },
+          {
+            "label": "Shooting",
+            "value": "shooting",
+            "number_label": 3
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "number_label": 4
+          }
+        ],
+        "allowOther": true
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028004",
+      "title": "Pain descriptors",
+      "description": "",
+      "description_image": null,
+      "type": "CHECK",
+      "variable": "EPRO_Q4_PAIN_DESC",
+      "variable_full": "EPRO_SEC1_EPRO_Q4_PAIN_DESC",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28005,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2712,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Provide details"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28005,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2712,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Provide details"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028005",
+      "title": "Other pain descriptor",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "EPRO_Q5_PAIN_OTHER",
+      "variable_full": "EPRO_SEC1_EPRO_Q5_PAIN_OTHER",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28006,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2712,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "number_label": 1
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "number_label": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28006,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2712,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "number_label": 1
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "number_label": 2
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028006",
+      "title": "Pain medication taken",
+      "description": "",
+      "description_image": null,
+      "type": "RADIO",
+      "variable": "EPRO_Q6_PAIN_MED",
+      "variable_full": "EPRO_SEC1_EPRO_Q6_PAIN_MED",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28007,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2712,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Name of medication"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28007,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2712,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Name of medication"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028007",
+      "title": "Medication name",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "EPRO_Q7_PAIN_MED_NAME",
+      "variable_full": "EPRO_SEC1_EPRO_Q7_PAIN_MED_NAME",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28008,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2721,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Unaided",
+            "value": "unaided",
+            "number_label": 1
+          },
+          {
+            "label": "With aid",
+            "value": "aid",
+            "number_label": 2
+          },
+          {
+            "label": "Unable",
+            "value": "unable",
+            "number_label": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28008,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2721,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Unaided",
+            "value": "unaided",
+            "number_label": 1
+          },
+          {
+            "label": "With aid",
+            "value": "aid",
+            "number_label": 2
+          },
+          {
+            "label": "Unable",
+            "value": "unable",
+            "number_label": 3
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028008",
+      "title": "Mobility level",
+      "description": "",
+      "description_image": null,
+      "type": "RADIO",
+      "variable": "EPRO_Q8_MOBILITY",
+      "variable_full": "EPRO_SEC2_EPRO_Q8_MOBILITY",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28009,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2721,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Describe challenges"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28009,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2721,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Describe challenges"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028009",
+      "title": "Mobility comments",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "EPRO_Q9_MOBILITY_COMMENT",
+      "variable_full": "EPRO_SEC2_EPRO_Q9_MOBILITY_COMMENT",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28010,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2722,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "min": 1,
+        "max": 5
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28010,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2722,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "min": 1,
+        "max": 5
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028010",
+      "title": "Mood",
+      "description": "",
+      "description_image": null,
+      "type": "RATING",
+      "variable": "EPRO_Q10_MOOD",
+      "variable_full": "EPRO_SEC2_EPRO_Q10_MOOD",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28011,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2722,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Calm",
+            "value": "calm",
+            "number_label": 1
+          },
+          {
+            "label": "Anxious",
+            "value": "anxious",
+            "number_label": 2
+          },
+          {
+            "label": "Depressed",
+            "value": "depressed",
+            "number_label": 3
+          },
+          {
+            "label": "Energetic",
+            "value": "energetic",
+            "number_label": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28011,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2722,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Calm",
+            "value": "calm",
+            "number_label": 1
+          },
+          {
+            "label": "Anxious",
+            "value": "anxious",
+            "number_label": 2
+          },
+          {
+            "label": "Depressed",
+            "value": "depressed",
+            "number_label": 3
+          },
+          {
+            "label": "Energetic",
+            "value": "energetic",
+            "number_label": 4
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028011",
+      "title": "Mood descriptors",
+      "description": "",
+      "description_image": null,
+      "type": "CHECK",
+      "variable": "EPRO_Q11_MOOD_DESC",
+      "variable_full": "EPRO_SEC2_EPRO_Q11_MOOD_DESC",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28012,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2722,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Any other feedback"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28012,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2722,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Any other feedback"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028012",
+      "title": "Additional notes",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "EPRO_Q12_NOTES",
+      "variable_full": "EPRO_SEC2_EPRO_Q12_NOTES",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "epro.epro",
+    "pk": 2502,
+    "fields": {
+      "uuid": "601fe918-672f-5f59-bf98-56c571e87e2e",
+      "order": 2,
+      "epro_name": "Medication Adherence",
+      "survey_name": "Medication Adherence Check",
+      "study": 2001,
+      "date_added": "2025-02-10T09:00:00Z",
+      "status": "PUBLISHED",
+      "date_published": "2025-02-12T08:00:00Z",
+      "target_date": null,
+      "reminders": null,
+      "reminder_subject": null,
+      "reminder_message": null,
+      "sms_reminder_active": false,
+      "sms_reminder_message": null,
+      "occurrences_planned": 1,
+      "occurrences_distance": null,
+      "occurrences_message_subject": "Medication adherence check",
+      "occurrences_message_body": "Please confirm medication adherence.",
+      "qr_on": false,
+      "qr_email_required": true,
+      "qr_landing_title": "",
+      "qr_landing_description": "",
+      "copyright": "© Clean Start Demo",
+      "copyright_enabled": false
+    }
+  },
+  {
+    "model": "epro.eproform",
+    "pk": 2602,
+    "fields": {
+      "epro": 2502,
+      "date_added": "2025-02-10T09:05:00Z"
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 2703,
+    "fields": {
+      "ecrf": null,
+      "epro_form": 2602,
+      "econsent": null,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Medication",
+      "order": 1,
+      "variable_prefix": "EPRO_MED",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2713,
+    "fields": {
+      "section": 2703,
+      "domain": "",
+      "name": "Medication Intake",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28013,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2713,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "number_label": 1
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "number_label": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28013,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2713,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "number_label": 1
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "number_label": 2
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028013",
+      "title": "Did you take your medication?",
+      "description": "",
+      "description_image": null,
+      "type": "RADIO",
+      "variable": "EPRO_MED_Q1",
+      "variable_full": "EPRO_MED_EPRO_MED_Q1",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28014,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2713,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Explain why medication was skipped"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28014,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2713,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Explain why medication was skipped"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028014",
+      "title": "Reason for skipping",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "EPRO_MED_Q2",
+      "variable_full": "EPRO_MED_EPRO_MED_Q2",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 28015,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2713,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "accept": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "maxFiles": 2
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 28015,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2713,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "accept": [
+          "image/jpeg",
+          "image/png"
+        ],
+        "maxFiles": 2
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000028015",
+      "title": "Upload medication photo",
+      "description": "",
+      "description_image": null,
+      "type": "UPLOAD_FILES",
+      "variable": "EPRO_MED_Q3",
+      "variable_full": "EPRO_MED_EPRO_MED_Q3",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.conditionallogic",
+    "pk": 28501,
+    "fields": {
+      "join_operator": "AND",
+      "action": "SHOW",
+      "prefilled_value": null,
+      "shown_records": []
+    }
+  },
+  {
+    "model": "ecrf.conditionallogiccondition",
+    "pk": 28511,
+    "fields": {
+      "conditional_logic": 28501,
+      "validation_rule": null,
+      "reference_question": 28002,
+      "operator": "GREATER",
+      "order": 1,
+      "answer_value": {
+        "value": 3
+      }
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2901,
+    "fields": {
+      "epro": 2501,
+      "subject_in_study": 2411,
+      "occurrence_no": 1,
+      "investigator": null,
+      "status": "SENT",
+      "start_date": "2025-02-05T10:05:00Z",
+      "last_updated": "2025-02-05T10:05:00Z",
+      "token": "token-2501-001-001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": true,
+      "last_reminder_sent_date": "2025-02-07T10:00:00Z",
+      "invitation_button_content": null,
+      "first_answer": "2025-02-05T10:30:00Z",
+      "completion_date": "2025-02-05T10:45:00Z",
+      "source": "AUTOMATION"
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2902,
+    "fields": {
+      "epro": 2501,
+      "subject_in_study": 2411,
+      "occurrence_no": 2,
+      "investigator": null,
+      "status": "COMPLETED",
+      "start_date": "2025-02-12T10:05:00Z",
+      "last_updated": "2025-02-13T09:20:00Z",
+      "token": "token-2501-001-002aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": true,
+      "last_reminder_sent_date": "2025-02-14T10:00:00Z",
+      "invitation_button_content": null,
+      "first_answer": "2025-02-13T08:30:00Z",
+      "completion_date": "2025-02-13T09:20:00Z",
+      "source": "AUTOMATION"
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2903,
+    "fields": {
+      "epro": 2501,
+      "subject_in_study": 2411,
+      "occurrence_no": 3,
+      "investigator": null,
+      "status": "SCHEDULED",
+      "start_date": "2025-02-19T10:05:00Z",
+      "last_updated": "2025-02-15T10:00:00Z",
+      "token": "token-2501-001-003aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": false,
+      "last_reminder_sent_date": null,
+      "invitation_button_content": null,
+      "first_answer": null,
+      "completion_date": null,
+      "source": "AUTOMATION"
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2904,
+    "fields": {
+      "epro": 2501,
+      "subject_in_study": 2412,
+      "occurrence_no": 1,
+      "investigator": null,
+      "status": "UNCOMPLETED",
+      "start_date": "2025-02-05T10:05:00Z",
+      "last_updated": "2025-02-07T11:00:00Z",
+      "token": "token-2501-002-001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": true,
+      "last_reminder_sent_date": "2025-02-08T10:00:00Z",
+      "invitation_button_content": null,
+      "first_answer": null,
+      "completion_date": null,
+      "source": "AUTOMATION"
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2905,
+    "fields": {
+      "epro": 2501,
+      "subject_in_study": 2412,
+      "occurrence_no": 2,
+      "investigator": null,
+      "status": "SCHEDULED",
+      "start_date": "2025-02-12T10:05:00Z",
+      "last_updated": "2025-02-10T08:00:00Z",
+      "token": "token-2501-002-002aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": false,
+      "last_reminder_sent_date": null,
+      "invitation_button_content": null,
+      "first_answer": null,
+      "completion_date": null,
+      "source": "AUTOMATION"
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2906,
+    "fields": {
+      "epro": 2501,
+      "subject_in_study": 2413,
+      "occurrence_no": 1,
+      "investigator": 2003,
+      "status": "SENT",
+      "start_date": "2025-02-06T09:00:00Z",
+      "last_updated": "2025-02-06T09:05:00Z",
+      "token": "token-2501-003-001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": true,
+      "last_reminder_sent_date": null,
+      "invitation_button_content": null,
+      "first_answer": "2025-02-06T09:30:00Z",
+      "completion_date": "2025-02-06T10:15:00Z",
+      "source": "MANUAL"
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2907,
+    "fields": {
+      "epro": 2501,
+      "subject_in_study": 2413,
+      "occurrence_no": 2,
+      "investigator": null,
+      "status": "SCHEDULED",
+      "start_date": "2025-02-13T09:00:00Z",
+      "last_updated": "2025-02-10T09:00:00Z",
+      "token": "token-2501-003-002aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": false,
+      "last_reminder_sent_date": null,
+      "invitation_button_content": null,
+      "first_answer": null,
+      "completion_date": null,
+      "source": "AUTOMATION"
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2951,
+    "fields": {
+      "epro": 2502,
+      "subject_in_study": 2411,
+      "occurrence_no": 1,
+      "investigator": 2002,
+      "status": "SENT",
+      "start_date": "2025-02-15T08:30:00Z",
+      "last_updated": "2025-02-15T08:45:00Z",
+      "token": "token-2502-001-001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": true,
+      "last_reminder_sent_date": null,
+      "invitation_button_content": null,
+      "first_answer": "2025-02-15T09:00:00Z",
+      "completion_date": null,
+      "source": "MANUAL"
+    }
+  },
+  {
+    "model": "epro.eprorecord",
+    "pk": 2952,
+    "fields": {
+      "epro": 2502,
+      "subject_in_study": 2412,
+      "occurrence_no": 1,
+      "investigator": 2002,
+      "status": "UNCOMPLETED",
+      "start_date": "2025-02-16T08:30:00Z",
+      "last_updated": "2025-02-20T08:30:00Z",
+      "token": "token-2502-002-001aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "invitation_sent": true,
+      "last_reminder_sent_date": "2025-02-18T08:00:00Z",
+      "invitation_button_content": null,
+      "first_answer": null,
+      "completion_date": null,
+      "source": "MANUAL"
+    }
+  },
+  {
+    "model": "epro.eprosentreminder",
+    "pk": 2960,
+    "fields": {
+      "email_subject": "Reminder: complete weekly survey",
+      "email_body": "Please complete your weekly quality of life survey.",
+      "reminder_data": {
+        "mode": "AFTER_SENDING",
+        "offset_days": 2
+      },
+      "date_sent": "2025-02-08T10:00:00Z",
+      "sent_records": [
+        2904
+      ],
+      "failed_records": [],
+      "epro": 2501
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28512,
+    "fields": {
+      "question": 28001,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 6
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28513,
+    "fields": {
+      "question": 28002,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 4
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28514,
+    "fields": {
+      "question": 28003,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Lower back"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28515,
+    "fields": {
+      "question": 28004,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "throbbing",
+            "other"
+          ],
+          "other": "Pulsating"
+        }
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28516,
+    "fields": {
+      "question": 28005,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28517,
+    "fields": {
+      "question": 28006,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "yes"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28518,
+    "fields": {
+      "question": 28007,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Ibuprofen 400mg"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28519,
+    "fields": {
+      "question": 28008,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "aid"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28520,
+    "fields": {
+      "question": 28009,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Using cane outside"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28521,
+    "fields": {
+      "question": 28010,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 3
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28522,
+    "fields": {
+      "question": 28011,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "calm",
+            "energetic"
+          ]
+        }
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28523,
+    "fields": {
+      "question": 28012,
+      "inclusion": null,
+      "epro_record": 2901,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Feeling better than last week"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28524,
+    "fields": {
+      "question": 28001,
+      "inclusion": null,
+      "epro_record": 2902,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 5
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28525,
+    "fields": {
+      "question": 28002,
+      "inclusion": null,
+      "epro_record": 2902,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 3
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28526,
+    "fields": {
+      "question": 28006,
+      "inclusion": null,
+      "epro_record": 2902,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "no"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28527,
+    "fields": {
+      "question": 28008,
+      "inclusion": null,
+      "epro_record": 2902,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "unaided"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28528,
+    "fields": {
+      "question": 28010,
+      "inclusion": null,
+      "epro_record": 2902,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 4
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28529,
+    "fields": {
+      "question": 28011,
+      "inclusion": null,
+      "epro_record": 2902,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "energetic"
+          ]
+        }
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28530,
+    "fields": {
+      "question": 28001,
+      "inclusion": null,
+      "epro_record": 2904,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 8
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28531,
+    "fields": {
+      "question": 28002,
+      "inclusion": null,
+      "epro_record": 2904,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 7
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28532,
+    "fields": {
+      "question": 28006,
+      "inclusion": null,
+      "epro_record": 2904,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "yes"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28533,
+    "fields": {
+      "question": 28007,
+      "inclusion": null,
+      "epro_record": 2904,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Paracetamol 500mg"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28534,
+    "fields": {
+      "question": 28001,
+      "inclusion": null,
+      "epro_record": 2906,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 4
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28535,
+    "fields": {
+      "question": 28002,
+      "inclusion": null,
+      "epro_record": 2906,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 2
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28536,
+    "fields": {
+      "question": 28008,
+      "inclusion": null,
+      "epro_record": 2906,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "unaided"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28537,
+    "fields": {
+      "question": 28010,
+      "inclusion": null,
+      "epro_record": 2906,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 5
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28538,
+    "fields": {
+      "question": 28011,
+      "inclusion": null,
+      "epro_record": 2906,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "calm"
+          ]
+        }
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28539,
+    "fields": {
+      "question": 28013,
+      "inclusion": null,
+      "epro_record": 2951,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "yes"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28540,
+    "fields": {
+      "question": 28014,
+      "inclusion": null,
+      "epro_record": 2951,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28541,
+    "fields": {
+      "question": 28015,
+      "inclusion": null,
+      "epro_record": 2951,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": [
+          {
+            "name": "pillbox.jpg",
+            "size": 512000,
+            "type": "image/jpeg"
+          }
+        ]
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28542,
+    "fields": {
+      "question": 28013,
+      "inclusion": null,
+      "epro_record": 2952,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "no"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 28543,
+    "fields": {
+      "question": 28014,
+      "inclusion": null,
+      "epro_record": 2952,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Felt nauseous in morning"
+      },
+      "created_at": "2025-02-05T10:30:00Z",
+      "last_updated": "2025-02-05T10:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  }
+]

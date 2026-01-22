@@ -1,0 +1,3740 @@
+[
+  {
+    "model": "ecrf.subject",
+    "pk": 2401,
+    "fields": {
+      "datacapt_id": "CYP-001",
+      "is_external_id": false,
+      "status": "IN_PROGRESS",
+      "survey_status": "UNCOMPLETED",
+      "account": null,
+      "account_invitation": null,
+      "main_center": 2101,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "subject1@patients.test",
+      "phone": "+48 123 456 789",
+      "language": "en",
+      "photo": null,
+      "photo_thumbnail": null,
+      "creation_date": "2025-02-01T08:00:00Z",
+      "last_activity_date": null,
+      "consent_date": null,
+      "inactive_date": null,
+      "pending_date": null,
+      "account_deletion_request_date": null,
+      "deleted_in_repository": null,
+      "country_code": null,
+      "swift": null,
+      "account_number": null,
+      "account_beneficiary": null
+    }
+  },
+  {
+    "model": "ecrf.subject",
+    "pk": 2402,
+    "fields": {
+      "datacapt_id": "CYP-002",
+      "is_external_id": false,
+      "status": "IN_PROGRESS",
+      "survey_status": "UNCOMPLETED",
+      "account": null,
+      "account_invitation": null,
+      "main_center": 2101,
+      "first_name": "Anna",
+      "last_name": "Nowak",
+      "email": "subject2@patients.test",
+      "phone": "+48 123 456 789",
+      "language": "en",
+      "photo": null,
+      "photo_thumbnail": null,
+      "creation_date": "2025-02-01T08:00:00Z",
+      "last_activity_date": null,
+      "consent_date": null,
+      "inactive_date": null,
+      "pending_date": null,
+      "account_deletion_request_date": null,
+      "deleted_in_repository": null,
+      "country_code": null,
+      "swift": null,
+      "account_number": null,
+      "account_beneficiary": null
+    }
+  },
+  {
+    "model": "ecrf.subject",
+    "pk": 2403,
+    "fields": {
+      "datacapt_id": "CYP-003",
+      "is_external_id": false,
+      "status": "IN_PROGRESS",
+      "survey_status": "UNCOMPLETED",
+      "account": null,
+      "account_invitation": null,
+      "main_center": 2102,
+      "first_name": "Maria",
+      "last_name": "Schmidt",
+      "email": "subject3@patients.test",
+      "phone": "+48 123 456 789",
+      "language": "en",
+      "photo": null,
+      "photo_thumbnail": null,
+      "creation_date": "2025-02-01T08:00:00Z",
+      "last_activity_date": null,
+      "consent_date": null,
+      "inactive_date": null,
+      "pending_date": null,
+      "account_deletion_request_date": null,
+      "deleted_in_repository": null,
+      "country_code": null,
+      "swift": null,
+      "account_number": null,
+      "account_beneficiary": null
+    }
+  },
+  {
+    "model": "ecrf.subject",
+    "pk": 2404,
+    "fields": {
+      "datacapt_id": "CYP-004",
+      "is_external_id": false,
+      "status": "IN_PROGRESS",
+      "survey_status": "UNCOMPLETED",
+      "account": null,
+      "account_invitation": null,
+      "main_center": 2102,
+      "first_name": "Mark",
+      "last_name": "Weber",
+      "email": "subject4@patients.test",
+      "phone": "+48 123 456 789",
+      "language": "en",
+      "photo": null,
+      "photo_thumbnail": null,
+      "creation_date": "2025-02-01T08:00:00Z",
+      "last_activity_date": null,
+      "consent_date": null,
+      "inactive_date": null,
+      "pending_date": null,
+      "account_deletion_request_date": null,
+      "deleted_in_repository": null,
+      "country_code": null,
+      "swift": null,
+      "account_number": null,
+      "account_beneficiary": null
+    }
+  },
+  {
+    "model": "ecrf.subjectinstudy",
+    "pk": 2411,
+    "fields": {
+      "subject": 2401,
+      "study": 2001,
+      "study_center": 2101,
+      "inclusion": 2421,
+      "subject_id_field": "CYP-001",
+      "randomisation_id": null,
+      "randomisation_info": null,
+      "randomisation_kit": null,
+      "randomisation_slot": null,
+      "randomisation_group": null,
+      "randomisation_user": null,
+      "randomisation_date": null,
+      "randomisation_stratum": null,
+      "randomisation_stratum_no": null,
+      "participant_status": null,
+      "reason_for_excluding": null
+    }
+  },
+  {
+    "model": "ecrf.subjectinstudy",
+    "pk": 2412,
+    "fields": {
+      "subject": 2402,
+      "study": 2001,
+      "study_center": 2101,
+      "inclusion": 2422,
+      "subject_id_field": "CYP-002",
+      "randomisation_id": null,
+      "randomisation_info": null,
+      "randomisation_kit": null,
+      "randomisation_slot": null,
+      "randomisation_group": null,
+      "randomisation_user": null,
+      "randomisation_date": null,
+      "randomisation_stratum": null,
+      "randomisation_stratum_no": null,
+      "participant_status": null,
+      "reason_for_excluding": null
+    }
+  },
+  {
+    "model": "ecrf.subjectinstudy",
+    "pk": 2413,
+    "fields": {
+      "subject": 2403,
+      "study": 2001,
+      "study_center": 2102,
+      "inclusion": 2423,
+      "subject_id_field": "CYP-003",
+      "randomisation_id": null,
+      "randomisation_info": null,
+      "randomisation_kit": null,
+      "randomisation_slot": null,
+      "randomisation_group": null,
+      "randomisation_user": null,
+      "randomisation_date": null,
+      "randomisation_stratum": null,
+      "randomisation_stratum_no": null,
+      "participant_status": null,
+      "reason_for_excluding": null
+    }
+  },
+  {
+    "model": "ecrf.subjectinstudy",
+    "pk": 2414,
+    "fields": {
+      "subject": 2404,
+      "study": 2001,
+      "study_center": 2102,
+      "inclusion": 2424,
+      "subject_id_field": "CYP-004",
+      "randomisation_id": null,
+      "randomisation_info": null,
+      "randomisation_kit": null,
+      "randomisation_slot": null,
+      "randomisation_group": null,
+      "randomisation_user": null,
+      "randomisation_date": null,
+      "randomisation_stratum": null,
+      "randomisation_stratum_no": null,
+      "participant_status": null,
+      "reason_for_excluding": null
+    }
+  },
+  {
+    "model": "ecrf.inclusion",
+    "pk": 2421,
+    "fields": {
+      "investigator": 2003,
+      "start_date": "2025-02-01T09:00:00Z",
+      "last_updated": "2025-02-24T09:00:00Z",
+      "status": "IN_PROGRESS",
+      "exclusion_reason": "",
+      "safedelete_subject_in_study": null,
+      "last_updated_by": 2003,
+      "_progress": 55,
+      "_progress_dirty": false
+    }
+  },
+  {
+    "model": "ecrf.inclusion",
+    "pk": 2422,
+    "fields": {
+      "investigator": 2003,
+      "start_date": "2025-02-01T09:00:00Z",
+      "last_updated": "2025-02-24T09:00:00Z",
+      "status": "EXCLUDED",
+      "exclusion_reason": "SCREEN_FAIL_BP",
+      "safedelete_subject_in_study": null,
+      "last_updated_by": 2003,
+      "_progress": 20,
+      "_progress_dirty": false
+    }
+  },
+  {
+    "model": "ecrf.inclusion",
+    "pk": 2423,
+    "fields": {
+      "investigator": 2004,
+      "start_date": "2025-02-01T09:00:00Z",
+      "last_updated": "2025-02-24T09:00:00Z",
+      "status": "IN_PROGRESS",
+      "exclusion_reason": "",
+      "safedelete_subject_in_study": null,
+      "last_updated_by": 2004,
+      "_progress": 55,
+      "_progress_dirty": false
+    }
+  },
+  {
+    "model": "ecrf.inclusion",
+    "pk": 2424,
+    "fields": {
+      "investigator": 2004,
+      "start_date": "2025-02-01T09:00:00Z",
+      "last_updated": "2025-02-24T09:00:00Z",
+      "status": "IN_PROGRESS",
+      "exclusion_reason": "",
+      "safedelete_subject_in_study": null,
+      "last_updated_by": 2004,
+      "_progress": 55,
+      "_progress_dirty": false
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2431,
+    "fields": {
+      "number": 1,
+      "inclusion": 2421,
+      "repeated_measure": 2401,
+      "row": null
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2432,
+    "fields": {
+      "number": 2,
+      "inclusion": 2421,
+      "repeated_measure": 2401,
+      "row": null
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2441,
+    "fields": {
+      "number": 1,
+      "inclusion": 2421,
+      "repeated_measure": 2402,
+      "row": 2501
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2442,
+    "fields": {
+      "number": 2,
+      "inclusion": 2421,
+      "repeated_measure": 2402,
+      "row": 2502
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2443,
+    "fields": {
+      "number": 3,
+      "inclusion": 2421,
+      "repeated_measure": 2402,
+      "row": 2503
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2444,
+    "fields": {
+      "number": 4,
+      "inclusion": 2421,
+      "repeated_measure": 2402,
+      "row": 2504
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2433,
+    "fields": {
+      "number": 1,
+      "inclusion": 2422,
+      "repeated_measure": 2401,
+      "row": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3001,
+    "fields": {
+      "question": 23001,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "JD"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3002,
+    "fields": {
+      "question": 23002,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "1985-06-12"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3003,
+    "fields": {
+      "question": 23003,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "male"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3004,
+    "fields": {
+      "question": 23004,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "poland"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3005,
+    "fields": {
+      "question": 23005,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "inclusion_a",
+            "other"
+          ],
+          "other": "Cardiology consult"
+        }
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3006,
+    "fields": {
+      "question": 23006,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Requires cardiology follow-up"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3007,
+    "fields": {
+      "question": 23007,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 24.6
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3008,
+    "fields": {
+      "question": 23008,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "eligible"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3009,
+    "fields": {
+      "question": 23009,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3010,
+    "fields": {
+      "question": 23010,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": [
+          {
+            "name": "screening.pdf",
+            "size": 102400,
+            "type": "application/pdf"
+          }
+        ]
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3011,
+    "fields": {
+      "question": 23011,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 118
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2431,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:00:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3012,
+    "fields": {
+      "question": 23012,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 76
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2431,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:00:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3013,
+    "fields": {
+      "question": 23013,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 72
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2431,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:00:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3014,
+    "fields": {
+      "question": 23014,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 3
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2431,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3015,
+    "fields": {
+      "question": 23015,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2431,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3016,
+    "fields": {
+      "question": 23011,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 182
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": [
+        {
+          "message_type": "WARNING",
+          "message": "High systolic",
+          "question_id": 23011
+        }
+      ],
+      "single_measure": 2432,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:10:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3017,
+    "fields": {
+      "question": 23012,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 112
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2432,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3018,
+    "fields": {
+      "question": 23013,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": null
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2432,
+      "is_prefilled": false,
+      "missing_reason_type": "ND",
+      "missing_reason": "Device failure",
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3019,
+    "fields": {
+      "question": 23014,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 8
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2432,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3020,
+    "fields": {
+      "question": 23015,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Severe headache reported"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2432,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3021,
+    "fields": {
+      "question": 23016,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Hemoglobin"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2441,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:15:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3022,
+    "fields": {
+      "question": 23017,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 13.2
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2441,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:15:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3023,
+    "fields": {
+      "question": 23018,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "g/dL"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2441,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:15:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3024,
+    "fields": {
+      "question": 23019,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "12-16"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2441,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:15:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3025,
+    "fields": {
+      "question": 23020,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "normal"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2441,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-05T11:15:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3026,
+    "fields": {
+      "question": 23021,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2441,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3027,
+    "fields": {
+      "question": 23016,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "ALT"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2442,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3028,
+    "fields": {
+      "question": 23017,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 220
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": [
+        {
+          "message_type": "EXCLUSION",
+          "message": "ALT value exceeds safety threshold",
+          "question_id": 23017
+        }
+      ],
+      "single_measure": 2442,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3029,
+    "fields": {
+      "question": 23018,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "U/L"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2442,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3030,
+    "fields": {
+      "question": 23019,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "0-55"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2442,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3031,
+    "fields": {
+      "question": 23020,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "high"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2442,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3032,
+    "fields": {
+      "question": 23021,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Monitor liver enzymes"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2442,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3033,
+    "fields": {
+      "question": 23016,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Creatinine"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2443,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3034,
+    "fields": {
+      "question": 23017,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 0.9
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2443,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3035,
+    "fields": {
+      "question": 23018,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "mg/dL"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2443,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3036,
+    "fields": {
+      "question": 23019,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "0.5-1.1"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2443,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3037,
+    "fields": {
+      "question": 23020,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "normal"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2443,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3038,
+    "fields": {
+      "question": 23021,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2443,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3039,
+    "fields": {
+      "question": 23016,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "CRP"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2444,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3040,
+    "fields": {
+      "question": 23017,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 16.5
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2444,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3041,
+    "fields": {
+      "question": 23018,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "mg/L"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2444,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3042,
+    "fields": {
+      "question": 23019,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "0-5"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2444,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3043,
+    "fields": {
+      "question": 23020,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "high"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2444,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3044,
+    "fields": {
+      "question": 23021,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Follow-up query raised"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2444,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3045,
+    "fields": {
+      "question": 23022,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Headache with photophobia"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3046,
+    "fields": {
+      "question": 23023,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "2025-02-22"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3047,
+    "fields": {
+      "question": 23024,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "2025-02-24"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3048,
+    "fields": {
+      "question": 23025,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "moderate"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3049,
+    "fields": {
+      "question": 23026,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "yes"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3050,
+    "fields": {
+      "question": 23027,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Hospital observation overnight"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3051,
+    "fields": {
+      "question": 23028,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "ongoing"
+          ]
+        }
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3052,
+    "fields": {
+      "question": 23029,
+      "inclusion": 2421,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "probable"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3053,
+    "fields": {
+      "question": 23001,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "AN"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3054,
+    "fields": {
+      "question": 23002,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "1980-03-18"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3055,
+    "fields": {
+      "question": 23003,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "female"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3056,
+    "fields": {
+      "question": 23004,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "germany"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3057,
+    "fields": {
+      "question": 23005,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "inclusion_a"
+          ]
+        }
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3058,
+    "fields": {
+      "question": 23008,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "not_eligible"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-12T10:20:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3059,
+    "fields": {
+      "question": 23009,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Hypertension stage 3"
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-12T10:20:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3060,
+    "fields": {
+      "question": 23011,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 190
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": [
+        {
+          "message_type": "WARNING",
+          "message": "High systolic",
+          "question_id": 23011
+        }
+      ],
+      "single_measure": 2433,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-12T10:25:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3061,
+    "fields": {
+      "question": 23012,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 118
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2433,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": "2025-02-12T10:25:00Z",
+      "sdv_user": 2005
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3062,
+    "fields": {
+      "question": 23013,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 88
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2433,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3063,
+    "fields": {
+      "question": 23014,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 5
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2433,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3064,
+    "fields": {
+      "question": 23015,
+      "inclusion": 2422,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T09:30:00Z",
+      "last_updated": "2025-02-24T09:30:00Z",
+      "data_validation": null,
+      "single_measure": 2433,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.query",
+    "pk": 3201,
+    "fields": {
+      "inclusion": 2421,
+      "question": null,
+      "message": "Automatic warning: systolic blood pressure exceeds threshold",
+      "created_by": null,
+      "status": "OPEN",
+      "date_added": "2025-02-24T09:35:00Z",
+      "last_updated": "2025-02-24T09:35:00Z",
+      "single_measure": 2432,
+      "repeated_measure": null,
+      "type": "MEASURE_QUERY"
+    }
+  },
+  {
+    "model": "ecrf.query",
+    "pk": 3202,
+    "fields": {
+      "inclusion": 2421,
+      "question": null,
+      "message": "Automatic exclusion: ALT value exceeds safety threshold",
+      "created_by": null,
+      "status": "OPEN",
+      "date_added": "2025-02-24T09:36:00Z",
+      "last_updated": "2025-02-24T09:36:00Z",
+      "single_measure": 2442,
+      "repeated_measure": null,
+      "type": "MEASURE_QUERY"
+    }
+  },
+  {
+    "model": "ecrf.query",
+    "pk": 3203,
+    "fields": {
+      "inclusion": 2421,
+      "question": null,
+      "message": "Manual query: provide clinical interpretation for elevated CRP",
+      "created_by": 2005,
+      "status": "RESOLVED",
+      "date_added": "2025-02-24T10:00:00Z",
+      "last_updated": "2025-02-24T12:00:00Z",
+      "single_measure": 2444,
+      "repeated_measure": null,
+      "type": "MEASURE_QUERY"
+    }
+  },
+  {
+    "model": "ecrf.query",
+    "pk": 3204,
+    "fields": {
+      "inclusion": 2422,
+      "question": null,
+      "message": "Automatic warning: systolic blood pressure exceeds threshold",
+      "created_by": null,
+      "status": "OPEN",
+      "date_added": "2025-02-20T09:40:00Z",
+      "last_updated": "2025-02-20T09:40:00Z",
+      "single_measure": 2433,
+      "repeated_measure": null,
+      "type": "MEASURE_QUERY"
+    }
+  },
+  {
+    "model": "ecrf.queryreply",
+    "pk": 3301,
+    "fields": {
+      "query": 3203,
+      "message": "Investigator review: labs repeated and trending down",
+      "created_by": 2003,
+      "date_added": "2025-02-24T11:15:00Z"
+    }
+  },
+  {
+    "model": "ecrf.queryreply",
+    "pk": 3302,
+    "fields": {
+      "query": 3203,
+      "message": "Monitor acknowledgment: closing query",
+      "created_by": 2005,
+      "date_added": "2025-02-24T12:00:00Z"
+    }
+  },
+  {
+    "model": "ecrf.ecrfsignature",
+    "pk": 3401,
+    "fields": {
+      "inclusion": 2421,
+      "section": 2210,
+      "signed_by": 2003,
+      "signed_by_txt": "Dr. Alice Investigator",
+      "type": "SIGN",
+      "date_signed": "2025-02-24T12:30:00Z",
+      "uuid": "11111111-1111-1111-1111-000000000401"
+    }
+  },
+  {
+    "model": "ecrf.ecrfsignature",
+    "pk": 3402,
+    "fields": {
+      "inclusion": 2421,
+      "section": 2220,
+      "signed_by": 2003,
+      "signed_by_txt": "Dr. Alice Investigator",
+      "type": "SIGN",
+      "date_signed": "2025-02-24T12:40:00Z",
+      "uuid": "11111111-1111-1111-1111-000000000402"
+    }
+  },
+  {
+    "model": "ecrf.ecrflock",
+    "pk": 3501,
+    "fields": {
+      "inclusion": 2421,
+      "subsection": 2221,
+      "user": 2005,
+      "user_name": "Marta Monitor",
+      "date": "2025-02-24T13:00:00Z"
+    }
+  },
+  {
+    "model": "ecrf.ecrfreview",
+    "pk": 3601,
+    "fields": {
+      "inclusion": 2421,
+      "subsection": 2231,
+      "user": 2005,
+      "user_name": "Marta Monitor",
+      "date": "2025-02-24T13:15:00Z",
+      "unreview_date": null,
+      "unreview_user": null,
+      "uuid": "22222222-2222-2222-2222-000000000601"
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2434,
+    "fields": {
+      "number": 1,
+      "inclusion": 2423,
+      "repeated_measure": 2401,
+      "row": null
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2435,
+    "fields": {
+      "number": 2,
+      "inclusion": 2423,
+      "repeated_measure": 2401,
+      "row": null
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2445,
+    "fields": {
+      "number": 1,
+      "inclusion": 2423,
+      "repeated_measure": 2402,
+      "row": 2501
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2446,
+    "fields": {
+      "number": 2,
+      "inclusion": 2423,
+      "repeated_measure": 2402,
+      "row": 2502
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2447,
+    "fields": {
+      "number": 3,
+      "inclusion": 2423,
+      "repeated_measure": 2402,
+      "row": 2503
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2448,
+    "fields": {
+      "number": 4,
+      "inclusion": 2423,
+      "repeated_measure": 2402,
+      "row": 2504
+    }
+  },
+  {
+    "model": "ecrf.singlemeasure",
+    "pk": 2436,
+    "fields": {
+      "number": 1,
+      "inclusion": 2424,
+      "repeated_measure": 2401,
+      "row": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3602,
+    "fields": {
+      "question": 23001,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "MS"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3603,
+    "fields": {
+      "question": 23002,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "1990-09-05"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3604,
+    "fields": {
+      "question": 23003,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "female"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3605,
+    "fields": {
+      "question": 23004,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "germany"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3606,
+    "fields": {
+      "question": 23005,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "inclusion_a",
+            "inclusion_b"
+          ]
+        }
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3607,
+    "fields": {
+      "question": 23006,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3608,
+    "fields": {
+      "question": 23007,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 22.1
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3609,
+    "fields": {
+      "question": 23008,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "eligible"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3610,
+    "fields": {
+      "question": 23010,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": [
+          {
+            "name": "consent.pdf",
+            "size": 204800,
+            "type": "application/pdf"
+          }
+        ]
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3611,
+    "fields": {
+      "question": 23011,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 120
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2434,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3612,
+    "fields": {
+      "question": 23012,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 78
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2434,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3613,
+    "fields": {
+      "question": 23013,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 70
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2434,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3614,
+    "fields": {
+      "question": 23014,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 2
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2434,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3615,
+    "fields": {
+      "question": 23015,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2434,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3616,
+    "fields": {
+      "question": 23011,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 122
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2435,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3617,
+    "fields": {
+      "question": 23012,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 80
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2435,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3618,
+    "fields": {
+      "question": 23013,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 72
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2435,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3619,
+    "fields": {
+      "question": 23014,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 1
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2435,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3620,
+    "fields": {
+      "question": 23015,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2435,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3621,
+    "fields": {
+      "question": 23016,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Hemoglobin"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2445,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3622,
+    "fields": {
+      "question": 23017,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 13.5
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2445,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3623,
+    "fields": {
+      "question": 23018,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "g/dL"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2445,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3624,
+    "fields": {
+      "question": 23019,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "12-16"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2445,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3625,
+    "fields": {
+      "question": 23020,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "normal"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2445,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3626,
+    "fields": {
+      "question": 23016,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "ALT"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2446,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3627,
+    "fields": {
+      "question": 23017,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 45
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2446,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3628,
+    "fields": {
+      "question": 23018,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "U/L"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2446,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3629,
+    "fields": {
+      "question": 23019,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "0-55"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2446,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3630,
+    "fields": {
+      "question": 23020,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "normal"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2446,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3631,
+    "fields": {
+      "question": 23016,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "Creatinine"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2447,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3632,
+    "fields": {
+      "question": 23017,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 0.8
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2447,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3633,
+    "fields": {
+      "question": 23018,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "mg/dL"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2447,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3634,
+    "fields": {
+      "question": 23019,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "0.5-1.1"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2447,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3635,
+    "fields": {
+      "question": 23020,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "normal"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2447,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3636,
+    "fields": {
+      "question": 23016,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "CRP"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2448,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3637,
+    "fields": {
+      "question": 23017,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 4.5
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2448,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3638,
+    "fields": {
+      "question": 23018,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "mg/L"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2448,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3639,
+    "fields": {
+      "question": 23019,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "0-5"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2448,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3640,
+    "fields": {
+      "question": 23020,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "normal"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2448,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3641,
+    "fields": {
+      "question": 23022,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "No adverse events reported"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3642,
+    "fields": {
+      "question": 23023,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "2025-02-21"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3643,
+    "fields": {
+      "question": 23025,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "mild"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3644,
+    "fields": {
+      "question": 23026,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "no"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3645,
+    "fields": {
+      "question": 23028,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "recovered"
+          ]
+        }
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3646,
+    "fields": {
+      "question": 23029,
+      "inclusion": 2423,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "unrelated"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3647,
+    "fields": {
+      "question": 23001,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "MW"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3648,
+    "fields": {
+      "question": 23002,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": null
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": "ASKU",
+      "missing_reason": "Subject unsure",
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3649,
+    "fields": {
+      "question": 23003,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "male"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3650,
+    "fields": {
+      "question": 23004,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "france"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3651,
+    "fields": {
+      "question": 23005,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": {
+          "selections": [
+            "inclusion_a"
+          ],
+          "other": null
+        }
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3652,
+    "fields": {
+      "question": 23008,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": "pending"
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": null,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3653,
+    "fields": {
+      "question": 23011,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 128
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2436,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3654,
+    "fields": {
+      "question": 23012,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": null
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2436,
+      "is_prefilled": false,
+      "missing_reason_type": "NA",
+      "missing_reason": "Visit cancelled",
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3655,
+    "fields": {
+      "question": 23014,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": 6
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2436,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.answer",
+    "pk": 3656,
+    "fields": {
+      "question": 23015,
+      "inclusion": 2424,
+      "epro_record": null,
+      "econsent_record": null,
+      "recruitment_record": null,
+      "subject": null,
+      "project_test": null,
+      "formula": null,
+      "data": {
+        "value": ""
+      },
+      "created_at": "2025-02-24T14:00:00Z",
+      "last_updated": "2025-02-24T14:00:00Z",
+      "data_validation": null,
+      "single_measure": 2436,
+      "is_prefilled": false,
+      "missing_reason_type": null,
+      "missing_reason": null,
+      "sdv_date": null,
+      "sdv_user": null
+    }
+  },
+  {
+    "model": "ecrf.ecrflock",
+    "pk": 3502,
+    "fields": {
+      "inclusion": 2423,
+      "subsection": 2222,
+      "user": 2005,
+      "user_name": "Marta Monitor",
+      "date": "2025-02-12T10:40:00Z"
+    }
+  },
+  {
+    "model": "ecrf.ecrfreview",
+    "pk": 3657,
+    "fields": {
+      "inclusion": 2423,
+      "subsection": 2221,
+      "user": 2005,
+      "user_name": "Marta Monitor",
+      "date": "2025-02-12T10:35:00Z",
+      "unreview_date": null,
+      "unreview_user": null,
+      "uuid": "33333333-3333-3333-3333-000000000602"
+    }
+  },
+  {
+    "model": "ecrf.ecrfreview",
+    "pk": 3658,
+    "fields": {
+      "inclusion": 2421,
+      "subsection": 2231,
+      "user": 2005,
+      "user_name": "Marta Monitor",
+      "date": "2025-02-06T09:30:00Z",
+      "unreview_date": "2025-02-10T08:00:00Z",
+      "unreview_user": 2005,
+      "uuid": "44444444-4444-4444-4444-000000000603"
+    }
+  }
+]

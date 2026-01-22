@@ -1,0 +1,214 @@
+[
+  {
+    "model": "recruitment.recruitmentstudy",
+    "pk": "22222222-2222-2222-2222-000000023001",
+    "fields": {
+      "edc_study": 2001,
+      "name": "Clean Start Recruitment",
+      "reference_number": "RECR-DEV-001",
+      "recruiter_name": "Clean Start Team",
+      "target": 60,
+      "target_date": "2025-06-30",
+      "status": "RECRUITING",
+      "active": true,
+      "display_name": "Clean Start Clinical Trial",
+      "summary": "Eligibility screening for Clean Start",
+      "details": "<p>Participants will attend up to 3 visits with compensation.</p>",
+      "visit_number": 3,
+      "duration": 8,
+      "duration_unit": "WEEKS",
+      "expected_duration": 12,
+      "expected_duration_type": "WEEKS",
+      "age": "18-70",
+      "sex": "All",
+      "payment_type": "VISIT",
+      "payment": 150,
+      "currency": "PLN",
+      "wash_out_active": true,
+      "wash_out_period": 4,
+      "wash_out_period_type": "WEEKS",
+      "table_variables": [
+        {
+          "source": "record",
+          "variable": "status"
+        },
+        {
+          "source": "record",
+          "variable": "last_contact_date"
+        },
+        {
+          "source": "subject",
+          "variable": "main_center"
+        }
+      ],
+      "only_invited": false,
+      "centers": [
+        2101,
+        2102
+      ],
+      "users": [
+        2002,
+        2006
+      ],
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "recruitment.recruitmentpool",
+    "pk": 6101,
+    "fields": {
+      "recruitment_study": "22222222-2222-2222-2222-000000023001",
+      "name": "Email Cohort",
+      "quota": 30,
+      "action": "EMAIL",
+      "rich_text_message_body": "<p>Join Clean Start for better outcomes.</p>",
+      "message_body": "Witaj! Zapraszamy do badania Clean Start",
+      "message_subject": "Clean Start invite",
+      "created_by": 2002,
+      "modified_by": 2002,
+      "conditions": {
+        "centers": [
+          2101
+        ]
+      },
+      "status": {
+        "invited_count": 18,
+        "accepted": 7
+      },
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "recruitment.recruitmentpool",
+    "pk": 6102,
+    "fields": {
+      "recruitment_study": "22222222-2222-2222-2222-000000023001",
+      "name": "SMS Follow-up",
+      "quota": 20,
+      "action": "SMS",
+      "rich_text_message_body": "",
+      "message_body": "SMS: kliknij link aby potwierdzić wizytę",
+      "message_subject": "",
+      "created_by": 2006,
+      "modified_by": 2006,
+      "conditions": {
+        "status": [
+          "CONTACTED"
+        ],
+        "centers": [
+          2102
+        ]
+      },
+      "status": {
+        "invited_count": 5,
+        "accepted": 2
+      },
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "recruitment.recruitmentrecord",
+    "pk": 6201,
+    "fields": {
+      "recruitment": "22222222-2222-2222-2222-000000023001",
+      "subject": 2401,
+      "center": 2101,
+      "status": "QUALIFIED_FOR_SCREENING",
+      "survey_status": "COMPLETED",
+      "recruitment_pool": 6101,
+      "note": "",
+      "applied_date": "2025-02-01T08:00:00Z",
+      "invited_date": "2025-02-01T08:00:00Z",
+      "last_contact_date": "2025-02-20T10:00:00Z",
+      "disqualified_cause": ""
+    }
+  },
+  {
+    "model": "recruitment.recruitmentrecord",
+    "pk": 6202,
+    "fields": {
+      "recruitment": "22222222-2222-2222-2222-000000023001",
+      "subject": 2402,
+      "center": 2101,
+      "status": "NOT_INTERESTED",
+      "survey_status": "UNCOMPLETED",
+      "recruitment_pool": 6101,
+      "note": "",
+      "applied_date": "2025-02-01T08:10:00Z",
+      "invited_date": "2025-02-01T08:10:00Z",
+      "last_contact_date": "2025-02-06T09:15:00Z",
+      "disqualified_cause": "NOT_AVAILABLE"
+    }
+  },
+  {
+    "model": "recruitment.recruitmentrecord",
+    "pk": 6203,
+    "fields": {
+      "recruitment": "22222222-2222-2222-2222-000000023001",
+      "subject": 2403,
+      "center": 2102,
+      "status": "CONTACTED",
+      "survey_status": "NOT_STARTED",
+      "recruitment_pool": 6102,
+      "note": "",
+      "applied_date": "2025-02-03T09:00:00Z",
+      "invited_date": "2025-02-03T09:00:00Z",
+      "last_contact_date": "2025-02-12T13:15:00Z",
+      "disqualified_cause": ""
+    }
+  },
+  {
+    "model": "recruitment.recruitmentrecord",
+    "pk": 6204,
+    "fields": {
+      "recruitment": "22222222-2222-2222-2222-000000023001",
+      "subject": 2404,
+      "center": 2102,
+      "status": "NEW",
+      "survey_status": "NOT_STARTED",
+      "recruitment_pool": null,
+      "note": "",
+      "applied_date": "2025-02-04T09:30:00Z",
+      "invited_date": "2025-02-04T09:30:00Z",
+      "last_contact_date": null,
+      "disqualified_cause": ""
+    }
+  },
+  {
+    "model": "audit_trails.subjectactivity",
+    "pk": 6301,
+    "fields": {
+      "subject": 2401,
+      "user": 2002,
+      "recruitment": "22222222-2222-2222-2222-000000023001",
+      "type": "RECRUITMENT_STATUS_UPDATED",
+      "details": "Status changed to QUALIFIED_FOR_SCREENING",
+      "changes": {
+        "from": "CONTACTED",
+        "to": "QUALIFIED_FOR_SCREENING"
+      },
+      "created_at": "2025-02-20T10:00:00Z",
+      "question": null
+    }
+  },
+  {
+    "model": "audit_trails.subjectactivity",
+    "pk": 6302,
+    "fields": {
+      "subject": 2402,
+      "user": 2006,
+      "recruitment": "22222222-2222-2222-2222-000000023001",
+      "type": "RECRUITMENT_STATUS_UPDATED",
+      "details": "Status changed to NOT_INTERESTED",
+      "changes": {
+        "from": "CONTACTED",
+        "to": "NOT_INTERESTED"
+      },
+      "created_at": "2025-02-06T09:15:00Z",
+      "question": null
+    }
+  }
+]

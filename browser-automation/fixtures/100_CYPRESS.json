@@ -1,0 +1,405 @@
+[
+  {
+    "model": "studies.studycenter",
+    "pk": 1001,
+    "fields": {
+      "name": "Center 1",
+      "abbreviation": "CYPRESS",
+      "date_added": "2021-03-03T14:32:55.037Z",
+      "country": "FR"
+    }
+  },
+  {
+    "model": "studies.study",
+    "pk": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+    "fields": {
+      "name": "cypress test study",
+      "reference_number": "CYPRESS",
+      "project_manager": "Cypress manager",
+      "centers": [1001],
+      "inclusions": 2,
+      "date_added": "2021-01-08T07:56:53.717Z",
+      "created_by": 1,
+      "company": "admin company",
+      "status": "DRAFT",
+      "last_updated": "2021-01-08T07:56:53.718Z",
+      "subject_name_info_enabled": true,
+      "subject_contact_info_enabled": true,
+      "users": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "ecrf.ecrf",
+    "pk": 1001,
+    "fields": {
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "date_added": "2021-01-08T07:59:01.734Z"
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 1001,
+    "fields": {
+      "ecrf": 1001,
+      "name": "Cypress section 1",
+      "order": 0
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 1002,
+    "fields": {
+      "ecrf": 1001,
+      "name": "Cypress section 2",
+      "order": 1
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 1001,
+    "fields": {
+      "section": 1001,
+      "name": "Cypress subsection 1",
+      "order": 0
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 1002,
+    "fields": {
+      "section": 1001,
+      "name": "Cypress subsection 2",
+      "order": 1
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 1003,
+    "fields": {
+      "section": 1002,
+      "name": "Cypress subsection 3",
+      "order": 0
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 1004,
+    "fields": {
+      "section": 1002,
+      "name": "Cypress subsection 4",
+      "order": 1
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1001,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 0,
+      "subsection": 1001,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {
+        "placeholder": "placeholder 1"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1002,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 1001,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {
+        "other": true,
+        "options": [
+          {
+            "label": "option 1",
+            "value": "option_1",
+            "number_label": 1
+          },
+          {
+            "label": "option 2",
+            "value": "option_2",
+            "number_label": 2
+          }
+        ],
+        "other_label": "other option"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1003,
+    "fields": {
+      "block_type": "STATIC_CONTENT",
+      "order": 0,
+      "subsection": 1002,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {
+        "content": "some header"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1004,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 1002,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {
+        "subtype": "DATETIME"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1005,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 0,
+      "subsection": 1003,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {
+        "other": true,
+        "options": [
+          {
+            "label": "option 1",
+            "value": "option_1"
+          },
+          {
+            "label": "option 2",
+            "value": "option_2"
+          }
+        ],
+        "other_label": "other option"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1006,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 1003,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {
+        "unit": "mm",
+        "placeholder": "placeholder 5"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1007,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 1003,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {
+        "placeholder": "placeholder 6"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1008,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 0,
+      "subsection": 1004,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {
+        "max_label": "max label",
+        "max_value": 4,
+        "min_label": "min label",
+        "min_value": 2
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1009,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 1003,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "config": {}
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1001,
+    "fields": {
+      "title": "question 1",
+      "description": "description 1",
+      "type": "TEXT",
+      "variable": "CYP_SEC_1_CYP_SUB_1_QUEST_0_L9WX",
+      "data_validation": {},
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1002,
+    "fields": {
+      "title": "question 2",
+      "description": "description 2",
+      "type": "RADIO",
+      "variable": "CYP_SEC_1_CYP_SUB_1_QUEST_1_PWPG",
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.staticcontent",
+    "pk": 1003,
+    "fields": {
+      "type": "HEADER"
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1004,
+    "fields": {
+      "title": "question 3",
+      "description": "description 3",
+      "type": "DATETIME",
+      "variable": "CYP_SEC_1_CYP_SUB_2_QUEST_1_XHO2",
+      "data_validation": {},
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1005,
+    "fields": {
+      "title": "question 4",
+      "description": "description 4",
+      "type": "CHECK",
+      "variable": "CYP_SEC_2_CYP_SUB_3_QUEST_0_0AOF",
+      "data_validation": {},
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1006,
+    "fields": {
+      "title": "question 5",
+      "description": "description 5",
+      "type": "NUMBER",
+      "variable": "CYP_SEC_2_CYP_SUB_3_QUEST_1_FO0C",
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1007,
+    "fields": {
+      "title": "question 6",
+      "description": "description 6",
+      "type": "NUMBER",
+      "variable": "CYP_SEC_2_CYP_SUB_3_QUEST_2_PPBH",
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1008,
+    "fields": {
+      "title": "question 7",
+      "description": "description 7",
+      "type": "RATING",
+      "variable": "CYP_SEC_2_CYP_SUB_4_QUEST_0_H754",
+      "data_validation": {},
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1009,
+    "fields": {
+      "title": "question 8",
+      "description": "description 8",
+      "type": "UPLOAD_FILES",
+      "variable": "CYP_SEC_2_CYP_SUB_3_QUEST_3_ZIP3",
+      "data_validation": {},
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.subjectid",
+    "fields": {
+      "datacapt_id": "ID-1"
+    }
+  },
+  {
+    "model": "ecrf.subject",
+    "pk": 1001,
+    "fields": {
+      "datacapt_id": "ID-1",
+      "email": "id-1@test.pl"
+    }
+  },
+  {
+    "model": "ecrf.inclusion",
+    "pk": 1001,
+    "fields": {
+      "investigator": 1,
+      "last_updated": "2021-01-08T07:56:53.718Z"
+    }
+  },
+  {
+    "model": "ecrf.subjectinstudy",
+    "fields": {
+      "subject": 1001,
+      "study_center": 1001,
+      "inclusion": 1001,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "subject_id_field": "CYPRESS-0002"
+    }
+  },
+  {
+    "model": "ecrf.subjectid",
+    "fields": {
+      "datacapt_id": "ID-2"
+    }
+  },
+  {
+    "model": "ecrf.subject",
+    "pk": 1002,
+    "fields": {
+      "datacapt_id": "ID-2",
+      "email": "id-2@test.pl",
+      "first_name": "subjectName",
+      "last_name": "subjectLastName",
+      "phone": "123456789"
+    }
+  },
+  {
+    "model": "ecrf.inclusion",
+    "pk": 1002,
+    "fields": {
+      "investigator": 1,
+      "last_updated": "2021-01-08T07:56:53.718Z"
+    }
+  },
+  {
+    "model": "ecrf.subjectinstudy",
+    "fields": {
+      "subject": 1002,
+      "study_center": 1001,
+      "inclusion": 1002,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b09",
+      "subject_id_field": "CYPRESS-0003"
+    }
+  }
+]

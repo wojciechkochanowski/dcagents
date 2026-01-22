@@ -1,0 +1,648 @@
+[
+  {
+    "model": "calendar_app.visitschedule",
+    "pk": 2701,
+    "fields": {
+      "created_at": "2025-01-10T09:00:00Z",
+      "modified_at": "2025-01-15T12:00:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "title": "Sequential Baseline Schedule",
+      "visits_count": 3,
+      "participants_count": 40,
+      "booking_type": "SEQUENTIAL",
+      "is_published": true,
+      "is_primary": true
+    }
+  },
+  {
+    "model": "calendar_app.visitschedule",
+    "pk": 2702,
+    "fields": {
+      "created_at": "2025-01-12T09:00:00Z",
+      "modified_at": "2025-01-18T10:00:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "title": "Open Follow-up Schedule",
+      "visits_count": 2,
+      "participants_count": 15,
+      "booking_type": "OPEN",
+      "is_published": true,
+      "is_primary": false
+    }
+  },
+  {
+    "model": "calendar_app.schedule",
+    "pk": 2751,
+    "fields": {
+      "created_at": "2025-01-15T08:00:00Z",
+      "modified_at": "2025-01-20T08:00:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "visit_schedule": 2701,
+      "title": "Baseline",
+      "order": 1,
+      "is_published": true,
+      "organizer": 2002,
+      "attendees": [2001],
+      "center": 2101,
+      "visit_payment_amount": "75.00",
+      "color": "#1B5E20",
+      "instructions": null,
+      "event_capacity": 4,
+      "event_duration": 60,
+      "event_interval": 60,
+      "event_booking_window": 24,
+      "created_by": 2001
+    }
+  },
+  {
+    "model": "calendar_app.schedule",
+    "pk": 2752,
+    "fields": {
+      "created_at": "2025-01-15T08:05:00Z",
+      "modified_at": "2025-01-20T08:05:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "visit_schedule": 2701,
+      "title": "Week 2",
+      "order": 2,
+      "is_published": true,
+      "organizer": 2002,
+      "attendees": [2001, 2002],
+      "center": 2101,
+      "visit_payment_amount": "75.00",
+      "color": "#4CAF50",
+      "instructions": null,
+      "event_capacity": 4,
+      "event_duration": 60,
+      "event_interval": 60,
+      "event_booking_window": 24,
+      "created_by": 2001
+    }
+  },
+  {
+    "model": "calendar_app.schedule",
+    "pk": 2753,
+    "fields": {
+      "created_at": "2025-01-15T08:10:00Z",
+      "modified_at": "2025-01-20T08:10:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "visit_schedule": 2701,
+      "title": "Week 4",
+      "order": 3,
+      "is_published": true,
+      "organizer": 2002,
+      "attendees": [2001, 2003],
+      "center": 2101,
+      "visit_payment_amount": "75.00",
+      "color": "#81C784",
+      "instructions": null,
+      "event_capacity": 4,
+      "event_duration": 60,
+      "event_interval": 60,
+      "event_booking_window": 24,
+      "created_by": 2001
+    }
+  },
+  {
+    "model": "calendar_app.schedule",
+    "pk": 2754,
+    "fields": {
+      "created_at": "2025-01-22T08:00:00Z",
+      "modified_at": "2025-01-24T09:00:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "visit_schedule": 2702,
+      "title": "Screening Follow-up",
+      "order": 1,
+      "is_published": true,
+      "organizer": 2001,
+      "attendees": [2002],
+      "center": 2101,
+      "visit_payment_amount": "0.00",
+      "color": "#009688",
+      "instructions": null,
+      "event_capacity": 2,
+      "event_duration": 45,
+      "event_interval": 45,
+      "event_booking_window": 6,
+      "created_by": 2001
+    }
+  },
+  {
+    "model": "calendar_app.schedule",
+    "pk": 2755,
+    "fields": {
+      "created_at": "2025-01-22T08:05:00Z",
+      "modified_at": "2025-01-24T09:05:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "visit_schedule": 2702,
+      "title": "Telehealth Check",
+      "order": 2,
+      "is_published": true,
+      "organizer": 2003,
+      "attendees": [2001, 2003],
+      "center": 2102,
+      "visit_payment_amount": "0.00",
+      "color": "#00ACC1",
+      "instructions": null,
+      "event_capacity": 1,
+      "event_duration": 30,
+      "event_interval": 30,
+      "event_booking_window": 2,
+      "created_by": 2003
+    }
+  },
+  {
+    "model": "calendar_app.scheduleavailability",
+    "pk": 2761,
+    "fields": {
+      "created_at": "2025-01-25T09:00:00Z",
+      "modified_at": "2025-01-25T09:30:00Z",
+      "schedule": 2751,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-10T08:00:00Z",
+      "end": "2025-02-28T16:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.scheduleavailability",
+    "pk": 2762,
+    "fields": {
+      "created_at": "2025-01-25T09:05:00Z",
+      "modified_at": "2025-01-25T09:35:00Z",
+      "schedule": 2752,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-17T08:00:00Z",
+      "end": "2025-03-07T16:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.scheduleavailability",
+    "pk": 2763,
+    "fields": {
+      "created_at": "2025-01-25T09:10:00Z",
+      "modified_at": "2025-01-25T09:40:00Z",
+      "schedule": 2753,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-24T08:00:00Z",
+      "end": "2025-03-14T16:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.scheduleavailability",
+    "pk": 2764,
+    "fields": {
+      "created_at": "2025-01-27T10:00:00Z",
+      "modified_at": "2025-01-27T10:15:00Z",
+      "schedule": 2754,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-12T09:00:00Z",
+      "end": "2025-03-01T15:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.scheduleavailability",
+    "pk": 2765,
+    "fields": {
+      "created_at": "2025-01-27T10:05:00Z",
+      "modified_at": "2025-01-27T10:20:00Z",
+      "schedule": 2755,
+      "timezone": "UTC",
+      "start": "2025-02-14T17:00:00Z",
+      "end": "2025-02-28T19:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.event",
+    "pk": 2781,
+    "fields": {
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-01T08:10:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "project": null,
+      "study": null,
+      "schedule": 2751,
+      "type": "EVENT",
+      "is_recurring": false,
+      "recurring_period": "",
+      "original_event": null,
+      "title": "Baseline Visit Slot 1",
+      "public_title": "Baseline Visit",
+      "organizer": 2002,
+      "attendees": [2001, 2002],
+      "participants": [],
+      "capacity": 2,
+      "center": 2101,
+      "color": "#1B5E20",
+      "instructions": null,
+      "created_by": 2001,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-10T08:00:00Z",
+      "end": "2025-02-10T09:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.event",
+    "pk": 2782,
+    "fields": {
+      "created_at": "2025-02-01T08:15:00Z",
+      "modified_at": "2025-02-01T08:20:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "project": null,
+      "study": null,
+      "schedule": 2752,
+      "type": "EVENT",
+      "is_recurring": false,
+      "recurring_period": "",
+      "original_event": null,
+      "title": "Week 2 Slot 1",
+      "public_title": "Week 2",
+      "organizer": 2002,
+      "attendees": [2001, 2002],
+      "participants": [],
+      "capacity": 2,
+      "center": 2101,
+      "color": "#4CAF50",
+      "instructions": null,
+      "created_by": 2001,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-17T08:00:00Z",
+      "end": "2025-02-17T09:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.event",
+    "pk": 2783,
+    "fields": {
+      "created_at": "2025-02-01T08:30:00Z",
+      "modified_at": "2025-02-01T08:35:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "project": null,
+      "study": null,
+      "schedule": 2753,
+      "type": "EVENT",
+      "is_recurring": false,
+      "recurring_period": "",
+      "original_event": null,
+      "title": "Week 4 Slot 1",
+      "public_title": "Week 4",
+      "organizer": 2002,
+      "attendees": [2001, 2003],
+      "participants": [],
+      "capacity": 2,
+      "center": 2101,
+      "color": "#81C784",
+      "instructions": null,
+      "created_by": 2001,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-24T08:00:00Z",
+      "end": "2025-02-24T09:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.event",
+    "pk": 2784,
+    "fields": {
+      "created_at": "2025-02-05T09:00:00Z",
+      "modified_at": "2025-02-05T09:10:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "project": null,
+      "study": null,
+      "schedule": 2751,
+      "type": "EVENT",
+      "is_recurring": false,
+      "recurring_period": "",
+      "original_event": null,
+      "title": "Baseline Visit Slot 2",
+      "public_title": "Baseline Visit",
+      "organizer": 2001,
+      "attendees": [2001],
+      "participants": [],
+      "capacity": 2,
+      "center": 2101,
+      "color": "#2E7D32",
+      "instructions": null,
+      "created_by": 2001,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-11T10:00:00Z",
+      "end": "2025-02-11T11:00:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.event",
+    "pk": 2785,
+    "fields": {
+      "created_at": "2025-02-06T09:00:00Z",
+      "modified_at": "2025-02-06T09:10:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "project": null,
+      "study": null,
+      "schedule": 2754,
+      "type": "EVENT",
+      "is_recurring": false,
+      "recurring_period": "",
+      "original_event": null,
+      "title": "Follow-up Slot 1",
+      "public_title": "Follow-up",
+      "organizer": 2001,
+      "attendees": [2001, 2002],
+      "participants": [],
+      "capacity": 2,
+      "center": 2102,
+      "color": "#009688",
+      "instructions": null,
+      "created_by": 2001,
+      "timezone": "Europe/Warsaw",
+      "start": "2025-02-20T09:00:00Z",
+      "end": "2025-02-20T09:45:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.event",
+    "pk": 2786,
+    "fields": {
+      "created_at": "2025-02-06T09:15:00Z",
+      "modified_at": "2025-02-06T09:20:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "project": null,
+      "study": null,
+      "schedule": 2755,
+      "type": "EVENT",
+      "is_recurring": false,
+      "recurring_period": "",
+      "original_event": null,
+      "title": "Telehealth Slot 1",
+      "public_title": "Telehealth",
+      "organizer": 2003,
+      "attendees": [2003],
+      "participants": [],
+      "capacity": 1,
+      "center": 2102,
+      "color": "#00ACC1",
+      "instructions": null,
+      "created_by": 2003,
+      "timezone": "UTC",
+      "start": "2025-02-21T18:00:00Z",
+      "end": "2025-02-21T18:30:00Z",
+      "is_full_day": false
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27811,
+    "fields": {
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-10T07:50:00Z",
+      "event": 2781,
+      "reserved": true,
+      "reserved_until": "2025-02-10T07:55:00Z",
+      "reserved_subject": 2401
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27812,
+    "fields": {
+      "created_at": "2025-02-01T08:01:00Z",
+      "modified_at": "2025-02-01T08:01:00Z",
+      "event": 2781,
+      "reserved": false,
+      "reserved_until": null,
+      "reserved_subject": null
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27821,
+    "fields": {
+      "created_at": "2025-02-01T08:15:00Z",
+      "modified_at": "2025-02-17T07:55:00Z",
+      "event": 2782,
+      "reserved": true,
+      "reserved_until": "2025-02-17T07:55:00Z",
+      "reserved_subject": 2401
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27822,
+    "fields": {
+      "created_at": "2025-02-01T08:16:00Z",
+      "modified_at": "2025-02-01T08:16:00Z",
+      "event": 2782,
+      "reserved": false,
+      "reserved_until": null,
+      "reserved_subject": null
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27831,
+    "fields": {
+      "created_at": "2025-02-01T08:30:00Z",
+      "modified_at": "2025-02-24T07:55:00Z",
+      "event": 2783,
+      "reserved": true,
+      "reserved_until": "2025-02-24T07:55:00Z",
+      "reserved_subject": 2401
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27832,
+    "fields": {
+      "created_at": "2025-02-01T08:31:00Z",
+      "modified_at": "2025-02-24T07:45:00Z",
+      "event": 2783,
+      "reserved": true,
+      "reserved_until": "2025-02-24T07:45:00Z",
+      "reserved_subject": 2402
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27841,
+    "fields": {
+      "created_at": "2025-02-05T09:00:00Z",
+      "modified_at": "2025-02-11T08:45:00Z",
+      "event": 2784,
+      "reserved": true,
+      "reserved_until": "2025-02-11T08:45:00Z",
+      "reserved_subject": 2402
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27842,
+    "fields": {
+      "created_at": "2025-02-05T09:01:00Z",
+      "modified_at": "2025-02-05T09:01:00Z",
+      "event": 2784,
+      "reserved": false,
+      "reserved_until": null,
+      "reserved_subject": null
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27851,
+    "fields": {
+      "created_at": "2025-02-06T09:00:00Z",
+      "modified_at": "2025-02-20T08:40:00Z",
+      "event": 2785,
+      "reserved": true,
+      "reserved_until": "2025-02-20T08:40:00Z",
+      "reserved_subject": 2403
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27852,
+    "fields": {
+      "created_at": "2025-02-06T09:01:00Z",
+      "modified_at": "2025-02-20T08:35:00Z",
+      "event": 2785,
+      "reserved": true,
+      "reserved_until": "2025-02-20T08:35:00Z",
+      "reserved_subject": null
+    }
+  },
+  {
+    "model": "calendar_app.eventslot",
+    "pk": 27861,
+    "fields": {
+      "created_at": "2025-02-06T09:15:00Z",
+      "modified_at": "2025-02-21T17:50:00Z",
+      "event": 2786,
+      "reserved": true,
+      "reserved_until": "2025-02-21T17:55:00Z",
+      "reserved_subject": 2403
+    }
+  },
+  {
+    "model": "calendar_app.visit",
+    "pk": 2791,
+    "fields": {
+      "created_at": "2025-02-10T08:10:00Z",
+      "modified_at": "2025-02-10T08:10:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "slot": 27811,
+      "event": 2781,
+      "rescheduled_from_event": null,
+      "subject": 2401,
+      "status": "SCHEDULED",
+      "cause": null,
+      "project_tests": [],
+      "created_by": 2001
+    }
+  },
+  {
+    "model": "calendar_app.visit",
+    "pk": 2792,
+    "fields": {
+      "created_at": "2025-02-17T09:10:00Z",
+      "modified_at": "2025-02-17T10:00:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "slot": 27821,
+      "event": 2782,
+      "rescheduled_from_event": null,
+      "subject": 2401,
+      "status": "COMPLETED",
+      "cause": null,
+      "project_tests": [],
+      "created_by": 2002
+    }
+  },
+  {
+    "model": "calendar_app.visit",
+    "pk": 2793,
+    "fields": {
+      "created_at": "2025-02-24T08:05:00Z",
+      "modified_at": "2025-02-24T08:05:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "slot": 27831,
+      "event": 2783,
+      "rescheduled_from_event": null,
+      "subject": 2401,
+      "status": "SCHEDULED",
+      "cause": null,
+      "project_tests": [],
+      "created_by": 2001
+    }
+  },
+  {
+    "model": "calendar_app.visit",
+    "pk": 2794,
+    "fields": {
+      "created_at": "2025-02-11T10:10:00Z",
+      "modified_at": "2025-02-25T11:00:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "slot": 27841,
+      "event": 2784,
+      "rescheduled_from_event": 2781,
+      "subject": 2402,
+      "status": "NOT_DONE",
+      "cause": "SUBJECT_NO_SHOW",
+      "project_tests": [],
+      "created_by": 2001
+    }
+  },
+  {
+    "model": "calendar_app.visit",
+    "pk": 2795,
+    "fields": {
+      "created_at": "2025-02-20T09:50:00Z",
+      "modified_at": "2025-02-20T09:50:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "slot": 27851,
+      "event": 2785,
+      "rescheduled_from_event": null,
+      "subject": 2403,
+      "status": "SCHEDULED",
+      "cause": null,
+      "project_tests": [],
+      "created_by": 2001
+    }
+  },
+  {
+    "model": "calendar_app.visit",
+    "pk": 2796,
+    "fields": {
+      "created_at": "2025-02-21T18:10:00Z",
+      "modified_at": "2025-02-21T18:10:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "slot": 27861,
+      "event": 2786,
+      "rescheduled_from_event": null,
+      "subject": 2403,
+      "status": "SCHEDULED",
+      "cause": null,
+      "project_tests": [],
+      "created_by": 2003
+    }
+  },
+  {
+    "model": "calendar_app.visit",
+    "pk": 2797,
+    "fields": {
+      "created_at": "2025-02-24T08:30:00Z",
+      "modified_at": "2025-02-24T08:45:00Z",
+      "recruitment_study": "11111111-1111-1111-1111-111111111111",
+      "slot": null,
+      "event": 2783,
+      "rescheduled_from_event": 2784,
+      "subject": 2402,
+      "status": "CANCELLED",
+      "cause": "SUBJECT_CANCELLED",
+      "project_tests": [],
+      "created_by": 2001
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "name": "figma-components-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/main/index.js",
+  "scripts": {
+    "dev": "pnpm run build && electron .",
+    "build": "pnpm run build:main && pnpm run build:preload && pnpm run build:renderer",
+    "build:main": "tsc -p tsconfig.main.json",
+    "build:preload": "tsc -p tsconfig.preload.json",
+    "build:renderer": "cd renderer && vite build",
+    "package": "pnpm run build && electron-builder -c electron-builder.json",
+    "build:mac": "pnpm run build && electron-builder --mac -c electron-builder.json",
+    "build:win": "pnpm run build && electron-builder --win -c electron-builder.json",
+    "build:linux": "pnpm run build && electron-builder --linux -c electron-builder.json"
+  },
+  "dependencies": {
+    "esbuild": "^0.21.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-syntax-highlighter": "^15.5.0"
+  },
+  "devDependencies": {
+    "electron": "^29.4.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "electron-builder": "^24.13.3",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  }
+}

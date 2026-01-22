@@ -1,0 +1,263 @@
+[
+  {
+    "model": "studies.studycenter",
+    "pk": 1601,
+    "fields": {
+      "name": "Cl",
+      "abbreviation": "CL",
+      "date_added": "2021-03-03T14:32:55.037Z",
+      "country": "FR"
+    }
+  },
+  {
+    "model": "studies.study",
+    "pk": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+    "fields": {
+      "name": "condition logic test study",
+      "reference_number": "CL",
+      "project_manager": "Cypress manager",
+      "centers": [1601],
+      "inclusions": 2,
+      "date_added": "2021-01-08T07:56:53.717Z",
+      "created_by": 1,
+      "company": "admin company",
+      "status": "DRAFT",
+      "last_updated": "2021-01-08T07:56:53.718Z",
+      "subject_name_info_enabled": true,
+      "subject_contact_info_enabled": true,
+      "users": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "ecrf.ecrf",
+    "pk": 1601,
+    "fields": {
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+      "date_added": "2021-01-08T07:59:01.734Z"
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 1601,
+    "fields": {
+      "ecrf": 1601,
+      "name": "Cypress section 1",
+      "order": 0
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 1602,
+    "fields": {
+      "ecrf": 1601,
+      "name": "Cypress section 2",
+      "order": 1
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 1601,
+    "fields": {
+      "section": 1601,
+      "name": "Cypress subsection 1",
+      "order": 0
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 1602,
+    "fields": {
+      "section": 1601,
+      "name": "Cypress subsection 2",
+      "order": 1
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 1603,
+    "fields": {
+      "section": 1602,
+      "name": "Cypress subsection 3",
+      "order": 0
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1601,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 0,
+      "subsection": 1601,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+      "config": {}
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1602,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 1601,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+      "config": {
+        "other": false,
+        "options": [
+          {
+            "label": "radio option 1",
+            "value": "radio_option_1",
+            "number_label": 1
+          },
+          {
+            "label": "radio option 2",
+            "value": "radio_option_2",
+            "number_label": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1603,
+    "fields": {
+      "block_type": "STATIC_CONTENT",
+      "order": 0,
+      "subsection": 1601,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+      "config": {
+        "content": "some header"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1604,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 0,
+      "subsection": 1601,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+      "config": {
+        "other": false,
+        "options": [
+          {
+            "label": "checkbox option 1",
+            "value": "checkbox_option_1"
+          },
+          {
+            "label": "checkbox option 2",
+            "value": "checkbox_option_2"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1605,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 1601,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+      "config": {
+        "placeholder": "number question placeholder"
+      }
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 1606,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 1601,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+      "config": {}
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1601,
+    "fields": {
+      "title": "text question",
+      "type": "TEXT",
+      "variable": "CL1",
+      "data_validation": {},
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1602,
+    "fields": {
+      "title": "radio question",
+      "type": "RADIO",
+      "variable": "CL2",
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.staticcontent",
+    "pk": 1603,
+    "fields": {
+      "type": "HEADER"
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1604,
+    "fields": {
+      "title": "checkbox question",
+      "type": "CHECK",
+      "variable": "CL4",
+      "data_validation": {},
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 1605,
+    "fields": {
+      "title": "number question",
+      "type": "NUMBER",
+      "variable": "CL5",
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.subjectid",
+    "fields": {
+      "datacapt_id": "cl-1"
+    }
+  },
+  {
+    "model": "ecrf.subject",
+    "pk": 1601,
+    "fields": {
+      "datacapt_id": "cl-1",
+      "email": "cl-1@test.pl"
+    }
+  },
+  {
+    "model": "ecrf.inclusion",
+    "pk": 1601,
+    "fields": {
+      "investigator": 1,
+      "last_updated": "2021-01-08T07:56:53.718Z"
+    }
+  },
+  {
+    "model": "ecrf.subjectinstudy",
+    "fields": {
+      "subject": 1601,
+      "study_center": 1601,
+      "inclusion": 1601,
+      "study": "fcf52e32-22af-4ec0-88dd-f9a358937b01",
+      "subject_id_field": "CL-0001"
+    }
+  }
+]

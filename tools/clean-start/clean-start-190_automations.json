@@ -1,0 +1,135 @@
+[
+  {
+    "model": "automations.automation",
+    "pk": 5001,
+    "fields": {
+      "name": "Auto send QoL ePRO",
+      "study": 2001,
+      "event": "SUBJECT_INCLUDED",
+      "action": "SEND_EPRO",
+      "emails": [
+        "coordinator@datacapt.test"
+      ],
+      "roles": [],
+      "email_subject": "Baseline ePRO sent",
+      "email_message": "Baseline ePRO has been triggered automatically.",
+      "last_updated": "2025-02-01T09:00:00Z",
+      "triggers_count": 3,
+      "trigger_question": null,
+      "trigger_operator": null,
+      "trigger_options": null,
+      "trigger_epro": null,
+      "action_epro": 2501,
+      "amount": 2,
+      "unit": "DAYS"
+    }
+  },
+  {
+    "model": "automations.automation",
+    "pk": 5002,
+    "fields": {
+      "name": "High BP alert",
+      "study": 2001,
+      "event": "QUESTION",
+      "action": "EMAIL_NOTIFICATION",
+      "emails": [
+        "investigator1@datacapt.test",
+        "pm@datacapt.test"
+      ],
+      "roles": [],
+      "email_subject": "High blood pressure detected",
+      "email_message": "Subject {subjectid} recorded systolic BP >= 180.",
+      "last_updated": "2025-02-05T08:30:00Z",
+      "triggers_count": 2,
+      "trigger_question": 23011,
+      "trigger_operator": "GREATER_OR_EQUAL",
+      "trigger_options": [
+        "180"
+      ],
+      "trigger_epro": null,
+      "action_epro": null,
+      "amount": null,
+      "unit": ""
+    }
+  },
+  {
+    "model": "automations.automation",
+    "pk": 5003,
+    "fields": {
+      "name": "Pharmacy randomization notice",
+      "study": 2001,
+      "event": "SUBJECT_RANDOMIZED",
+      "action": "EMAIL_NOTIFICATION",
+      "emails": [
+        "pharmacist@datacapt.test"
+      ],
+      "roles": [],
+      "email_subject": "Subject randomized",
+      "email_message": "Subject {subjectid} assigned to treatment arm {arm}.",
+      "last_updated": "2025-02-05T09:15:00Z",
+      "triggers_count": 3,
+      "trigger_question": null,
+      "trigger_operator": null,
+      "trigger_options": null,
+      "trigger_epro": null,
+      "action_epro": null,
+      "amount": null,
+      "unit": ""
+    }
+  },
+  {
+    "model": "automations.log",
+    "pk": 5101,
+    "fields": {
+      "parent_type": null,
+      "parent_id": null,
+      "type": "AUTOMATION",
+      "level": "INFO",
+      "parameters": {
+        "automation_id": 5001,
+        "subject_id": "CYP-001",
+        "event": "SUBJECT_INCLUDED"
+      },
+      "info_flag": true,
+      "error_text": "",
+      "created_at": "2025-02-05T09:05:00Z"
+    }
+  },
+  {
+    "model": "automations.log",
+    "pk": 5102,
+    "fields": {
+      "parent_type": null,
+      "parent_id": null,
+      "type": "AUTOMATION",
+      "level": "ERROR",
+      "parameters": {
+        "automation_id": 5002,
+        "subject_id": "CYP-002",
+        "event": "QUESTION",
+        "value": 190
+      },
+      "info_flag": false,
+      "error_text": "SMTP connection failed",
+      "created_at": "2025-02-06T07:20:00Z"
+    }
+  },
+  {
+    "model": "automations.log",
+    "pk": 5103,
+    "fields": {
+      "parent_type": null,
+      "parent_id": null,
+      "type": "AUTOMATION",
+      "level": "INFO",
+      "parameters": {
+        "automation_id": 5003,
+        "subject_id": "CYP-001",
+        "arm_code": 1
+      },
+      "info_flag": true,
+      "error_text": "",
+      "created_at": "2025-02-05T09:25:00Z"
+    }
+  }
+]

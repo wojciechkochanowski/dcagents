@@ -1,0 +1,29 @@
+{
+  "name": "figma-to-code",
+  "version": "0.1.0",
+  "bin": {
+    "figma-screen-extract": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "ts-node src/cli.ts",
+    "dev": "ts-node src/cli.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@babel/generator": "^7.23.0",
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "commander": "^11.0.0",
+    "prettier": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__traverse": "^7.28.0",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

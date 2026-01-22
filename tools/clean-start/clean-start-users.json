@@ -1,0 +1,130 @@
+[
+  {
+    "model": "users.user",
+    "pk": 2006,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$cleanstart$tZOC/cC8BxA+IzvDrBfzBGL2Is7xMmDNGqA2JrLtvXI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "pharmacist@datacapt.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-01T08:20:00Z",
+      "first_name": "Eliza",
+      "last_name": "Farmaceuta",
+      "_language": "en"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2001,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$cleanstart$tZOC/cC8BxA+IzvDrBfzBGL2Is7xMmDNGqA2JrLtvXI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "pm@datacapt.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-01T07:50:00Z",
+      "first_name": "Paulina",
+      "last_name": "Manager",
+      "_language": "en"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2002,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$cleanstart$tZOC/cC8BxA+IzvDrBfzBGL2Is7xMmDNGqA2JrLtvXI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "coordinator.lead@datacapt.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-01T07:55:00Z",
+      "first_name": "Karol",
+      "last_name": "Koordynator",
+      "_language": "en"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2003,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$cleanstart$tZOC/cC8BxA+IzvDrBfzBGL2Is7xMmDNGqA2JrLtvXI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "investigator@datacapt.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-01T08:10:00Z",
+      "first_name": "Irena",
+      "last_name": "Kardiolog",
+      "_language": "en"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2004,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$cleanstart$tZOC/cC8BxA+IzvDrBfzBGL2Is7xMmDNGqA2JrLtvXI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "subinvestigator@datacapt.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-01T08:12:00Z",
+      "first_name": "Marek",
+      "last_name": "Rezydent",
+      "_language": "en"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2005,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$cleanstart$tZOC/cC8BxA+IzvDrBfzBGL2Is7xMmDNGqA2JrLtvXI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "cra@datacapt.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-01T08:15:00Z",
+      "first_name": "Piotr",
+      "last_name": "Monitor",
+      "_language": "en"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2010,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$cleanstart$tZOC/cC8BxA+IzvDrBfzBGL2Is7xMmDNGqA2JrLtvXI=",
+      "last_login": null,
+      "is_superuser": true,
+      "email": "admin@datacapt.test",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-02-01T08:00:00Z",
+      "first_name": "Clean",
+      "last_name": "Admin",
+      "_language": "en"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2011,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$cleanstart$tZOC/cC8BxA+IzvDrBfzBGL2Is7xMmDNGqA2JrLtvXI=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "coordinator@datacapt.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-02-01T08:05:00Z",
+      "first_name": "Patrycja",
+      "last_name": "Koordynator",
+      "_language": "en"
+    }
+  }
+]

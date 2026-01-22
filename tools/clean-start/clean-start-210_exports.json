@@ -1,0 +1,114 @@
+[
+  {
+    "model": "export.exportdata",
+    "pk": "11111111-1111-1111-1111-000000002101",
+    "fields": {
+      "export_type": "ECRF",
+      "export_data_format": "VALUES",
+      "export_file_format": "CSV",
+      "export_files": false,
+      "language": "en",
+      "rm_in_separate_file": false,
+      "domains_export": false,
+      "study": 2001,
+      "recruitment_study": null,
+      "inclusion": 2421,
+      "epro": null,
+      "epro_record": null,
+      "econsent": null,
+      "econsent_record": null,
+      "analytics_entity": null,
+      "project": null,
+      "filter_by": {
+        "sections": [
+          2210,
+          2220
+        ]
+      },
+      "template": null,
+      "exported_by": 2002,
+      "failed": false,
+      "finished": true,
+      "report_file": "exports/ecrf/CYP-DEV-001-values.csv",
+      "date_added": "2025-02-06T08:00:00Z",
+      "date_generated": "2025-02-06T08:05:00Z",
+      "params": {
+        "sdv": "VERIFIED"
+      }
+    }
+  },
+  {
+    "model": "export.exportdata",
+    "pk": "11111111-1111-1111-1111-000000002102",
+    "fields": {
+      "export_type": "EPRO",
+      "export_data_format": "LABELS",
+      "export_file_format": "XLSX",
+      "export_files": true,
+      "language": "en",
+      "rm_in_separate_file": true,
+      "domains_export": false,
+      "study": 2001,
+      "recruitment_study": null,
+      "inclusion": null,
+      "epro": 2501,
+      "epro_record": null,
+      "econsent": null,
+      "econsent_record": null,
+      "analytics_entity": null,
+      "project": null,
+      "filter_by": {
+        "occurrences": [
+          1,
+          2
+        ],
+        "centers": [
+          2101
+        ]
+      },
+      "template": null,
+      "exported_by": 2005,
+      "failed": false,
+      "finished": false,
+      "report_file": null,
+      "date_added": "2025-02-07T07:50:00Z",
+      "date_generated": null,
+      "params": {
+        "includeAttachments": true
+      }
+    }
+  },
+  {
+    "model": "export.exportdata",
+    "pk": "11111111-1111-1111-1111-000000002103",
+    "fields": {
+      "export_type": "ECONSENT_PDF",
+      "export_data_format": "VALUES",
+      "export_file_format": "PDF",
+      "export_files": true,
+      "language": "en",
+      "rm_in_separate_file": false,
+      "domains_export": false,
+      "study": 2001,
+      "recruitment_study": null,
+      "inclusion": null,
+      "epro": null,
+      "epro_record": null,
+      "econsent": 3001,
+      "econsent_record": 3301,
+      "analytics_entity": null,
+      "project": null,
+      "filter_by": null,
+      "template": null,
+      "exported_by": 2003,
+      "failed": true,
+      "finished": false,
+      "report_file": null,
+      "date_added": "2025-02-07T09:00:00Z",
+      "date_generated": null,
+      "params": {
+        "reason": "PDF generation timeout"
+      }
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "import-subjects-001",
+    "module": "subject_repository",
+    "uploaded_by": "dm@datacapt.test",
+    "uploaded_at": "2025-02-04T08:10:00Z",
+    "status": "COMPLETED",
+    "rows_total": 25,
+    "rows_success": 25,
+    "rows_failed": 0,
+    "duration_seconds": 42,
+    "file_name": "subject-repo-batch.csv"
+  },
+  {
+    "id": "import-kits-001",
+    "module": "allocation",
+    "uploaded_by": "pharmacist@datacapt.test",
+    "uploaded_at": "2025-02-01T10:20:00Z",
+    "status": "ERROR",
+    "rows_total": 10,
+    "rows_success": 7,
+    "rows_failed": 3,
+    "duration_seconds": 18,
+    "file_name": "kits-center1.xlsx"
+  },
+  {
+    "id": "import-randomization-001",
+    "module": "randomizations",
+    "uploaded_by": "dm@datacapt.test",
+    "uploaded_at": "2025-02-03T07:55:00Z",
+    "status": "IN_PROGRESS",
+    "rows_total": 50,
+    "rows_success": 0,
+    "rows_failed": 0,
+    "duration_seconds": 0,
+    "file_name": "production-list.csv"
+  },
+  {
+    "job_id": "import-kits-001",
+    "row": 8,
+    "kit_number": "P-2005",
+    "error": "Duplicate kit number",
+    "suggestion": "Use unique kit identifier"
+  },
+  {
+    "job_id": "import-kits-001",
+    "row": 9,
+    "kit_number": "P-2006",
+    "error": "Invalid status value",
+    "suggestion": "Allowed values: AVAILABLE, ALLOCATED, INVALID"
+  },
+  {
+    "job_id": "import-kits-001",
+    "row": 10,
+    "kit_number": "P-2007",
+    "error": "Missing expiration date",
+    "suggestion": "Provide expiration_date in YYYY-MM-DD format"
+  }
+]

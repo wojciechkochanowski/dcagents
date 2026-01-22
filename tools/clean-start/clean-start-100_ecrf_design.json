@@ -1,0 +1,1929 @@
+[
+  {
+    "model": "ecrf.ecrf",
+    "pk": 2201,
+    "fields": {
+      "study": 2001,
+      "date_added": "2025-01-05T08:00:00Z"
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 2210,
+    "fields": {
+      "ecrf": 2201,
+      "epro_form": null,
+      "econsent": null,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Section 1: Demographics",
+      "order": 1,
+      "variable_prefix": "DEV_SEC1",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 2220,
+    "fields": {
+      "ecrf": 2201,
+      "epro_form": null,
+      "econsent": null,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Section 2: Baseline Assessments",
+      "order": 2,
+      "variable_prefix": "DEV_SEC2",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.section",
+    "pk": 2230,
+    "fields": {
+      "ecrf": 2201,
+      "epro_form": null,
+      "econsent": null,
+      "recruitment": null,
+      "project": null,
+      "is_subject_repository": false,
+      "domain": "",
+      "name": "Section 3: Adverse Events",
+      "order": 3,
+      "variable_prefix": "DEV_SEC3",
+      "variable_suffix": "",
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2211,
+    "fields": {
+      "section": 2210,
+      "domain": "",
+      "name": "Subject Information",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2212,
+    "fields": {
+      "section": 2210,
+      "domain": "",
+      "name": "Eligibility Decision",
+      "order": 2,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2221,
+    "fields": {
+      "section": 2220,
+      "domain": "",
+      "name": "Baseline Vitals",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2222,
+    "fields": {
+      "section": 2220,
+      "domain": "",
+      "name": "Laboratory Results",
+      "order": 2,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.subsection",
+    "pk": 2231,
+    "fields": {
+      "section": 2230,
+      "domain": "",
+      "name": "Adverse Event Log",
+      "order": 1,
+      "conditional_logic": null,
+      "excluded_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23001,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "AA",
+        "maxLength": 2
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23001,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "AA",
+        "maxLength": 2
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023001",
+      "title": "Subject initials",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q1",
+      "variable_full": "DEV_SEC1_DEV_Q1",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23002,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "subtype": "DATE",
+        "constraints": {
+          "max": "today"
+        }
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23002,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "subtype": "DATE",
+        "constraints": {
+          "max": "today"
+        }
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023002",
+      "title": "Date of birth",
+      "description": "",
+      "description_image": null,
+      "type": "DATETIME",
+      "variable": "DEV_Q2",
+      "variable_full": "DEV_SEC1_DEV_Q2",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23003,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Male",
+            "value": "male",
+            "number_label": 1
+          },
+          {
+            "label": "Female",
+            "value": "female",
+            "number_label": 2
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "number_label": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23003,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Male",
+            "value": "male",
+            "number_label": 1
+          },
+          {
+            "label": "Female",
+            "value": "female",
+            "number_label": 2
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "number_label": 3
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023003",
+      "title": "Sex",
+      "description": "",
+      "description_image": null,
+      "type": "RADIO",
+      "variable": "DEV_Q3",
+      "variable_full": "DEV_SEC1_DEV_Q3",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23004,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Poland",
+            "value": "poland",
+            "number_label": 1
+          },
+          {
+            "label": "Germany",
+            "value": "germany",
+            "number_label": 2
+          },
+          {
+            "label": "France",
+            "value": "france",
+            "number_label": 3
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "number_label": 4
+          }
+        ],
+        "allowSearch": true
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23004,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Poland",
+            "value": "poland",
+            "number_label": 1
+          },
+          {
+            "label": "Germany",
+            "value": "germany",
+            "number_label": 2
+          },
+          {
+            "label": "France",
+            "value": "france",
+            "number_label": 3
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "number_label": 4
+          }
+        ],
+        "allowSearch": true
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023004",
+      "title": "Country of residence",
+      "description": "",
+      "description_image": null,
+      "type": "DROPDOWN",
+      "variable": "DEV_Q4",
+      "variable_full": "DEV_SEC1_DEV_Q4",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23005,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 5,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Inclusion A",
+            "value": "inclusion_a",
+            "number_label": 1
+          },
+          {
+            "label": "Inclusion B",
+            "value": "inclusion_b",
+            "number_label": 2
+          },
+          {
+            "label": "Inclusion C",
+            "value": "inclusion_c",
+            "number_label": 3
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "number_label": 4
+          }
+        ],
+        "allowOther": true
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23005,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 5,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Inclusion A",
+            "value": "inclusion_a",
+            "number_label": 1
+          },
+          {
+            "label": "Inclusion B",
+            "value": "inclusion_b",
+            "number_label": 2
+          },
+          {
+            "label": "Inclusion C",
+            "value": "inclusion_c",
+            "number_label": 3
+          },
+          {
+            "label": "Other",
+            "value": "other",
+            "number_label": 4
+          }
+        ],
+        "allowOther": true
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023005",
+      "title": "Inclusion criteria satisfied",
+      "description": "",
+      "description_image": null,
+      "type": "CHECK",
+      "variable": "DEV_Q5",
+      "variable_full": "DEV_SEC1_DEV_Q5",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23006,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 6,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Provide details"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23006,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 6,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Provide details"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023006",
+      "title": "Inclusion other comment",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q6",
+      "variable_full": "DEV_SEC1_DEV_Q6",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23007,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 7,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "subtype": "CUSTOM",
+        "expression": "weight_kg / ((height_cm/100) ^ 2)",
+        "sourceVariables": [
+          "DEV_Q11_WEIGHT",
+          "DEV_Q11_HEIGHT"
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23007,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 7,
+      "subsection": 2211,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "subtype": "CUSTOM",
+        "expression": "weight_kg / ((height_cm/100) ^ 2)",
+        "sourceVariables": [
+          "DEV_Q11_WEIGHT",
+          "DEV_Q11_HEIGHT"
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023007",
+      "title": "BMI",
+      "description": "",
+      "description_image": null,
+      "type": "CALCUL",
+      "variable": "DEV_Q7",
+      "variable_full": "DEV_SEC1_DEV_Q7",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23008,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2212,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Eligible",
+            "value": "eligible",
+            "number_label": 1
+          },
+          {
+            "label": "Not Eligible",
+            "value": "not_eligible",
+            "number_label": 2
+          },
+          {
+            "label": "Pending",
+            "value": "pending",
+            "number_label": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23008,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2212,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Eligible",
+            "value": "eligible",
+            "number_label": 1
+          },
+          {
+            "label": "Not Eligible",
+            "value": "not_eligible",
+            "number_label": 2
+          },
+          {
+            "label": "Pending",
+            "value": "pending",
+            "number_label": 3
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023008",
+      "title": "Eligibility decision",
+      "description": "",
+      "description_image": null,
+      "type": "RADIO",
+      "variable": "DEV_Q8",
+      "variable_full": "DEV_SEC1_DEV_Q8",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23009,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2212,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Describe exclusion"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23009,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2212,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Describe exclusion"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023009",
+      "title": "Exclusion reason",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q9",
+      "variable_full": "DEV_SEC1_DEV_Q9",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23010,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2212,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "accept": [
+          "application/pdf",
+          "image/jpeg"
+        ],
+        "maxFiles": 3
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23010,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2212,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "accept": [
+          "application/pdf",
+          "image/jpeg"
+        ],
+        "maxFiles": 3
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023010",
+      "title": "Screening documents",
+      "description": "",
+      "description_image": null,
+      "type": "UPLOAD_FILES",
+      "variable": "DEV_Q10",
+      "variable_full": "DEV_SEC1_DEV_Q10",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 2401,
+    "fields": {
+      "block_type": "REPEATED_MEASURE",
+      "order": 1,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": null
+    }
+  },
+  {
+    "model": "ecrf.repeatedmeasure",
+    "pk": 2401,
+    "fields": {
+      "block_type": "REPEATED_MEASURE",
+      "order": 1,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": null,
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "type": "LIST",
+      "title": "Baseline vital signs",
+      "description": "Repeated entries for each visit day",
+      "max_measures": 5,
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23011,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "unit": "mmHg",
+        "validation": {
+          "warning": {
+            "max": 180
+          }
+        }
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23011,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "unit": "mmHg",
+        "validation": {
+          "warning": {
+            "max": 180
+          }
+        }
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023011",
+      "title": "Systolic blood pressure",
+      "description": "",
+      "description_image": null,
+      "type": "NUMBER",
+      "variable": "DEV_Q11_SYS",
+      "variable_full": "DEV_SEC2_DEV_Q11_SYS",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23012,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "unit": "mmHg",
+        "validation": {
+          "warning": {
+            "max": 110
+          }
+        }
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23012,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "unit": "mmHg",
+        "validation": {
+          "warning": {
+            "max": 110
+          }
+        }
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023012",
+      "title": "Diastolic blood pressure",
+      "description": "",
+      "description_image": null,
+      "type": "NUMBER",
+      "variable": "DEV_Q12_DIA",
+      "variable_full": "DEV_SEC2_DEV_Q12_DIA",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23013,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "unit": "bpm",
+        "validation": {
+          "info": {
+            "min": 50
+          }
+        }
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23013,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "unit": "bpm",
+        "validation": {
+          "info": {
+            "min": 50
+          }
+        }
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023013",
+      "title": "Heart rate",
+      "description": "",
+      "description_image": null,
+      "type": "NUMBER",
+      "variable": "DEV_Q13_HR",
+      "variable_full": "DEV_SEC2_DEV_Q13_HR",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23014,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 5,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "min": 0,
+        "max": 10,
+        "step": 1
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23014,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 5,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "min": 0,
+        "max": 10,
+        "step": 1
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023014",
+      "title": "Pain scale",
+      "description": "",
+      "description_image": null,
+      "type": "SLIDER",
+      "variable": "DEV_Q14_PAIN",
+      "variable_full": "DEV_SEC2_DEV_Q14_PAIN",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23015,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 6,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "placeholder": "Describe pain"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23015,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 6,
+      "subsection": 2221,
+      "study": 2001,
+      "repeated_measure": 2401,
+      "config": {
+        "placeholder": "Describe pain"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023015",
+      "title": "Pain description",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q15_PAIN_COMMENT",
+      "variable_full": "DEV_SEC2_DEV_Q15_PAIN_COMMENT",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 2402,
+    "fields": {
+      "block_type": "REPEATED_MEASURE",
+      "order": 1,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": null
+    }
+  },
+  {
+    "model": "ecrf.repeatedmeasure",
+    "pk": 2402,
+    "fields": {
+      "block_type": "REPEATED_MEASURE",
+      "order": 1,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": null,
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "type": "TABLE",
+      "title": "Laboratory panel",
+      "description": "Key safety labs",
+      "max_measures": 10,
+      "conditional_logic": null
+    }
+  },
+  {
+    "model": "ecrf.repeatedmeasurerow",
+    "pk": 2501,
+    "fields": {
+      "repeated_measure": 2402,
+      "title": "Hemoglobin",
+      "order": 1,
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "ecrf.repeatedmeasurerow",
+    "pk": 2502,
+    "fields": {
+      "repeated_measure": 2402,
+      "title": "ALT",
+      "order": 2,
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "ecrf.repeatedmeasurerow",
+    "pk": 2503,
+    "fields": {
+      "repeated_measure": 2402,
+      "title": "Creatinine",
+      "order": 3,
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "ecrf.repeatedmeasurerow",
+    "pk": 2504,
+    "fields": {
+      "repeated_measure": 2402,
+      "title": "CRP",
+      "order": 4,
+      "created_at": "2025-02-01T08:00:00Z",
+      "modified_at": "2025-02-01T08:00:00Z"
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23016,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23016,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": null,
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023016",
+      "title": "Lab test name",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q16_TEST",
+      "variable_full": "DEV_SEC2_DEV_Q16_TEST",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23017,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": {
+        "unit": "",
+        "decimals": 2
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23017,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": {
+        "unit": "",
+        "decimals": 2
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023017",
+      "title": "Lab value",
+      "description": "",
+      "description_image": null,
+      "type": "NUMBER",
+      "variable": "DEV_Q17_VALUE",
+      "variable_full": "DEV_SEC2_DEV_Q17_VALUE",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23018,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23018,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": null,
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023018",
+      "title": "Lab unit",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q18_UNIT",
+      "variable_full": "DEV_SEC2_DEV_Q18_UNIT",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23019,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 5,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": null
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23019,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 5,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": null,
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023019",
+      "title": "Reference range",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q19_REF",
+      "variable_full": "DEV_SEC2_DEV_Q19_REF",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23020,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 6,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": {
+        "options": [
+          {
+            "label": "Normal",
+            "value": "normal",
+            "number_label": 1
+          },
+          {
+            "label": "High",
+            "value": "high",
+            "number_label": 2
+          },
+          {
+            "label": "Low",
+            "value": "low",
+            "number_label": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23020,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 6,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": {
+        "options": [
+          {
+            "label": "Normal",
+            "value": "normal",
+            "number_label": 1
+          },
+          {
+            "label": "High",
+            "value": "high",
+            "number_label": 2
+          },
+          {
+            "label": "Low",
+            "value": "low",
+            "number_label": 3
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023020",
+      "title": "Result flag",
+      "description": "",
+      "description_image": null,
+      "type": "DROPDOWN",
+      "variable": "DEV_Q20_FLAG",
+      "variable_full": "DEV_SEC2_DEV_Q20_FLAG",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23021,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 7,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": {
+        "placeholder": "Comment"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23021,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 7,
+      "subsection": 2222,
+      "study": 2001,
+      "repeated_measure": 2402,
+      "config": {
+        "placeholder": "Comment"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023021",
+      "title": "Lab comment",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q21_COMMENT",
+      "variable_full": "DEV_SEC2_DEV_Q21_COMMENT",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23022,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Describe event"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23022,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 1,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Describe event"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023022",
+      "title": "Adverse event description",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q22_AE_DESC",
+      "variable_full": "DEV_SEC3_DEV_Q22_AE_DESC",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23023,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "subtype": "DATE"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23023,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 2,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "subtype": "DATE"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023023",
+      "title": "AE start date",
+      "description": "",
+      "description_image": null,
+      "type": "DATETIME",
+      "variable": "DEV_Q23_AE_START",
+      "variable_full": "DEV_SEC3_DEV_Q23_AE_START",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23024,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "subtype": "DATE"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23024,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 3,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "subtype": "DATE"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023024",
+      "title": "AE end date",
+      "description": "",
+      "description_image": null,
+      "type": "DATETIME",
+      "variable": "DEV_Q24_AE_END",
+      "variable_full": "DEV_SEC3_DEV_Q24_AE_END",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23025,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Mild",
+            "value": "mild",
+            "number_label": 1
+          },
+          {
+            "label": "Moderate",
+            "value": "moderate",
+            "number_label": 2
+          },
+          {
+            "label": "Severe",
+            "value": "severe",
+            "number_label": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23025,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 4,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Mild",
+            "value": "mild",
+            "number_label": 1
+          },
+          {
+            "label": "Moderate",
+            "value": "moderate",
+            "number_label": 2
+          },
+          {
+            "label": "Severe",
+            "value": "severe",
+            "number_label": 3
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023025",
+      "title": "Severity",
+      "description": "",
+      "description_image": null,
+      "type": "DROPDOWN",
+      "variable": "DEV_Q25_AE_SEVERITY",
+      "variable_full": "DEV_SEC3_DEV_Q25_AE_SEVERITY",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23026,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 5,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "number_label": 1
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "number_label": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23026,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 5,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "number_label": 1
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "number_label": 2
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023026",
+      "title": "Serious adverse event",
+      "description": "",
+      "description_image": null,
+      "type": "RADIO",
+      "variable": "DEV_Q26_AE_SERIOUS",
+      "variable_full": "DEV_SEC3_DEV_Q26_AE_SERIOUS",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23027,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 6,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Provide SAE details"
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23027,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 6,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "placeholder": "Provide SAE details"
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023027",
+      "title": "SAE details",
+      "description": "",
+      "description_image": null,
+      "type": "TEXT",
+      "variable": "DEV_Q27_AE_SERIOUS_DETAIL",
+      "variable_full": "DEV_SEC3_DEV_Q27_AE_SERIOUS_DETAIL",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": false,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23028,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 7,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Recovered",
+            "value": "recovered",
+            "number_label": 1
+          },
+          {
+            "label": "Ongoing",
+            "value": "ongoing",
+            "number_label": 2
+          },
+          {
+            "label": "Fatal",
+            "value": "fatal",
+            "number_label": 3
+          },
+          {
+            "label": "Unknown",
+            "value": "unknown",
+            "number_label": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23028,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 7,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Recovered",
+            "value": "recovered",
+            "number_label": 1
+          },
+          {
+            "label": "Ongoing",
+            "value": "ongoing",
+            "number_label": 2
+          },
+          {
+            "label": "Fatal",
+            "value": "fatal",
+            "number_label": 3
+          },
+          {
+            "label": "Unknown",
+            "value": "unknown",
+            "number_label": 4
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023028",
+      "title": "Outcome",
+      "description": "",
+      "description_image": null,
+      "type": "CHECK",
+      "variable": "DEV_Q28_AE_OUTCOME",
+      "variable_full": "DEV_SEC3_DEV_Q28_AE_OUTCOME",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  },
+  {
+    "model": "ecrf.block",
+    "pk": 23029,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 8,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Unrelated",
+            "value": "unrelated",
+            "number_label": 1
+          },
+          {
+            "label": "Possible",
+            "value": "possible",
+            "number_label": 2
+          },
+          {
+            "label": "Probable",
+            "value": "probable",
+            "number_label": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "ecrf.question",
+    "pk": 23029,
+    "fields": {
+      "block_type": "QUESTION",
+      "order": 8,
+      "subsection": 2231,
+      "study": 2001,
+      "repeated_measure": null,
+      "config": {
+        "options": [
+          {
+            "label": "Unrelated",
+            "value": "unrelated",
+            "number_label": 1
+          },
+          {
+            "label": "Possible",
+            "value": "possible",
+            "number_label": 2
+          },
+          {
+            "label": "Probable",
+            "value": "probable",
+            "number_label": 3
+          }
+        ]
+      },
+      "show_in_survey": null,
+      "show_in_profile": null,
+      "uuid": "00000000-0000-0000-0000-000000023029",
+      "title": "Relationship to treatment",
+      "description": "",
+      "description_image": null,
+      "type": "DROPDOWN",
+      "variable": "DEV_Q29_AE_REL",
+      "variable_full": "DEV_SEC3_DEV_Q29_AE_REL",
+      "data_validation": null,
+      "reminder_questions": null,
+      "conditional_logic": null,
+      "required": true,
+      "is_global": null,
+      "exclude_from_export": null,
+      "hide_in_ecrf": null,
+      "editable_for_roles": [],
+      "visible_for_roles": []
+    }
+  }
+]

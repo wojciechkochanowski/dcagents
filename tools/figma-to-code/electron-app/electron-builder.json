@@ -1,0 +1,30 @@
+{
+  "appId": "com.datacapt.figma-components",
+  "productName": "Figma Components Viewer",
+  "files": [
+    "dist/main/**/*",
+    "dist/preload/**/*",
+    "dist/renderer/**/*",
+    "package.json"
+  ],
+  "directories": {
+    "output": "release",
+    "buildResources": "build"
+  },
+  "asar": true,
+  "extraMetadata": {
+    "main": "dist/main/index.js"
+  },
+  "mac": {
+    "target": ["dmg", "zip"],
+    "category": "public.app-category.developer-tools"
+  },
+  "win": {
+    "target": ["nsis", "zip"],
+    "artifactName": "${productName}-${version}-setup.${ext}"
+  },
+  "linux": {
+    "target": ["AppImage"],
+    "category": "Utility"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(rg:*)",
+      "Bash(~/work/llm/language-check-tool/language-check-tool)",
+      "Bash(grep:*)",
+      "Bash(for lang in de es it ja pt zh)",
+      "Bash(do echo \"Adding to $lang.json:\")",
+      "Bash(done)",
+      "mcp__figma-dev-mode-mcp-server__get_image",
+      "mcp__figma-dev-mode-mcp-server__get_code",
+      "mcp__figma-dev-mode-mcp-server__get_variable_defs",
+      "mcp__figma-dev-mode-mcp-server__get_code_connect_map",
+      "mcp__puppeteer__puppeteer_navigate",
+      "mcp__puppeteer__puppeteer_screenshot",
+      "mcp__puppeteer__puppeteer_click",
+      "mcp__puppeteer__puppeteer_fill",
+      "mcp__puppeteer__puppeteer_select",
+      "mcp__puppeteer__puppeteer_hover",
+      "mcp__puppeteer__puppeteer_evaluate",
+      "Bash(cd:*)",
+      "Bash(pwd)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "mcp__puppeteer__puppeteer_navigate",
+      "mcp__puppeteer__puppeteer_screenshot",
+      "mcp__puppeteer__puppeteer_fill",
+      "mcp__puppeteer__puppeteer_click",
+      "mcp__puppeteer__puppeteer_evaluate",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "mcp__snap-happy__TakeScreenshot",
+      "Bash(~/work/llm/workitem-tool/workitem-tool:*)",
+      "Bash(~/work/llm/review-comments/review-comments:*)",
+      "Bash(cat:*)",
+      "Bash(npx tsc:*)",
+      "Bash(pnpm run:*)",
+      "Bash(pnpm build:*)",
+      "Bash(/dev/null)",
+      "Bash(mv:*)",
+      "Bash(gemini:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(curl:*)",
+      "Bash(for file in /Users/bartek/work/datacapt/frontend/common/intl/*.json)",
+      "Bash(do echo \"Checking $file...\")",
+      "Bash(sed:*)",
+      "Bash(/Users/bartek/work/llm/language-check-tool/language-check-tool)",
+      "Bash(~/work/llm/diff-xml/diff-xml)",
+      "Bash(xmllint:*)"
+    ],
+    "deny": ["Bash(jq:*)", "Bash(for:*)"],
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": ["~/Desktop/"]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/bartek/work/datacapt/dcagents/.claude/hooks/pre-subagent.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|MultiEdit|Write|Read|Bash|Grep",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/bartek/work/datacapt/dcagents/.claude/hooks/pre-edit.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__figma-dev-mode-mcp-server__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/bartek/work/datacapt/dcagents/.claude/hooks/pre-figma.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/bartek/work/datacapt/dcagents/.claude/hooks/track-instructions-read.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|MultiEdit|Write|Update",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/bartek/work/datacapt/dcagents/.claude/hooks/post-edit-universal.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/bartek/work/datacapt/dcagents/.claude/hooks/post-subagent.sh"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/bartek/work/datacapt/dcagents/.claude/hooks/clear-readed.sh"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [],
+    "Stop": []
+  },
+  "outputStyle": "Datacapt Developer"
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "model": "payments.transaction",
+    "pk": "TRX-2025-PLN-01",
+    "fields": {
+      "created_at": "2025-03-01T10:45:00Z",
+      "modified_at": "2025-03-01T10:50:00Z",
+      "center": 2101
+    }
+  },
+  {
+    "model": "payments.transaction",
+    "pk": "TRX-2025-MAN-01",
+    "fields": {
+      "created_at": "2025-03-02T08:15:00Z",
+      "modified_at": "2025-03-02T08:20:00Z",
+      "center": 2102
+    }
+  },
+  {
+    "model": "payments.transaction",
+    "pk": "TRX-2025-EUR-02",
+    "fields": {
+      "created_at": "2025-03-05T11:00:00Z",
+      "modified_at": "2025-03-05T11:15:00Z",
+      "center": 2102
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 2801,
+    "fields": {
+      "created_at": "2025-02-01T09:00:00Z",
+      "modified_at": "2025-03-01T10:40:00Z",
+      "recruitment_record": 6201,
+      "slot_subject": null,
+      "visit": null,
+      "status": "PAID",
+      "amount": "250.00",
+      "currency": "PLN",
+      "payment_date": "2025-03-01T10:40:00Z",
+      "tax": "0.00",
+      "comment": "Study stipend disbursement"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 2802,
+    "fields": {
+      "created_at": "2025-02-17T09:30:00Z",
+      "modified_at": "2025-02-18T12:05:00Z",
+      "recruitment_record": 6201,
+      "slot_subject": null,
+      "visit": null,
+      "status": "PAID",
+      "amount": "75.00",
+      "currency": "PLN",
+      "payment_date": "2025-02-18T12:00:00Z",
+      "tax": "0.00",
+      "comment": "Week 2 visit completion"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 2803,
+    "fields": {
+      "created_at": "2025-02-24T09:00:00Z",
+      "modified_at": "2025-02-24T09:00:00Z",
+      "recruitment_record": 6201,
+      "slot_subject": null,
+      "visit": null,
+      "status": "APPROVED",
+      "amount": "75.00",
+      "currency": "PLN",
+      "payment_date": null,
+      "tax": "0.00",
+      "comment": "Week 4 visit scheduled"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 2804,
+    "fields": {
+      "created_at": "2025-02-11T11:00:00Z",
+      "modified_at": "2025-02-25T11:10:00Z",
+      "recruitment_record": 6202,
+      "slot_subject": null,
+      "visit": null,
+      "status": "ERROR",
+      "amount": "90.00",
+      "currency": "PLN",
+      "payment_date": null,
+      "tax": "5.00",
+      "comment": "Bank details missing"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 2805,
+    "fields": {
+      "created_at": "2025-02-20T10:00:00Z",
+      "modified_at": "2025-03-02T08:10:00Z",
+      "recruitment_record": 6203,
+      "slot_subject": null,
+      "visit": null,
+      "status": "PAID",
+      "amount": "180.00",
+      "currency": "EUR",
+      "payment_date": "2025-03-02T08:05:00Z",
+      "tax": "0.00",
+      "comment": "Study completion bonus"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 2806,
+    "fields": {
+      "created_at": "2025-02-22T09:30:00Z",
+      "modified_at": "2025-03-05T11:10:00Z",
+      "recruitment_record": 6204,
+      "slot_subject": null,
+      "visit": null,
+      "status": "PROCESSING",
+      "amount": "50.00",
+      "currency": "EUR",
+      "payment_date": null,
+      "tax": "0.00",
+      "comment": "Reactivated visit payment"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 2807,
+    "fields": {
+      "created_at": "2025-02-05T10:30:00Z",
+      "modified_at": "2025-02-10T09:45:00Z",
+      "recruitment_record": 6202,
+      "slot_subject": null,
+      "visit": null,
+      "status": "REJECTED",
+      "amount": "120.00",
+      "currency": "PLN",
+      "payment_date": null,
+      "tax": "8.00",
+      "comment": "Duplicate request"
+    }
+  },
+  {
+    "model": "payments.paymentorder",
+    "pk": 2851,
+    "fields": {
+      "created_at": "2025-03-01T10:45:00Z",
+      "modified_at": "2025-03-01T11:05:00Z",
+      "payment": 2801,
+      "transaction": "TRX-2025-PLN-01",
+      "center": 2101,
+      "center_abbreviation": "CENT-1",
+      "center_name": "University Hospital A",
+      "recruitment_reference": "DEV-RECR-001",
+      "subject_full_name": "John Doe",
+      "currency": "PLN",
+      "amount": "250.00",
+      "status": "PAID",
+      "status_details": "Processed via SEPA",
+      "payment_date": "2025-03-01T11:00:00Z",
+      "country_code": "PL",
+      "swift": "CLEANPLPW",
+      "account_number": "PL61109010140000071219812874",
+      "account_beneficiary": "John Doe"
+    }
+  },
+  {
+    "model": "payments.paymentorder",
+    "pk": 2852,
+    "fields": {
+      "created_at": "2025-02-18T12:05:00Z",
+      "modified_at": "2025-02-18T12:10:00Z",
+      "payment": 2802,
+      "transaction": "TRX-2025-PLN-01",
+      "center": 2101,
+      "center_abbreviation": "CENT-1",
+      "center_name": "University Hospital A",
+      "recruitment_reference": "DEV-RECR-001",
+      "subject_full_name": "John Doe",
+      "currency": "PLN",
+      "amount": "75.00",
+      "status": "PAID",
+      "status_details": "Included in batch TRX-2025-PLN-01",
+      "payment_date": "2025-02-18T12:10:00Z",
+      "country_code": "PL",
+      "swift": "CLEANPLPW",
+      "account_number": "PL61109010140000071219812874",
+      "account_beneficiary": "John Doe"
+    }
+  },
+  {
+    "model": "payments.paymentorder",
+    "pk": 2854,
+    "fields": {
+      "created_at": "2025-02-25T11:05:00Z",
+      "modified_at": "2025-02-25T11:10:00Z",
+      "payment": 2804,
+      "transaction": null,
+      "center": 2101,
+      "center_abbreviation": "CENT-1",
+      "center_name": "University Hospital A",
+      "recruitment_reference": "DEV-RECR-001",
+      "subject_full_name": "Anna Nowak",
+      "currency": "PLN",
+      "amount": "90.00",
+      "status": "ERROR",
+      "status_details": "missing_swift",
+      "payment_date": null,
+      "country_code": "PL",
+      "swift": null,
+      "account_number": null,
+      "account_beneficiary": null
+    }
+  },
+  {
+    "model": "payments.paymentorder",
+    "pk": 2855,
+    "fields": {
+      "created_at": "2025-03-02T08:10:00Z",
+      "modified_at": "2025-03-02T08:15:00Z",
+      "payment": 2805,
+      "transaction": "TRX-2025-MAN-01",
+      "center": 2102,
+      "center_abbreviation": "CENT-2",
+      "center_name": "Clinical Clinic B",
+      "recruitment_reference": "DEV-RECR-001",
+      "subject_full_name": "Maria Schmidt",
+      "currency": "EUR",
+      "amount": "180.00",
+      "status": "PAID",
+      "status_details": "Manual payout reference INVOICE-002",
+      "payment_date": "2025-03-02T08:15:00Z",
+      "country_code": null,
+      "swift": null,
+      "account_number": null,
+      "account_beneficiary": null
+    }
+  },
+  {
+    "model": "payments.paymentorder",
+    "pk": 2856,
+    "fields": {
+      "created_at": "2025-03-05T11:10:00Z",
+      "modified_at": "2025-03-05T11:12:00Z",
+      "payment": 2806,
+      "transaction": "TRX-2025-EUR-02",
+      "center": 2102,
+      "center_abbreviation": "CENT-2",
+      "center_name": "Clinical Clinic B",
+      "recruitment_reference": "DEV-RECR-001",
+      "subject_full_name": "Mark Weber",
+      "currency": "EUR",
+      "amount": "50.00",
+      "status": "PROCESSING",
+      "status_details": "Awaiting manual verification",
+      "payment_date": null,
+      "country_code": "DE",
+      "swift": "DEUTDEFF",
+      "account_number": "DE89370400440532013000",
+      "account_beneficiary": "Mark Weber"
+    }
+  }
+]

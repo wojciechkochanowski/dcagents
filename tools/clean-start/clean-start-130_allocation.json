@@ -1,0 +1,235 @@
+[
+  {
+    "model": "allocation.kittype",
+    "pk": 4301,
+    "fields": {
+      "study": 2001,
+      "code": 100,
+      "label": "Kit Type A",
+      "description": "Investigational arm supply"
+    }
+  },
+  {
+    "model": "allocation.kittype",
+    "pk": 4302,
+    "fields": {
+      "study": 2001,
+      "code": 200,
+      "label": "Kit Type B",
+      "description": "Placebo kits"
+    }
+  },
+  {
+    "model": "allocation.kittype",
+    "pk": 4303,
+    "fields": {
+      "study": 2001,
+      "code": 300,
+      "label": "Kit Type C",
+      "description": "Comparator supply"
+    }
+  },
+  {
+    "model": "allocation.allocationconfiguration",
+    "pk": 4401,
+    "fields": {
+      "study": 2001,
+      "name": "Initial dosing schedule",
+      "randomization": 3101
+    }
+  },
+  {
+    "model": "allocation.period",
+    "pk": 4501,
+    "fields": {
+      "allocation_config": 4401,
+      "order": 1
+    }
+  },
+  {
+    "model": "allocation.period",
+    "pk": 4502,
+    "fields": {
+      "allocation_config": 4401,
+      "order": 2
+    }
+  },
+  {
+    "model": "allocation.kittypeassociation",
+    "pk": 4601,
+    "fields": {
+      "period": 4501,
+      "kit_type": 4301,
+      "treatment_arm": 3401
+    }
+  },
+  {
+    "model": "allocation.kittypeassociation",
+    "pk": 4602,
+    "fields": {
+      "period": 4501,
+      "kit_type": 4302,
+      "treatment_arm": 3402
+    }
+  },
+  {
+    "model": "allocation.kittypeassociation",
+    "pk": 4603,
+    "fields": {
+      "period": 4501,
+      "kit_type": 4303,
+      "treatment_arm": 3403
+    }
+  },
+  {
+    "model": "allocation.kittypeassociation",
+    "pk": 4604,
+    "fields": {
+      "period": 4502,
+      "kit_type": 4301,
+      "treatment_arm": 3401
+    }
+  },
+  {
+    "model": "allocation.kittypeassociation",
+    "pk": 4605,
+    "fields": {
+      "period": 4502,
+      "kit_type": 4302,
+      "treatment_arm": 3402
+    }
+  },
+  {
+    "model": "allocation.kittypeassociation",
+    "pk": 4606,
+    "fields": {
+      "period": 4502,
+      "kit_type": 4303,
+      "treatment_arm": 3403
+    }
+  },
+  {
+    "model": "allocation.allocationlist",
+    "pk": 4701,
+    "fields": {
+      "study": 2001,
+      "mode": "DUMMY"
+    }
+  },
+  {
+    "model": "allocation.allocationlist",
+    "pk": 4702,
+    "fields": {
+      "study": 2001,
+      "mode": "PRODUCTION"
+    }
+  },
+  {
+    "model": "allocation.kit",
+    "pk": 4801,
+    "fields": {
+      "slot_id": 1,
+      "kit_number": "D-1001",
+      "location": "C1",
+      "kit_type": 4301,
+      "batch": "BATCH-1001",
+      "expiration_date": "2025-09-30",
+      "status": "AVAILABLE",
+      "allocation_list": 4701,
+      "allocated_at": null,
+      "allocated_by": null,
+      "allocated_to": null,
+      "button": null
+    }
+  },
+  {
+    "model": "allocation.kit",
+    "pk": 4802,
+    "fields": {
+      "slot_id": 2,
+      "kit_number": "D-1002",
+      "location": "C1",
+      "kit_type": 4302,
+      "batch": "BATCH-1002",
+      "expiration_date": "2025-10-15",
+      "status": "ALLOCATED",
+      "allocation_list": 4701,
+      "allocated_at": "2025-01-25T09:00:00Z",
+      "allocated_by": 2006,
+      "allocated_to": 2411,
+      "button": null
+    }
+  },
+  {
+    "model": "allocation.kit",
+    "pk": 4803,
+    "fields": {
+      "slot_id": 3,
+      "kit_number": "D-1003",
+      "location": "C1",
+      "kit_type": 4303,
+      "batch": "BATCH-1003",
+      "expiration_date": "2025-08-31",
+      "status": "INVALID",
+      "allocation_list": 4701,
+      "allocated_at": "2025-01-28T11:00:00Z",
+      "allocated_by": 2006,
+      "allocated_to": 2412,
+      "button": null
+    }
+  },
+  {
+    "model": "allocation.kit",
+    "pk": 4804,
+    "fields": {
+      "slot_id": 4,
+      "kit_number": "P-2001",
+      "location": "C1",
+      "kit_type": 4301,
+      "batch": "BATCH-2001",
+      "expiration_date": "2025-12-31",
+      "status": "ALLOCATED",
+      "allocation_list": 4702,
+      "allocated_at": "2025-02-05T08:30:00Z",
+      "allocated_by": 2006,
+      "allocated_to": 2411,
+      "button": null
+    }
+  },
+  {
+    "model": "allocation.kit",
+    "pk": 4805,
+    "fields": {
+      "slot_id": 5,
+      "kit_number": "P-2002",
+      "location": "C1",
+      "kit_type": 4302,
+      "batch": "BATCH-2002",
+      "expiration_date": "2025-12-31",
+      "status": "AVAILABLE",
+      "allocation_list": 4702,
+      "allocated_at": null,
+      "allocated_by": null,
+      "allocated_to": null,
+      "button": null
+    }
+  },
+  {
+    "model": "allocation.kit",
+    "pk": 4806,
+    "fields": {
+      "slot_id": 6,
+      "kit_number": "P-3001",
+      "location": "C2",
+      "kit_type": 4303,
+      "batch": "BATCH-3001",
+      "expiration_date": "2025-11-30",
+      "status": "AVAILABLE",
+      "allocation_list": 4702,
+      "allocated_at": null,
+      "allocated_by": null,
+      "allocated_to": null,
+      "button": null
+    }
+  }
+]

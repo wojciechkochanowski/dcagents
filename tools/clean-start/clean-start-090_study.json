@@ -1,0 +1,94 @@
+[
+  {
+    "model": "studies.studycenter",
+    "pk": 2101,
+    "fields": {
+      "name": "Warsaw Central Hospital",
+      "abbreviation": "CEN1",
+      "date_added": "2025-02-01T08:00:00Z",
+      "country": "PL",
+      "city": "Warsaw",
+      "email": "center1@datacapt.test",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "model": "studies.studycenter",
+    "pk": 2102,
+    "fields": {
+      "name": "Krakow Research Clinic",
+      "abbreviation": "CEN2",
+      "date_added": "2025-02-01T08:05:00Z",
+      "country": "PL",
+      "city": "Krakow",
+      "email": "center2@datacapt.test",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "model": "studies.studycenter",
+    "pk": 2103,
+    "fields": {
+      "name": "Gdansk Satellite Site",
+      "abbreviation": "CEN3",
+      "date_added": "2025-02-01T08:10:00Z",
+      "country": "PL",
+      "city": "Gdansk",
+      "email": "center3@datacapt.test",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "model": "studies.studycenter",
+    "pk": 2198,
+    "fields": {
+      "name": "Lodz Pharmacy Depot",
+      "abbreviation": "DEP1",
+      "date_added": "2025-02-01T08:15:00Z",
+      "country": "PL",
+      "city": "Lodz",
+      "email": "depot@datacapt.test",
+      "status": "ACTIVE"
+    }
+  },
+  {
+    "model": "studies.study",
+    "pk": 2001,
+    "fields": {
+      "name": "Clean Start Phase II",
+      "reference_number": "CLEAN-START",
+      "project_manager": "Dr. Alicja Wójcik",
+      "inclusions": 200,
+      "date_added": "2025-02-01T08:00:00Z",
+      "created_by": 2010,
+      "company": "Datacapt",
+      "status": "LIVE",
+      "last_updated": "2025-02-01T08:00:00Z",
+      "subject_name_info_enabled": true,
+      "subject_contact_info_enabled": true,
+      "users": [
+        2010
+      ]
+    }
+  },
+  {
+    "model": "studies.studycenterassociation",
+    "pk": 9001,
+    "fields": {
+      "study": 2001,
+      "studycenter": 2101,
+      "code": "CEN1",
+      "target": 120
+    }
+  },
+  {
+    "model": "studies.studycenterassociation",
+    "pk": 9002,
+    "fields": {
+      "study": 2001,
+      "studycenter": 2102,
+      "code": "CEN2",
+      "target": 80
+    }
+  }
+]

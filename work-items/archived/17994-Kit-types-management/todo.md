@@ -1,0 +1,7 @@
+- [x] FAZA 1: Implementacja API (Sub-agent 1) - interfejsy TypeScript, funkcje API, error handling, tłumaczenia
+- [x] FAZA 2: Nawigacja i struktura (Sub-agent 2) - dodanie zakładki w StudyRandomisationContent, struktura folderów
+- [x] FAZA 3: Główny komponent listy (Sub-agent 3) - StudyRandomisationKitTypes, empty state, state management
+- [x] FAZA 4: Tabela KitTypes (Sub-agent 4) - KitTypeTable, kolumny, akcje, sortowanie
+- [x] FAZA 5: Modal tworzenia/edycji (Sub-agent 5) - KitTypeEditModal, formularz, validation
+- [x] FAZA 6: Integracja i uprawnienia - połączenie komponentów, permissions, testing end-to-end
+- [x] FAZA 7: Finalizacja i polish - UI/UX polish, performance, edge cases

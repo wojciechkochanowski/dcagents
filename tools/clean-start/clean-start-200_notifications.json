@@ -1,0 +1,89 @@
+[
+  {
+    "id": "toast-epro-sent",
+    "level": "success",
+    "message": "Wysłano ankietę ePRO do CYP-001",
+    "duration_seconds": 3,
+    "timestamp": "2025-02-05T09:05:05Z"
+  },
+  {
+    "id": "toast-consent-rejected",
+    "level": "error",
+    "message": "CYP-002 odrzucił eConsent",
+    "duration_seconds": 7,
+    "timestamp": "2025-02-06T09:12:00Z"
+  },
+  {
+    "id": "toast-kit-invalidated",
+    "level": "warning",
+    "message": "Zestaw D-1003 oznaczono jako nieważny",
+    "duration_seconds": 5,
+    "timestamp": "2025-02-01T11:02:00Z"
+  },
+  {
+    "id": "email-automation-qol",
+    "subject": "Baseline ePRO triggered",
+    "body": "Baseline Quality of Life questionnaire has been sent to {subjectid}.",
+    "recipients": [
+      "coordinator@datacapt.test"
+    ],
+    "trigger": "automation:5001"
+  },
+  {
+    "id": "email-high-bp-alert",
+    "subject": "High blood pressure detected",
+    "body": "Subject {subjectid} recorded systolic BP {answer} mmHg.",
+    "recipients": [
+      "investigator1@datacapt.test",
+      "pm@datacapt.test"
+    ],
+    "trigger": "automation:5002"
+  },
+  {
+    "id": "email-consent-rejected",
+    "subject": "Consent rejected",
+    "body": "Participant {subjectid} rejected consent {consent_version}.",
+    "recipients": [
+      "recruitment@datacapt.test"
+    ],
+    "trigger": "automation:manual"
+  },
+  {
+    "channel": "email",
+    "template": "email-automation-qol",
+    "subject": "Baseline ePRO triggered",
+    "status": "SENT",
+    "sent_at": "2025-02-05T09:05:10Z"
+  },
+  {
+    "channel": "email",
+    "template": "email-high-bp-alert",
+    "subject": "High blood pressure detected",
+    "status": "FAILED",
+    "sent_at": "2025-02-06T07:20:05Z",
+    "error": "SMTP connection failed",
+    "retry_at": "2025-02-06T07:35:00Z"
+  },
+  {
+    "channel": "toast",
+    "template": "toast-kit-invalidated",
+    "status": "DISPLAYED",
+    "sent_at": "2025-02-01T11:02:00Z"
+  },
+  {
+    "user": "pharmacist@datacapt.test",
+    "email_enabled": true,
+    "toast_enabled": true,
+    "muted_events": [
+      "SUBJECT_INCLUDED"
+    ],
+    "updated_at": "2025-01-31T12:00:00Z"
+  },
+  {
+    "user": "recruitment@datacapt.test",
+    "email_enabled": true,
+    "toast_enabled": false,
+    "muted_events": [],
+    "updated_at": "2025-02-06T09:20:00Z"
+  }
+]
