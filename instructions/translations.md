@@ -2,7 +2,7 @@
 
 ## Location
 
-All translation files are located in `~/work/datacapt/frontend/common/intl/`
+All translation files are located in `C:/praca/datacapt/frontend/common/intl/`
 
 ## File Structure
 

@@ -3,9 +3,9 @@
 ## Project Context
 
 - Clinical trials application built with React 19 + TypeScript
-- Frontend located in `~/work/datacapt/frontend/` with main app in `apps/datacapt/`
+- Frontend located in `C:/praca/datacapt/frontend/` with main app in `apps/datacapt/`
 - Uses Ant Design as base UI library with custom Datacapt components overlay
-- Design system variables located in `~/work/datacapt/frontend/common/styles/design-system/`
+- Design system variables located in `C:/praca/datacapt/frontend/common/styles/design-system/`
 
 ## File Location & Naming
 
@@ -43,9 +43,9 @@ ComponentName/
 2. **Primitive variables**: `@color-blue-500`, `@space-md`
 3. **Standard values**: Only in rem units, never px
 
-**Location**: `~/work/datacapt/frontend/common/styles/design-system/`
+**Location**: `C:/praca/datacapt/frontend/common/styles/design-system/`
 
-**Variables must exist** in `~/work/datacapt/frontend/apps/storybook/src/generated-tokens.ts`
+**Variables must exist** in `C:/praca/datacapt/frontend/apps/storybook/src/generated-tokens.ts`
 
 ### Usage Examples
 

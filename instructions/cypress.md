@@ -311,7 +311,7 @@ git show f8a4d885a0 -- common/requests/studies/studies.ts
 
 ### Makefile Commands (Recommended)
 
-Execute from project root directory (`~/work/datacapt/`):
+Execute from project root directory (`C:/praca/datacapt/`):
 
 ```bash
 # Complete E2E setup (backend + frontend cleanup)

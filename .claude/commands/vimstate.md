@@ -8,7 +8,7 @@ Sprawdza aktualny stan vim'a użytkownika i opisuje wyświetlany kod.
 
 ## Działanie
 
-1. Odczytuje plik `~/work/datacapt/dcagents/vimstate.md`
+1. Odczytuje plik `C:/praca/datacapt/dcagents/vimstate.md`
 2. Pobiera ścieżkę do pliku i opcjonalne zaznaczenie (linie lub linie:kolumny)
 3. Wyświetla fragment kodu z kontekstem
 4. Opisuje co widzi w kodzie

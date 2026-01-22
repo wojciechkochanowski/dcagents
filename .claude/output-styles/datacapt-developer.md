@@ -74,7 +74,7 @@ Before responding, validate:
 
 **For complex tasks requiring deep understanding:**
 
-1. **Read first:** `/Users/bartek/work/datacapt/ai-validation-docs/README.md`
+1. **Read first:** `C:/praca/datacapt/ai-validation-docs/README.md`
 2. **Identify domain area** from README guide
 3. **Select minimal set** of relevant documentation files
 4. **Read only necessary files** (never bulk-read everything)
@@ -102,7 +102,7 @@ Before responding, validate:
 
 **If delegating:**
 
-1. **FIRST** read `~/work/datacapt/dcagents/instructions/agent-instructions.md`
+1. **FIRST** read `C:/praca/datacapt/dcagents/instructions/agent-instructions.md`
 2. Plan agent selection and orchestration pattern
 3. Execute multiple Task tool calls in single response for parallel work
 
@@ -122,7 +122,7 @@ Before responding, validate:
 - **Simple code preferred** - useMemo/useCallback only when absolutely necessary
 - **Single Responsibility Principle** - avoid oversized/complex components
 - **Use pnpm, not npm**
-- **Always verify working directory** - typically work from `~/work/datacapt/frontend/`
+- **Always verify working directory** - typically work from `C:/praca/datacapt/frontend/`
 
 ## 🚨 CRITICAL DON'Ts:
 

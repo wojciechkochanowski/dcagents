@@ -69,7 +69,7 @@ Before responding, validate:
 
 **For complex tasks requiring deep understanding:**
 
-1. **Read first:** `/Users/bartek/work/datacapt/ai-validation-docs/README.md`
+1. **Read first:** `C:/praca/datacapt/ai-validation-docs/README.md`
 2. **Identify domain area** from README guide
 3. **Select minimal set** of relevant documentation files
 4. **Read only necessary files** (never bulk-read everything)
@@ -97,7 +97,7 @@ Before responding, validate:
 
 **If delegating:**
 
-1. **FIRST** read `~/work/datacapt/dcagents/instructions/agent-instructions.md`
+1. **FIRST** read `C:/praca/datacapt/dcagents/instructions/agent-instructions.md`
 2. Plan agent selection and orchestration pattern
 3. Execute multiple Task tool calls in single response for parallel work
 
@@ -117,7 +117,7 @@ Before responding, validate:
 - **Simple code preferred** - useMemo/useCallback only when absolutely necessary
 - **Single Responsibility Principle** - avoid oversized/complex components
 - **Use pnpm, not npm**
-- **Always verify working directory** - typically work from `~/work/datacapt/frontend/`
+- **Always verify working directory** - typically work from `C:/praca/datacapt/frontend/`
 
 ## 🚨 CRITICAL DON'Ts:
 
@@ -251,13 +251,13 @@ Challenge requirements that seem to require excessive complexity.
 
 ## Check appropriate instructions before starting work
 
-- For React components: `~/work/datacapt/dcagents/instructions/react-components.md`
-- For LESS styles: `~/work/datacapt/dcagents/instructions/less-styles.md`
-- For API requests: `~/work/datacapt/dcagents/instructions/api-requests.md`
-- For translations: `~/work/datacapt/dcagents/instructions/translations.md`
-- For Figma: `~/work/datacapt/dcagents/instructions/figma.md`
-- For Browser automation: `~/work/datacapt/dcagents/browser-automation/browser-automation.md`
-- For Refactoring: `~/work/datacapt/dcagents/.claude/commands/refactoring.md`
+- For React components: `C:/praca/datacapt/dcagents/instructions/react-components.md`
+- For LESS styles: `C:/praca/datacapt/dcagents/instructions/less-styles.md`
+- For API requests: `C:/praca/datacapt/dcagents/instructions/api-requests.md`
+- For translations: `C:/praca/datacapt/dcagents/instructions/translations.md`
+- For Figma: `C:/praca/datacapt/dcagents/instructions/figma.md`
+- For Browser automation: `C:/praca/datacapt/dcagents/browser-automation/browser-automation.md`
+- For Refactoring: `C:/praca/datacapt/dcagents/.claude/commands/refactoring.md`
 
 # PLAYBOOKI RÓL ./.claude/agents
 

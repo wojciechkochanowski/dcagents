@@ -100,13 +100,13 @@ Challenge requirements that seem to require excessive complexity.
 
 ## Check appropriate instructions before starting work
 
-- For React components: `~/work/datacapt/dcagents/instructions/react-components.md`
-- For LESS styles: `~/work/datacapt/dcagents/instructions/less-styles.md`
-- For API requests: `~/work/datacapt/dcagents/instructions/api-requests.md`
-- For translations: `~/work/datacapt/dcagents/instructions/translations.md`
-- For Figma: `~/work/datacapt/dcagents/instructions/figma.md`
-- For Browser automation: `~/work/datacapt/dcagents/browser-automation/browser-automation.md`
-- For Refactoring: `~/work/datacapt/dcagents/.claude/commands/refactoring.md`
+- For React components: `C:/praca/datacapt/dcagents/instructions/react-components.md`
+- For LESS styles: `C:/praca/datacapt/dcagents/instructions/less-styles.md`
+- For API requests: `C:/praca/datacapt/dcagents/instructions/api-requests.md`
+- For translations: `C:/praca/datacapt/dcagents/instructions/translations.md`
+- For Figma: `C:/praca/datacapt/dcagents/instructions/figma.md`
+- For Browser automation: `C:/praca/datacapt/dcagents/browser-automation/browser-automation.md`
+- For Refactoring: `C:/praca/datacapt/dcagents/.claude/commands/refactoring.md`
 
 ## Mandatory skills for specific tasks
 
