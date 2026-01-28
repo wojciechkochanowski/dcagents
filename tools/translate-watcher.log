@@ -454,3 +454,23 @@ added fixes to translation files
 2025-07-28 11:12:08 - Claude output: Claude AI usage limit reached|1753696800
 2025-07-28 11:12:17 - Removed lock file
 2025-07-28 11:12:17 - No queued translation found
+2026-01-23 15:54:01 - Translation watcher started
+2026-01-23 15:54:32 - Detected change: en.json - Changed
+2026-01-23 15:54:34 - Created lock file with PID 3472
+2026-01-23 15:54:34 - Starting translation process triggered by FileSystemWatcher
+2026-01-23 15:54:37 - Executing claude translation command...
+2026-01-23 15:54:53 - Claude command completed with exit code: 0
+2026-01-23 15:54:53 - Claude output: Katalog `.claude` nie istnieje w projekcie `C:/praca/datacapt`.   Czy chcesz, +-ebym: 1. Utworzy+é ten katalog i plik `translate.md` z instrukcjami t+éumaczenia? 2. Poszuka+é pliku `translate.md` w innej lokalizacji w projekcie?
+2026-01-23 15:55:12 - Removed lock file
+2026-01-23 15:55:12 - No queued translation found
+2026-01-23 15:57:32 - Translation watcher stopped
+2026-01-23 15:57:35 - Translation watcher started
+2026-01-23 15:57:49 - Detected change: en.json - Changed
+2026-01-23 15:57:51 - Created lock file with PID 3472
+2026-01-23 15:57:51 - Starting translation process triggered by FileSystemWatcher
+2026-01-23 15:57:54 - Executing claude translation command...
+2026-01-23 15:58:12 - Claude command completed with exit code: 0
+2026-01-23 15:58:12 - Claude output: Komenda wymaga zatwierdzenia. Czy mog¦Ö uruchomi¦ç narz¦Ödzie do walidacji t+éumacze+ä znajduj¦ùce si¦Ö w `C:/praca/llm/language-check-tool/language-check-tool`?
+2026-01-23 15:58:24 - Removed lock file
+2026-01-23 15:58:24 - No queued translation found
+2026-01-23 16:26:16 - Translation watcher stopped

@@ -3,7 +3,7 @@
 
 $LOCK_FILE = Join-Path $env:TEMP "translate-watcher.lock"
 $QUEUE_FILE = Join-Path $env:TEMP "translate-watcher.queue"
-$LOG_FILE = "C:\praca\datacapt\tools\translate-watcher.log"
+$LOG_FILE = "C:\praca\datacapt\dcagents\tools\translate-watcher.log"
 $WATCH_PATH = "C:\praca\datacapt\frontend\common\intl"
 
 # Function to log messages
@@ -81,7 +81,7 @@ function Invoke-Translation {
     # Execute claude translation command
     Write-Log "Executing claude translation command..."
     try {
-        $result = claude -p "uruchom instrukcje z C:/praca/datacapt/.claude/commands/translate.md" 2>&1
+        $result = claude -p "uruchom instrukcje z C:/praca/datacapt/dcagents/.claude/commands/translate.md" 2>&1
         $exitCode = $LASTEXITCODE
 
         Write-Log "Claude command completed with exit code: $exitCode"
@@ -115,7 +115,7 @@ function Invoke-NextTranslation {
     }
 }
 
-# Main watcher function
+# Main watcher function using synchronous WaitForChanged (more reliable)
 function Start-TranslationWatcher {
     Write-Host "Starting Translation Watcher..."
     Write-Host "Watching: $WATCH_PATH"
@@ -126,47 +126,47 @@ function Start-TranslationWatcher {
     $watcher.Path = $WATCH_PATH
     $watcher.Filter = "*.json"
     $watcher.IncludeSubdirectories = $false
-    $watcher.EnableRaisingEvents = $true
-
-    # Define action for file changes
-    $action = {
-        # Check if lock exists
-        if (Test-Lock) {
-            Add-ToQueue
-            return
-        }
-
-        # Create lock file
-        New-Lock
-
-        try {
-            # Execute translation
-            Invoke-Translation
-        }
-        finally {
-            # Remove lock file
-            Remove-Lock
-
-            # Check for queued translations and schedule next run
-            Invoke-NextTranslation
-        }
-    }
-
-    # Register event handlers
-    Register-ObjectEvent -InputObject $watcher -EventName "Changed" -Action $action
-    Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action $action
 
     Write-Host "Translation watcher is running. Press Ctrl+C to stop."
 
-    # Keep script running
+    # Synchronous polling approach - avoids runspace scope issues
     try {
         while ($true) {
-            Start-Sleep -Seconds 1
+            # Wait for change (blocking call with 5 second timeout)
+            $result = $watcher.WaitForChanged([System.IO.WatcherChangeTypes]::Changed -bor [System.IO.WatcherChangeTypes]::Created, 5000)
+
+            if (-not $result.TimedOut) {
+                Write-Log "Detected change: $($result.Name) - $($result.ChangeType)"
+                Write-Host "Detected change: $($result.Name)"
+
+                # Debounce - wait for file to be fully written
+                Start-Sleep -Seconds 2
+
+                # Check if lock exists
+                if (Test-Lock) {
+                    Add-ToQueue
+                    continue
+                }
+
+                # Create lock file
+                New-Lock
+
+                try {
+                    # Execute translation
+                    Invoke-Translation
+                }
+                finally {
+                    # Remove lock file
+                    Remove-Lock
+
+                    # Check for queued translations and schedule next run
+                    Invoke-NextTranslation
+                }
+            }
         }
     }
     finally {
         # Cleanup
-        $watcher.EnableRaisingEvents = $false
         $watcher.Dispose()
         Write-Log "Translation watcher stopped"
     }
